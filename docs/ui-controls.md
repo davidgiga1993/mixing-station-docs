@@ -19,7 +19,7 @@ To decrease the value just use the opposite direction as shown in the image belo
 
 ![Fader](img/fader.png)
 
-If the **fine mode** is enabled you can start draging the fader from any position and the movements will be more precise.
+If the **fine mode** is enabled you can start dragging the fader from any position and the movements will be more precise.
 
 
 ## Sliders
@@ -31,8 +31,8 @@ The white line indicates the default value for this parameter.
 ![Slider popup](img/slider-popup.png)
 
 ## Channel buttons
-The behaviour of these button can be configured in the [app settings](app-settings.md).
-Default behaviour:
+The behavior of these button can be configured in the [app settings](app-settings.md).
+Default behavior:
 
 - **Tap** Open channel details
 - **Press and hold** Open scribble strip
