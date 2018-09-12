@@ -15,4 +15,6 @@ nav:
     - Mix copy: mix-copy.md
     - USB Midi: usb-midi.md
   - Beta program: beta.md
+  - XM32:
+      Channel move: xm32/channel-move.md
 
