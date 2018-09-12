@@ -2,9 +2,16 @@ pipeline {
 	agent any
 
 	stages {
+		stage('Trigger setup') {
+			steps {
+				script {
+					properties([pipelineTriggers([githubPush()])])
+				}
+			}
+		}
 		stage('Checkout') {
-			steps{
-				checkout scm
+			steps {
+				git branch: 'master', url: 'https://github.com/davidgiga1993/mixing-station-docs.git'
 			}
 		}
 		stage('Building') {
