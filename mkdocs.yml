@@ -18,4 +18,5 @@ nav:
   - XM32:
       Channel move: xm32/channel-move.md
       X32-Mix lag: xm32/network-compare.md
+      Samsung & Android 6: xm32/samsung-android6.md
 
