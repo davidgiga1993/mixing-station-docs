@@ -17,4 +17,5 @@ nav:
   - Beta program: beta.md
   - XM32:
       Channel move: xm32/channel-move.md
+      X32-Mix lag: xm32/network-compare.md
 
