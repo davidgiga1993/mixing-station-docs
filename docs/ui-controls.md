@@ -71,7 +71,13 @@ The menu items are shown in a fixed order. If too many items are in the menu, th
 
 ![Mixer menu](img/mixer-menu.png)
 
-# Quick access
-## Mute groups
+## Quick access
+### Mute groups
 You can always open the mute groups from any view by **double tapping with two fingers** anywhere
 on the screen
+
+### Clear solo
+**Press and hold** the solo button to clear all solo.
+The button can be enabled in the channel strip via the [app settings](app-settings.md).
+
+![Solo button](/img/solo-button.png)
