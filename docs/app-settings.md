@@ -45,7 +45,11 @@ Enables a history plot of the gate/dynamics input and gain reduction signal.
 
 ### Popgroups
 Enables a midas pro style popgroup functionality.
-When taping on a channel button of a DCA/group the assigned channels will be shown in the mixer instead of opening the DCA/group.
+When tapping on a channel button of a DCA/group the assigned channels will be shown in the mixer instead of opening the DCA/group. To edit an DCA/IDCA while popgroup mode is enabled **press and hold** the channel button.
+
+#### IDCA
+When selecting an IDCA in popgroup mode the shown channels do **not** follow the currently selected sends on fader selection. Instead the assigned target mix of the IDCA will be used.
+
 
 ## Channel strip
 These settings are only related to the channel strips

@@ -12,6 +12,7 @@ nav:
     - App settings: app-settings.md
   - Advanced:
     - IDCAs: layer-idcas.md
+    - Mix copy: mix-copy.md
     - USB Midi: usb-midi.md
   - Beta program: beta.md
 
