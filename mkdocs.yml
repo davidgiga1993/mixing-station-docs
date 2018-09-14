@@ -4,6 +4,7 @@ theme:
   
 nav:
   - Home: index.md
+  - Features: feature-list.md
   - Getting started: 
     - General: getting-started.md
     - UI controls: ui-controls.md
@@ -13,7 +14,10 @@ nav:
   - Advanced:
     - IDCAs: layer-idcas.md
     - Mix copy: mix-copy.md
+    - Custom layouts: custom-layouts.md
     - USB Midi: usb-midi.md
+    - Actions: custom-actions.md
+    - Feedback detection: feedback-detection.md
   - Beta program: beta.md
   - XM32:
       Channel move: xm32/channel-move.md
