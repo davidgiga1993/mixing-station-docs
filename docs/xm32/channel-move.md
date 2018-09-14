@@ -8,7 +8,7 @@ Since this process requires a channel preset it's only available when connected 
 3. Select the position where you want the channel to be moved to. The `[INS]` label represents the position where the channel will be after moving it.
 4. Press `Move`
 
-![channel move popup](/img/xm32/channel-move.png)
+![channel move popup](../img/xm32/channel-move.png)
 
 **Important notice:**
 All channels between start and destination position will be muted to avoid possible feedback while the channels are moved.

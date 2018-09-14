@@ -8,7 +8,7 @@ or if you simply want to copy a monitor mix to another monitor mix.
 Select channel -> SENDS -> Menu -> Mix Copy
 ```
 
-![mix copy popup](/img/mix-copy.png)
+![mix copy popup](img/mix-copy.png)
 
 To use the mix copy feature open any channel and select "SENDS".
 Then press the gear icon in the top menu bar and select "Mix Copy".

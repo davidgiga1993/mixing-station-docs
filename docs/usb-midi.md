@@ -19,17 +19,22 @@ In Android 5.0 (Lollipop) only the last plugged USB device is working correctly.
 
 ## Overview
 A midi device will be represented in the app as one or more input / output devices.
-In the app you define `faders`, `buttons` and `knobs` which then use one of those input/output devices.
+In the app you define `faders`, `buttons` and `knobs` (called controller) which then use one of those input/output devices.
+
+![Midi overview](img/midi-diagram.png)
 
 - Midi controller (fader, button, ..)
-	- Use one midi input and output device assigned
-	- Have one or more actions assigned which define what should be controlled
+	- Uses one midi input and output device
+	- Has one or more actions assigned which define what parameter should be controlled
 
-Make sure you're selecting the correct controller type:
+### Controller types
+There are three controller types available:
 
 - Button: Midi device sends a value when pressed and/or released
 - Fader: Midi device sends an absolute value when fader/knob is moved (e.g. `0-127`)
 - Knob: Midi device sends a fixed value for each increment / decrement (e.g. `24` and `27`)
+
+
 
 ## Midi Setup
 The midi overview can be opened from the mixer via the menu:
