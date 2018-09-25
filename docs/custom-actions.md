@@ -40,7 +40,8 @@ Allows FX value changes. This action also has tap delay support for the `time` v
 Changes the status of a mutegroup
 
 ## Open view
-Opens a view in the app. Depending on the mixer more or less views are available
+Opens a view in the app. Depending on the mixer more or less views are available. 
+**Note:** No other actions in the list will be executed after this action. If you want for example to change a layer and open a view, place the "open view" action last.
 
 ## Sends on fader
 Changes the current sends on fader status and target mix.
