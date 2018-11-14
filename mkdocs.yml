@@ -10,6 +10,7 @@ nav:
     - UI controls: ui-controls.md
     - Sends on faders: sends-on-faders.md
     - Layers: layers.md
+    - Settings: settings.md
     - App settings: app-settings.md
   - Advanced:
     - IDCAs: layer-idcas.md
