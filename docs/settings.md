@@ -32,7 +32,7 @@ or
 Menu -> Setup -> Layout -> Folder icon
 ```
 
-![Overview](../img/settings.png)
+![Settings-Manager](../img/settings-manager.png)
 
 Use the scope buttons to select which settings should be saved or loaded.
 Press and hold an entry to open a context menu.
