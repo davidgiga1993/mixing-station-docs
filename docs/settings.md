@@ -3,6 +3,7 @@ This page explains how the app stores settings.
 All settings are stored in a separate folder per mixer model.
 
 There are 2 different settings categories:
+
 - Session based settings:
 	- [App settings](app-settings.md)
 	- Last IP address and mix access
@@ -31,7 +32,7 @@ or
 Menu -> Setup -> Layout -> Folder icon
 ```
 
-![Overview](img/settings.png)
+![Overview](../img/settings.png)
 
 Use the scope buttons to select which settings should be saved or loaded.
 Press and hold an entry to open a context menu.
