@@ -2,22 +2,21 @@
 This page explains how the app stores settings.
 All settings are stored in a separate folder per mixer model.
 
-There are 2 different settings categories:
-
-- Session based settings:
-	- [App settings](app-settings.md)
-	- Last IP address and mix access
-
-- User settings:
-	- [Layer](layers.md)
-	- [Layouts](custom-layouts.md)
-	- [Midi](usb-midi.md)
+There are 2 different settings categories: Session and user settings.
 
 ## Session settings
 These settings are saved when starting / closing the app
 
+- [App settings](app-settings.md)
+- Mutegroup names
+- Last IP address and mix access
+
 ## User settings
 These settings are only saved if `Autosave` is enabled or the user saves the settings manualy.
+
+- [Layer](layers.md)
+- [Layouts](custom-layouts.md)
+- [Midi](usb-midi.md)
 
 To manualy save the settings open:
 ```
