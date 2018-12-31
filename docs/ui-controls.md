@@ -61,8 +61,6 @@ Each button provides access to a single layer
 ## Menu bar
 The top menu provides access to other views and options. Depending on the current platform and view you're in the items will change.
 
-**On Android:** If you're using an android device with a dedicated menu button you need to press it to access other menu items.
-
 ### Status
 On the left side the current view and additional information are shown
 
@@ -80,4 +78,4 @@ on the screen
 **Press and hold** the solo button to clear all solo.
 The button can be enabled in the channel strip via the [app settings](app-settings.md).
 
-![Solo button](/img/solo-button.png)
+![Solo button](img/solo-button.png)
