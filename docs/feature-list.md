@@ -4,9 +4,10 @@ This page lists all the special features in the professional version.
 | Feature | Pro | Free | Model |
 | ------ |  ------ | ------ | --- |
 | Channel parameters | X | X | Any |
+| FX access | X | X | XM32, XAir, Qu |
 | Console settings | X | X | Any |
 | Layers | X | X | Any |
-| [IDCAs](layer-idcas.md) | X | X | Any |
+| [Unlimited DCA](layer-idcas.md) | X | X | Any |
 | RTA | X | X | Any |
 | Routing | X| X | Any |
 | [Password protection](xm32/bus-password.md) | X | X | XM32 |
