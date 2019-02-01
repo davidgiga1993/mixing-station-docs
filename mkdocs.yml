@@ -15,6 +15,7 @@ nav:
   - Advanced:
     - IDCAs: layer-idcas.md
     - Mix copy: mix-copy.md
+    - Re-Gain: re-gain.md
     - Custom layouts: custom-layouts.md
     - USB Midi: usb-midi.md
     - Actions: custom-actions.md

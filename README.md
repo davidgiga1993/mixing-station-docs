@@ -6,3 +6,8 @@ The latest version can be found [here](https://dev-core.org/ms-docs/)
 # Contribute
 Fork the repo and create a pull request.
 Feel free to contribute new guides, typo fixes, mostly anything
+
+# Local server
+```
+mkdocs serve
+```
