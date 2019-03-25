@@ -21,6 +21,8 @@ nav:
     - Actions: custom-actions.md
     - Feedback detection: feedback-detection.md
   - Beta program: beta.md
+  - XAir:
+      Bus password: xair/bus-password.md
   - XM32:
       Channel move: xm32/channel-move.md
       Bus password: xm32/bus-password.md
