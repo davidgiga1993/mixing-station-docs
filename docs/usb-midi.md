@@ -2,8 +2,11 @@
 
 You can use any generic midi device to remote control the mixer via mixing station.
 
-## Requirements
-**Note:** MCU or HUI modes are not supported!
+## Supported protocols
+- General Midi
+- Baby HUI
+
+**Note:** MCU mode is not supported!
 
 ### Android
 - [USB OTG](http://en.wikipedia.org/wiki/USB_On-The-Go) compatible Android device
@@ -14,7 +17,7 @@ You can use any generic midi device to remote control the mixer via mixing stati
 In Android 5.0 (Lollipop) only the last plugged USB device is working correctly. This is a [known bug](https://code.google.com/p/android/issues/detail?id=159897) in Android and cannot be fixed.
 
 ### iOS
-- Not supported yet
+- Full support for usb, bluetooth and network midi devices
 
 
 ## Overview
