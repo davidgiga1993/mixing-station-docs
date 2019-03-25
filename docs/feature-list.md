@@ -10,7 +10,7 @@ This page lists all the special features in the professional version.
 | [Unlimited DCA](layer-idcas.md) | X | X | Any | Any |
 | RTA | X | X | Any | Any |
 | Routing | X| X | Any | Any |
-| [Password protection](xm32/bus-password.md) | X | X | XM32 | Any |
+| [Password protection](xm32/bus-password.md) | X | X | XM32/XAir/Qu | Any |
 | Different color schemes | X | | Any | Any |
 | Configurable peak hold time | X | | Any | Any |
 | Gate gain timeline | X | | Any | Any |
@@ -20,7 +20,7 @@ This page lists all the special features in the professional version.
 | Supports development | X | | Any | Any |
 | [Re-Gain](re-gain.md) | X | | Any | Any |
 | [Custom layouts](custom-layouts.md) | X | | Any | Any |
-| [USB Midi](usb-midi.md) | X | | Any | Android |
+| [USB Midi](usb-midi.md) | X | | Any | Any |
 | [Channel move](xm32/channel-move.md) | X | | XM32 | Any |
 | [Popgroups](app-settings.md) | X | | Any | Any |
 | Dashboard view | X | | Any | Any |
