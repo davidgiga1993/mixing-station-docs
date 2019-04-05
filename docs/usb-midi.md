@@ -5,6 +5,7 @@ You can use any generic midi device to remote control the mixer via mixing stati
 ## Supported protocols
 - General Midi
 - Baby HUI
+Depending on the protocol, the app will automatically assign actions to the device. Take a look at the bottom of the page for the default mappings.
 
 **Note:** MCU mode is not supported!
 
@@ -44,11 +45,18 @@ The midi overview can be opened from the mixer via the menu:
 ```
 Menu -> Setup -> Midi
 ```
-You can add / edit midi controllers from here.
+You can add / edit the midi devices form here.
+
+### Add a new device
+1. Press the `+` item in the menu to add a new device.
+2. Give the device a name, select the appropriate protocol and input / output ports you want to use.
+3. Press `Apply`
+
 
 ### Add a new controller
-1. Press the `+` item in the menu to add a new controller.
-2. Select the controller
+1. Select the midi device where you want to add a controller to.
+2. Press the `+` item in the menu to add a new controller.
+3. Select the controller
 
 ### Configure a controller
 The edit controller view allows you to change the properties of the controller:
@@ -105,3 +113,14 @@ the `Value` parameter.
 - Multiplier: Sets the sensitivity of one increment/decrement step
 - Inc value: Midi value for a single increment
 - Dec value:  Midi value for a single decrement
+
+## Default mappings
+The following graphics show the default action assinments for the different modes.
+
+### Generic midi
+No default mapping 
+
+### Baby HUI
+This driver can be used with the BFC2000 and other HUI capable devices. Make sure the device is set to HUI emulation mode (bhui for BFC2000).
+
+(An image with the default mapping will be added once available in the app)
