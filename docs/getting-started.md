@@ -44,7 +44,7 @@ Mix access allows you to restrict access to a certain mix bus. The user will not
 This field allows entering the console IP address. It's only used the using the `Connect` button.
 
 ## App version
-In the top left of the screen you can see the version of the app
+In the bottom left of the screen you can see the version of the app
 
 ## Menu
 The top menu gives you access to the global settings as well as this help page.
