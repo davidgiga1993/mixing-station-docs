@@ -123,4 +123,4 @@ No default mapping
 ### Baby HUI
 This driver can be used with the BFC2000 and other HUI capable devices. Make sure the device is set to HUI emulation mode (bhui for BFC2000).
 
-(An image with the default mapping will be added once available in the app)
+![Sof list](img/midi/bfc2000.png)
