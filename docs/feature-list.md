@@ -8,7 +8,7 @@ For Android the app is distributed as `Free` and `Professional` version. For eac
 
 ### iOS
 For iOS only one app is distributed. This app can control all mixers and is only available as "pro" version.
-You can use all features of the app in the offline mode without paying anything. As soon as you want to connect to a mixer it's required to buy the app for this mixer model you want to connect to.
+You can use all features of the app in the offline mode without paying anything. As soon as you want to connect to a mixer it's required to buy the app for the mixer model you want to connect to.
 
 ## Features
 This page lists all the special features in the professional version.
