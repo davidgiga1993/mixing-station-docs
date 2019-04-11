@@ -4,7 +4,7 @@ theme:
   
 nav:
   - Home: index.md
-  - Features: feature-list.md
+  - Versions & Features: feature-list.md
   - Getting started: 
     - General: getting-started.md
     - UI controls: ui-controls.md
