@@ -3,12 +3,13 @@
 ## Compatible mixers
 Please make sure your mixer has the latest compatible firmware
 
-| App | Mixers | Required firmware |
-| -- | -- | -- |
-| XM32 | Any X32/M32 mixer | V1.15 or newer |
-| XAir | Any XAir mixer | V1.12 or newer |
-| Qu | Any Qu mixer | V1.90 or newer |
-| GLD | Any GLD mixer | V1.61 |
+| App | Mixers | Required firmware | Notes | 
+| -- | -- | -- | |
+| XM32 | Any X32/M32 mixer | V1.15 or newer | |
+| XAir | Any XAir mixer | V1.12 or newer | |
+| Qu | Any Qu mixer | V1.90 or newer | |
+| GLD | Any GLD mixer | V1.61 | |
+| Si | Any Si Performer | V1.8 | See [HiQNet guide](soundcraft/hiqnet.md)
 
 
 ## Offline mode
