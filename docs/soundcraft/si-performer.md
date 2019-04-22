@@ -9,4 +9,4 @@ It is not possible to access the mutegroups of the mixer - therefore the mute st
 
 ## Mixer not connecting
 Sometimes the network stack of the mixer crashes - this also happens with the official ipad app and is not related to mixing station.
-Please read [HiQNet guide](soundcraft/hiqnet.md) for more details.
+Please read [HiQNet guide](hiqnet.md) for more details.
