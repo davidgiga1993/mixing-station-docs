@@ -28,6 +28,9 @@ nav:
       Bus password: xm32/bus-password.md
       X32-Mix lag: xm32/network-compare.md
       Samsung & Android 6: xm32/samsung-android6.md
+  - Souncraft:
+      Si Performer: souncraft/si-performer.md
+      HiQNet: souncraft/hiqnet.md
 
   - Known issues: known-issues.md
   - Privacy policy: https://dev-core.org/dsgvo
