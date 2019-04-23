@@ -20,9 +20,9 @@ This page lists all the special features in the professional version.
 | Console settings | X | X | XM32, XAir, Qu | Any |
 | Layers | X | X | Any | Any |
 | [Unlimited DCA](layer-idcas.md) | X | X | Any | Any |
-| RTA | X | X | Any* | Any |
+| RTA | X | X | Any\* | Any |
 | Routing | X| X | XM32, XAir, Qu | Any |
-| [Password protection](xm32/bus-password.md) | X | X | XM32/XAir/Qu | Any |
+| Password protection | X | X | [XM32](xm32/bus-password.md)/[XAir](xair/bus-password.md)/Qu | Any |
 | Different color schemes | X | | Any | Any |
 | Configurable peak hold time | X | | Any | Any |
 | Gate gain timeline | X | | Any | Any |
@@ -39,4 +39,4 @@ This page lists all the special features in the professional version.
 | [Automatic ringing out](feedback-detection.md) | X | | Any* | Any |
 | [Mix copy](mix-copy.md) | X | | Any | Any |
 
-* Mixer must have RTA functionality
+\* Mixer must have RTA functionality
