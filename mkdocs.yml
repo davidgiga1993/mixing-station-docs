@@ -29,7 +29,7 @@ nav:
       X32-Mix lag: xm32/network-compare.md
       Samsung & Android 6: xm32/samsung-android6.md
   - Souncraft:
-      Si Performer: soundcraft/si-performer.md
+      Si: soundcraft/si-performer.md
       HiQNet: soundcraft/hiqnet.md
 
   - Known issues: known-issues.md

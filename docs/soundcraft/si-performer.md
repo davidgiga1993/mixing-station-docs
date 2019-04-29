@@ -1,6 +1,6 @@
-# Si Performer
+# Si Performer / Expression
 
-The performer series has certain limitation when it comes to remote controlling.
+The performer and expression series has certain limitation when it comes to remote controlling.
 Mixing Station currently implements all parameters which can be remote controlled. 
 Any other features such as Mutegroups, FX or routing **cannot be implemented**.
 

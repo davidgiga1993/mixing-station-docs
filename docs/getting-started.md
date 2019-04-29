@@ -9,7 +9,7 @@ Please make sure your mixer has the latest compatible firmware
 | XAir | Any XAir mixer | V1.12 or newer | |
 | Qu | Any Qu mixer | V1.90 or newer | |
 | GLD | Any GLD mixer | V1.61 | |
-| Si | Any Si Performer | V1.8 | See [HiQNet guide](soundcraft/hiqnet.md)
+| Si | Any Si Performer/Expression | V1.8 | See [HiQNet guide](soundcraft/hiqnet.md)
 
 
 ## Offline mode
