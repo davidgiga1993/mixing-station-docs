@@ -12,6 +12,7 @@ nav:
     - Layers: layers.md
     - Settings: settings.md
     - App settings: app-settings.md
+    - Global settings: global-settings.md
   - Advanced:
     - IDCAs: layer-idcas.md
     - Mix copy: mix-copy.md

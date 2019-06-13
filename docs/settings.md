@@ -4,12 +4,18 @@ All settings are stored in a separate folder per mixer model.
 
 There are 2 different settings categories: Session and user settings.
 
+## Global settings
+These settings apply to the whole app and are stored for every instance of the app.
+
+- UI scale
+- Restricted access config
+- Last IP address and mix access
+
 ## Session settings
-These settings are saved when starting / closing the app
+These settings are saved when starting / closing the app and are stored for each mixer model separatly.
 
 - [App settings](app-settings.md)
 - Mutegroup names
-- Last IP address and mix access
 
 ## User settings
 These settings are only saved if `Autosave` is enabled or the user saves the settings manualy.

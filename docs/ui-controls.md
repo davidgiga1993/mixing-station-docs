@@ -3,10 +3,14 @@ This page shows the most common UI controls and how to use them
 
 ## Knobs
 
+### Default behaviour
 - **Drag** to change the value
 - **Press and hold** to open a popup for more precise control
 - **Double tap** to reset the value to the default
 
+This behaviour can be configured in the [app settings](app-settings.md).
+
+### Dragging
 Knob values can be increased by dragging them up or to the right.
 When dragging to the top right, the values will increase more rapidly.
 To decrease the value just use the opposite direction as shown in the image below.
