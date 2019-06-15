@@ -1,10 +1,7 @@
 site_name: Mixing Station Docs
 theme:
   name: 'material'
-
-plugins:
-  - pdf-export
-
+  
 nav:
   - Home: index.md
   - Versions & Features: feature-list.md
