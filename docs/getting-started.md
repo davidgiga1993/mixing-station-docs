@@ -4,10 +4,11 @@
 Please make sure your mixer has the latest compatible firmware
 
 | App | Mixers | Required firmware | Notes | 
-| -- | -- | -- | |
+| -- | -- | -- | -- |
 | XM32 | Any X32/M32 mixer | V1.15 or newer | |
 | XAir | Any XAir mixer | V1.12 or newer | |
 | Qu | Any Qu mixer | V1.90 or newer | |
+| SQ | Any SQ mixer | V1.4.1 | |
 | GLD | Any GLD mixer | V1.61 | |
 | Si | Any Si Performer/Expression/Impact | V1.8 / V1.8 / V1-2 | See [HiQNet guide](soundcraft/hiqnet.md)
 
