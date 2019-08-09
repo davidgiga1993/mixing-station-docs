@@ -31,6 +31,8 @@ Here is a basic sample configuration:
 | Console | 192.168.1.10 | 255.255.255.0 | - | 
 | Android | Assigned by DHCP | - | - |
 
+For Soundcraft mixers also take a look at the [HiQNet guide](soundcraft/hiqnet.md)
+
 
 ## First launch
 
