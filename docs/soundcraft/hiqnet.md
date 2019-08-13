@@ -15,13 +15,14 @@ Additional configuration for the hiqnet addresses (this is a sample configuratio
 | Device | HiQNet address | Misc | 
 | -- | -- | -- |
 | Console | Any other than 1337 | Make sure **not** to use any access restrictions on the mixer | 
-| Android/iOS | 1337 | - |
+| Android/iOS | 1337 | Make sure each instance of the app (including ViSi remote) has a different address! |
 
 You can also refer to the official [soundcraft setup guide](https://www.youtube.com/watch?v=P-j-x1BJrx0).
 
 ## Troubleshooting
 1. Make sure you can ping the IP address of the mixer from your mobile device. If this is not possible your network configuration is wrong.
-2. Make sure to fully close any other HiQNet apps (ViSi Remote).
+2. Make sure to fully close any other HiQNet apps (ViSi Remote) for at least one minute.
+   This is required as otherwise the mixer won't connect to any other apps on the same device.
 3. If the mixer is detected by the app but the sync doesn't work make sure you've disabled any access restrictions on the mixer side.
 
 ### How a connection is established
