@@ -21,7 +21,7 @@ pipeline {
 		}
 		stage('Deploy') {
 			steps {
-				sh 'rsync -avh --no-perms --no-owner --no-group --delete site/ /var/www/wordpress/ms-docs/'
+				sh 'rsync -avh --no-perms --no-owner --no-group --delete site/ /var/www/ms-docs/'
 			}
 		}
 	}
