@@ -20,6 +20,8 @@ the need of connecting to a mixer.
 Some features will not work in this mode:
 
 - Channel link
+- Mutegroups / DCA hardmute
+- Presets (if stored on the mixer)
 
 ## Network setup
 Please consult the manual of the mixer manufacturer on how to setup your network.
