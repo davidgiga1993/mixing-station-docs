@@ -5,10 +5,12 @@ and create new views for different purposes (e.g. fixed installations).
 
 ## Structure
 In the app you can create an unlimited number of layouts, each of them has a set of UI elements.
+**Note:** Landscape and portrait position/sizes are stored independent from each other.
+To edit any of the other orientations just rotate your device in the editor.
 
 - Layout Overview
-	- Add/edit Layout
-		- Add/edit UI items
+	- Layout
+		- UI items
 			- One or more [actions](custom-actions.md) per UI item
 
 ## Quickstart
