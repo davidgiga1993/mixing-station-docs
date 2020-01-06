@@ -21,3 +21,6 @@ All settings and license files are stored in one folder
 
 ## License files
 Make sure to keep a backup of your license files in case of data loss!
+
+## Known issues
+- Intel  HD Graphics 620, Driver 26.20.100.6859 - please downgrade to 22.20.16.4836
