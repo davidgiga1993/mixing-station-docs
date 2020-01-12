@@ -1,4 +1,4 @@
-# Startup parameters
+# Autostart
 
 You can configure mixing station to automatically connect to a mixer on startup using a configuration file.
 
