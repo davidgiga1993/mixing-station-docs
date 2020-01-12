@@ -1,9 +1,10 @@
 # Autostart
+Since V0.0.8 (PC)
 
-You can configure mixing station to automatically connect to a mixer on startup using a configuration file.
+
+You can configure mixing station to automatically connect to a mixer on startup using commandline arguments.
 
 ## PC
-You can pass the same parameters as commandline arguments
 ```
 mixing-station.exe "-appSeries=X Air" -ip=192.168.1.1 -mixTarget=-1
 ```
