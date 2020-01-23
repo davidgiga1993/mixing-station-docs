@@ -37,6 +37,8 @@ nav:
   - Soundcraft:
       Si: soundcraft/si-performer.md
       HiQNet: soundcraft/hiqnet.md
+  - Allen & Heath:
+      General: ah/general.md
 
   - Known issues: known-issues.md
   - Privacy policy: https://dev-core.org/dsgvo
