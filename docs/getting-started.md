@@ -11,7 +11,7 @@ Please make sure your mixer has the latest compatible firmware
 | SQ | Any SQ mixer | V1.4.1 | |
 | GLD | Any GLD mixer | V1.61 | |
 | Si | Any Si Performer/Expression/Impact | V1.8 / V1.8 / V1-2 | See [HiQNet guide](soundcraft/hiqnet.md)
-| Wing | Any Wing mixer | Any | Coming soon |
+| Wing | Any Wing mixer | Any | |
 
 
 ## Offline mode
