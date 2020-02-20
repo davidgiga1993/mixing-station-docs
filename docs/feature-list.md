@@ -1,9 +1,16 @@
 # Versions and features
 
 ## App versions
-The app is available for three different platforms: [iOS](platforms/ios.md), [Android](platforms/android.md) and [PC](platforms/pc.md).
-Since the app store policies are slightly different the app has different versions for each platform.
+The app is available for three different platforms: **[iOS](platforms/ios.md)**, **[Android](platforms/android.md)** and **[PC](platforms/pc.md)**.
+
+Since the app store policies are slightly different each app has different versions on each platform.
 Click on the left menu items to open the page for your platform to get more details.
+
+### Licensing
+Due to the different app store policies each platform (iOS, PC, Android) has it's own licensing system.
+Therefore you **can't** use one license on another platform (e.g. iOS license on android).
+
+It is possible to use one license on multiple devices of the same platform (e.g. multiple android tablets).
 
 
 ## Features
