@@ -27,6 +27,8 @@ nav:
     - Feedback detection: feedback-detection.md
     - Autostart: autostart.md
   - Beta program: beta.md
+  - WING:
+      General: wing/general.md
   - XAir:
       Bus password: xair/bus-password.md
   - XM32:

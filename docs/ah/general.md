@@ -2,6 +2,7 @@
 
 ## Qu Connection modes
 Mixing Station has two different modes how it can connect to the mixer:
+
 - Qu-Drive enable
 - Qu-Drive disable
 
