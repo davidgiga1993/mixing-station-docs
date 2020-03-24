@@ -24,3 +24,13 @@ Make sure to keep a backup of your license files in case of data loss!
 
 ## Known issues
 - Intel  HD Graphics 620, Driver 26.20.100.6859 - please downgrade to 22.20.16.4836
+
+## Keyboard shortcuts
+This section is work in progress.
+
+| Key | Function | View |
+| --- | --- | --- |
+| Left | Previous channel | Channel view |
+| Right | Next channel | Channel view |
+| Up | Previous layer | Mixer |
+| Down | Next layer | Mixer |
