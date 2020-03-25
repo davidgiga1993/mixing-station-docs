@@ -22,6 +22,11 @@ All settings and license files are stored in one folder
 ## License files
 Make sure to keep a backup of your license files in case of data loss!
 
+## Scaling
+Mixing Station tries to honor the scaling option of the OS.
+If for whatever reason the UI is too large to too small you can manually adjust the scaling in the global app settings.
+See [settings](../settings.md) for more details
+
 ## Known issues
 - Intel  HD Graphics 620, Driver 26.20.100.6859 - please downgrade to 22.20.16.4836
 
