@@ -24,6 +24,7 @@ nav:
     - Custom layouts: custom-layouts.md
     - USB Midi: usb-midi.md
     - Actions: custom-actions.md
+    - Auto EQ: auto-eq.md
     - Feedback detection: feedback-detection.md
     - Autostart: autostart.md
   - Beta program: beta.md
