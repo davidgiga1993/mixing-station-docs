@@ -27,9 +27,6 @@ Mixing Station tries to honor the scaling option of the OS.
 If for whatever reason the UI is too large to too small you can manually adjust the scaling in the global app settings.
 See [settings](../settings.md) for more details
 
-## Known issues
-- Intel  HD Graphics 620, Driver 26.20.100.6859 - please downgrade to 22.20.16.4836
-
 ## Keyboard shortcuts
 This section is work in progress.
 
@@ -39,3 +36,39 @@ This section is work in progress.
 | Right | Next channel | Channel view |
 | Up | Previous layer | Mixer |
 | Down | Next layer | Mixer |
+
+
+## Program arguments
+You can provide additional the following arguments to mixing station.
+
+Parameters are passed using a single `-` and `=` as value separator. See example below
+
+| Parameter | Description | Purpose |
+| --- | --- | --- |
+| `appSeries` | Which mixer series to use (PC/iOS). Same value as the button text in the app | Auto connect |
+| `ip` | IP address of the mixer, remove if you want to start the search instead. | Auto connect |
+| `mixTarget` | Target mix for the access restrictions. See table below | Auto connect |
+| `web` | Port of the webserver (disabled by default) | [REST api](../integrations/rest.md) |
+
+#### Mix Targets
+| Value | Target |
+| --- | --- |
+| `-1` | No restrictions |
+| `0` | Bus 1 / Mix 1 |
+| `1` | Bus 2 / Mix 2 |
+| ... | ... |
+
+
+### Auto connect
+Since V0.0.8
+
+You can configure mixing station to automatically connect to a mixer on startup.
+
+Example
+```
+mixing-station.exe "-appSeries=X AIR" -ip=192.168.1.1 -mixTarget=-1
+```
+
+
+## Known issues
+- Intel  HD Graphics 620, Driver 26.20.100.6859 - please downgrade to 22.20.16.4836

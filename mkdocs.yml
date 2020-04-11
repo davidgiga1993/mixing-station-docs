@@ -45,3 +45,7 @@ nav:
 
   - Known issues: known-issues.md
   - Privacy policy: https://dev-core.org/dsgvo
+
+
+markdown_extensions:
+  - attr_list
