@@ -8,7 +8,7 @@ This page shows the most common UI controls and how to use them
 - **Press and hold** to open a popup for more precise control
 - **Double tap** to reset the value to the default
 
-This behaviour can be configured in the [app settings](app-settings.md).
+This behaviour can be configured in the [app settings](settings/session.md).
 
 ### Dragging
 Knob values can be increased by dragging them up or to the right.
@@ -35,7 +35,7 @@ The white line indicates the default value for this parameter.
 ![Slider popup](img/slider-popup.png)
 
 ## Channel buttons
-The behavior of these button can be configured in the [app settings](app-settings.md).
+The behavior of these button can be configured in the [app settings](settings/session.md).
 Default behavior:
 
 - **Tap** Open channel details
@@ -80,6 +80,6 @@ on the screen
 
 ### Clear solo
 **Press and hold** the solo button to clear all solo.
-The button can be enabled in the channel strip via the [app settings](app-settings.md).
+The button can be enabled in the channel strip via the [app settings](settings/session.md).
 
 ![Solo button](img/solo-button.png)

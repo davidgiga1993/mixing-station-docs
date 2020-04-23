@@ -8,7 +8,7 @@ Menu -> Setup -> App
 ```
 
 ## General tab
-![General settings](img/app-settings-general.png)
+![General settings](../img/settings/session-general.png)
 In the general tab, all settings which affect the whole app are shown.
 You can press the `?` for more details. Some special settings are explained here in more detail.
 
@@ -32,7 +32,7 @@ Opening `Ch 5` and pressing the `->` will change the view to `Ch 11` instead of 
 Enables the USB midi stack. This should only be enabled if you're using this functionality as it consumes more battery.
 
 ## Mixer tab
-![Mixer settings](img/app-settings-mixer.png)
+![Mixer settings](../img/settings/session-mixer.png)
 These settings are related to the mixer and channel views
 
 ### Knobs / Sliders
@@ -43,7 +43,7 @@ In this section you can configure everything related to meters and RTA.
 
 #### Gate/Dyn Timeline
 Enables a history plot of the gate/dynamics input and gain reduction signal.
-![timeline](img/dyn-timeline.png)
+![timeline](../img/dyn-timeline.png)
 
 
 ### Channel
@@ -62,7 +62,7 @@ When selecting an IDCA in popgroup mode the shown channels do **not** follow the
 
 
 ## Channel strip tab
-![Channel strip settings](img/app-settings-channel-strip.png)
+![Channel strip settings](../img/settings/session-channel-strip.png)
 These settings are only related to the channel strips
 
 ## Sliders

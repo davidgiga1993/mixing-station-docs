@@ -37,7 +37,7 @@ This page lists all the special features in the professional version.
 | [Custom layouts](custom-layouts.md) | X | | Any | Any |
 | [USB Midi](usb-midi.md) | X | | Any | Any |
 | [Channel move](xm32/channel-move.md) | X | | XM32 | Any |
-| [Popgroups](app-settings.md) | X | | Any | Any |
+| [Popgroups](settings/session.md) | X | | Any | Any |
 | Dashboard view | X | | Any | Any |
 | [Automatic ringing out](feedback-detection.md) | X | | Any* | Any |
 | [Mix copy](mix-copy.md) | X | | Any | Any |
