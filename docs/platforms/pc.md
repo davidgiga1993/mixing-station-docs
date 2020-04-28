@@ -41,14 +41,18 @@ This section is work in progress.
 ## Program arguments
 You can provide additional the following arguments to mixing station.
 
-Parameters are passed using a single `-` and `=` as value separator. See example below
-
 | Parameter | Description | Purpose |
 | --- | --- | --- |
-| `appSeries` | Which mixer series to use (PC/iOS). Same value as the button text in the app | Auto connect |
-| `ip` | IP address of the mixer, remove if you want to start the search instead. | Auto connect |
-| `mixTarget` | Target mix for the access restrictions. See table below | Auto connect |
-| `web` | Port of the webserver (disabled by default) | [REST api](../integrations/rest.md) |
+| `-appSeries` | Which mixer series to use (PC/iOS). Same value as the button text in the app | Auto connect |
+| `-ip` | IP address of the mixer, remove if you want to start the search instead. | Auto connect |
+| `-mixTarget` | Target mix for the access restrictions. See table below | Auto connect |
+| `-web` | Port of the webserver (disabled by default) | [API](../integrations/apis.md) |
+| `-osc` | Port of the OSC server (disabled by default) | [API](../integrations/apis.md) |
+
+Example
+```
+mixing-station.exe "-appSeries=X AIR" -ip=192.168.1.1 -mixTarget=-1
+```
 
 #### Mix Targets
 | Value | Target |
@@ -60,14 +64,8 @@ Parameters are passed using a single `-` and `=` as value separator. See example
 
 
 ### Auto connect
-Since V0.0.8
+Since V0.0.8 you can configure mixing station to automatically connect to a mixer on startup. See the example above.
 
-You can configure mixing station to automatically connect to a mixer on startup.
-
-Example
-```
-mixing-station.exe "-appSeries=X AIR" -ip=192.168.1.1 -mixTarget=-1
-```
 
 
 ## Known issues

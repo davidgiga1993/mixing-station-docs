@@ -30,7 +30,7 @@ nav:
     - Feedback detection: feedback-detection.md
     - Autostart: autostart.md
   - Beta program: beta.md
-  - APIs: integrations/rest.md
+  - APIs: integrations/apis.md
   - WING:
       General: wing/general.md
   - XAir:
