@@ -1,18 +1,6 @@
 # Getting started
 
-## Compatible mixers
-Please make sure your mixer has the latest compatible firmware
-
-| App | Mixers | Required firmware | Notes | 
-| -- | -- | -- | -- |
-| XM32 | Any X32/M32 mixer | V1.15 or newer | |
-| XAir | Any XAir mixer | V1.12 or newer | |
-| Qu | Any Qu mixer | V1.90 or newer | |
-| SQ | Any SQ mixer | V1.4.1 | |
-| GLD | Any GLD mixer | V1.61 | |
-| Si | Any Si Performer/Expression/Impact | V1.8 / V1.8 / V1-2 | See [HiQNet guide](soundcraft/hiqnet.md)
-| Wing | Any Wing mixer | Any | |
-
+See [features](feature-list.md) for compatible mixers.
 
 ## Offline mode
 The offline mode provides access to nearly all app features without
@@ -45,7 +33,8 @@ When opening the app you'll see the launcher view.
 This view allows you to configure where and how you want to connect to the mixer.
 
 ## Mix access
-Mix access allows you to restrict access to a certain mix bus. The user will not be able to change any other mix than the one selected.
+Mix access allows you to restrict access to certain mix buses. 
+The user will not be able to change any other mix than the ones selected. This is ideal for personal monitor mixing or dedicated monitor engineers.
 
 ## Console IP
 This field allows entering the console IP address. It's only used the using the `Connect` button.
