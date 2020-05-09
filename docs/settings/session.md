@@ -1,5 +1,5 @@
-# App settings
-This page gives an overview over the available app settings
+# Session settings
+This page gives an overview over the available session settings
 
 ## Open settings
 The app settings can be opened via the menu from the *mixer view*
@@ -59,26 +59,3 @@ Enabling this option will follow the layer configuration instead.
 
 ##### IDCA
 When selecting an IDCA in popgroup mode the shown channels do **not** follow the currently selected sends on fader selection. Instead the assigned target mix of the IDCA will be used.
-
-
-## Channel strip tab
-![Channel strip settings](../img/settings/session-channel-strip.png)
-These settings are only related to the channel strips
-
-## Sliders
-This section configures all sliders inside a channel strip (e.g. in the mixer and any other channel strip).
-
-## Behaviour
-This section configures how the channel strip should behave
-
-### Fine fader ratio
-Changes the sensitivity of the fader when [fine mode](/ui-controls/#fine-mode) is enabled
-
-### Channel click
-Changes the behavior when taping a channel button
-
-### Channel long click
-Changes the behavior when long pressing a channel button
-
-## Channel strip items
-In this section you can select what items should be shown in a channel strip

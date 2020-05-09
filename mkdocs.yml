@@ -13,12 +13,13 @@ nav:
     - General: getting-started.md
     - UI controls: ui-controls.md
     - Sends on faders: sends-on-faders.md
-    - Layers: layers.md
     - Settings: 
       - Overview: settings/overview.md
       - Global settings: settings/global.md
       - Model settings: settings/console-model.md
       - Session settings: settings/session.md
+    - Layers: layers.md
+    - Channel strip: settings/channel-strip.md
   - Advanced:
     - IDCAs: layer-idcas.md
     - Mix copy: mix-copy.md

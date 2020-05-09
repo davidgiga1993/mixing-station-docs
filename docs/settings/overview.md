@@ -3,6 +3,13 @@ This page explains how the app stores settings.
 
 There are 4 different settings categories: Globa, Series, Session and user settings.
 
+| Scope | Name | Custom saves (import/export) possible |
+| ---- | --- | --- |
+| All apps | Global settings | No |
+| Console series / Android app | Console series settings | No |
+| Connected/Offline mode | Session settings | No |
+| Connected/Offline mode | User settings | Yes |
+
 ## Global settings
 These settings apply to the whole app. On android these settigns apply to all app instances.
 
@@ -10,7 +17,7 @@ These settings apply to the whole app. On android these settigns apply to all ap
 - UI scale
 - Network interface settings
 
-## Console model settings
+## Console settings
 These settings apply to the currently selected mixer series.
 
 - Restricted access config
@@ -27,6 +34,7 @@ These settings are saved when starting / closing the app and are stored for each
 These settings are only saved if `Autosave` is enabled or the user saves the settings manualy.
 
 - [Layer](../layers.md)
+- [Channel strip](channel-strip.md)
 - [Layouts](../custom-layouts.md)
 - [Midi](../usb-midi.md)
 
