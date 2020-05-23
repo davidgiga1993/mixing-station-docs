@@ -1,13 +1,48 @@
-# USB Midi
+# Midi
 
 You can use any generic midi device to remote control the mixer via mixing station.
 
 ## Supported protocols
 - General Midi
+- Mackie Control (MCU - recommended)
 - Baby HUI
-Depending on the protocol, the app will automatically assign actions to the device. Take a look at the bottom of the page for the default mappings.
 
-**Note:** MCU mode is not supported!
+## Default mappings
+The MCU and HUI protocols have a default mapping in mixing station, making it very easy to get started.
+At the bottom of this page you can find the default mapping.
+
+### MCU
+By default the channels are mapped to the currently active layer in mixing station.
+
+#### Channel strips
+| Control | Action | Description |
+| --- | --- | --- |
+| SELECT | Select in mixing station | - |
+| MUTE | Mute | - |
+| SOLO | Solo/PAFL | - |
+| REC | Not assigned | - |
+| VPOD | Multiple | The knob can control multiple parameters depending on the selected assignment |
+
+#### Buttons
+| Control | Action | Description |
+| --- | --- | --- |
+| TRACK | Gain on knobs | - |
+| SEND | Sends 1-8 on knobs | of the selected channel |
+| PAN/SURROUND | Pan on knobs | - |
+| PLUG-IN | Gate on knobs | of the selected channel |
+| EQ | Not yet implemented | - |
+| INSTRUMENT | Dynamics on knobs | of the selected channel |
+| - | - | - |
+| < BANK > | Prev / next layer | - |
+| < CHANNEL > | Not yet implemented | - |
+| F1-F8 | Sends on fader | Bus 1-8 |
+
+
+### Baby HUI
+This driver can be used with the BFC2000 and other HUI capable devices. Make sure the device is set to HUI emulation mode (bhui for BFC2000).
+
+![Sof list](img/midi/bfc2000.png)
+
 
 ### Android
 - [USB OTG](http://en.wikipedia.org/wiki/USB_On-The-Go) compatible Android device
@@ -17,8 +52,9 @@ Depending on the protocol, the app will automatically assign actions to the devi
 #### Known issues
 In Android 5.0 (Lollipop) only the last plugged USB device is working correctly. This is a [known bug](https://code.google.com/p/android/issues/detail?id=159897) in Android and cannot be fixed.
 
-### iOS
+### iOS / PC / OSX
 - Full support for usb, bluetooth and network midi devices
+
 
 
 ## Overview
@@ -113,14 +149,3 @@ the `Value` parameter.
 - Multiplier: Sets the sensitivity of one increment/decrement step
 - Inc value: Midi value for a single increment
 - Dec value:  Midi value for a single decrement
-
-## Default mappings
-The following graphics show the default action assinments for the different modes.
-
-### Generic midi
-No default mapping 
-
-### Baby HUI
-This driver can be used with the BFC2000 and other HUI capable devices. Make sure the device is set to HUI emulation mode (bhui for BFC2000).
-
-![Sof list](img/midi/bfc2000.png)
