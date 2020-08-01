@@ -1,5 +1,7 @@
 # UI Controls
-This page shows the most common UI controls and how to use them
+This page shows the most common UI controls and how to use them.
+
+You can always also use **right click** instead of **press and hold** if you're using a mouse.
 
 ## Knobs
 
@@ -8,7 +10,7 @@ This page shows the most common UI controls and how to use them
 - **Press and hold** to open a popup for more precise control
 - **Double tap** to reset the value to the default
 
-This behaviour can be configured in the [app settings](settings/session.md).
+This behaviour can be configured in the [app settings](settings/user_session.md).
 
 ### Dragging
 Knob values can be increased by dragging them up or to the right.
@@ -19,11 +21,13 @@ To decrease the value just use the opposite direction as shown in the image belo
 
 
 ## Faders
-- GEQ: **Double tap** to reset the value
-
 ![Fader](img/fader.png)
 
-If the **fine mode** is enabled you can start dragging the fader from any position and the movements will be more precise.
+Drag the fader knob to change the value. If **fine mode** is enabled you can start dragging the fader from any position and the movements will be more precise.
+
+Additionally you can tap the red area to nudge the fader by 0.25db increments.
+
+- GEQ: **Double tap** to reset the value
 
 
 ## Sliders
@@ -35,7 +39,7 @@ The white line indicates the default value for this parameter.
 ![Slider popup](img/slider-popup.png)
 
 ## Channel buttons
-The behavior of these button can be configured in the [app settings](settings/session.md).
+The behavior of these button can be configured in the [app settings](settings/user_session.md).
 Default behavior:
 
 - **Tap** Open channel details
@@ -44,6 +48,8 @@ Default behavior:
 ![Channel buttons](img/channel-buttons.png)
 
 ## Mixer sidebar
+![Sidebar](img/sidebar.png)
+
 Contains two **scrollable** bars for layer and access to [sends on faders](sends-on-faders.md)
 
 ### Fine mode
@@ -58,7 +64,12 @@ Each button provides access to a single layer
 - **Tap** Select layer
 - **Press and hold** Edit this layer
 
-![Sidebar](img/sidebar.png)
+> PC only
+
+- **Press and hold** Open context menu, also allows you to open the layer in a new window.
+
+
+
 
 
 
@@ -80,6 +91,6 @@ on the screen
 
 ### Clear solo
 **Press and hold** the solo button to clear all solo.
-The button can be enabled in the channel strip via the [app settings](settings/session.md).
+The button can be enabled in the channel strip via the [app settings](settings/channel-strip.md).
 
 ![Solo button](img/solo-button.png)

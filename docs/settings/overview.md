@@ -3,12 +3,12 @@ This page explains how the app stores settings.
 
 There are 4 different settings categories: Globa, Series, Session and user settings.
 
-| Scope | Name | Custom saves (import/export) possible |
+| Name | Scope | Custom saves (import/export) possible |
 | ---- | --- | --- |
-| All apps | Global settings | No |
-| Console series / Android app | Console series settings | No |
-| Connected/Offline mode | Session settings | No |
-| Connected/Offline mode | User settings | Yes |
+| Global settings | Applies to all apps | No |
+| Console series settings | Applies to a console series / Android app | No |
+| Session settings | Applies to connected/offline mode | No |
+| User settings | Applies to connected/offline mode | Yes |
 
 ## Global settings
 These settings apply to the whole app. On android these settigns apply to all app instances.
@@ -17,8 +17,8 @@ These settings apply to the whole app. On android these settigns apply to all ap
 - UI scale
 - Network interface settings
 
-## Console settings
-These settings apply to the currently selected mixer series.
+## Console series settings
+These settings apply to the currently selected mixer series (or a single android app).
 
 - Restricted access config
 - Last IP address and mix access
@@ -31,7 +31,7 @@ These settings are saved when starting / closing the app and are stored for each
 - Mutegroup names
 
 ## User settings
-These settings are only saved if `Autosave` is enabled or the user saves the settings manualy.
+These settings are only saved if `Autosave` is enabled or the user saves them manualy.
 
 - [Layer](../layers.md)
 - [Channel strip](channel-strip.md)
@@ -40,16 +40,9 @@ These settings are only saved if `Autosave` is enabled or the user saves the set
 
 To manualy save the settings open:
 ```
-Menu -> Setup -> App -> Folder icon
+Menu -> Setup (gear icon) ->  Folder icon
 ```
-or
-```
-Menu -> Setup -> Layer -> Folder icon
-```
-or
-```
-Menu -> Setup -> Layout -> Folder icon
-```
+
 
 ![Settings-Manager](../img/settings-manager.png)
 
@@ -65,7 +58,7 @@ There are two ways to share `User settings` settings:
 
 ### Using the Community feature
 #### Upload
-1. Open the context menu for a setting
+1. Open the context menu for a setting entry
 2. Select `Upload`, you might be prompted to login with your mixing station account.
  If your browser is too old (e.g. ios 9) you can also open to this url from any other browser: 
  [https://dev-core.org/mixing-station/community/msSettings/stash](https://dev-core.org/mixing-station/community/msSettings/stash)
@@ -79,5 +72,6 @@ There are two ways to share `User settings` settings:
 
 ### Share settings via the operating system
 1) Open the context menu and selecting `OS share`.
+
 Depending on the platform, multiple share options are available.
 For importing you can use the arrow menu button or select the file you want to import in a file explorer and open it with mixing station.

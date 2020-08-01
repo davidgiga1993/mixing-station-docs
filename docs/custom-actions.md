@@ -1,7 +1,6 @@
-# Custom actions
+# Actions
 
-Custom actions can be used to assign a parameter to a midi controller or a custom UI element.
-
+Actions are used to assign a parameter or app functionality to a custom button/knob or midi controller.
 
 ## Action types
 Depending on the current mixer type more or less action types are available.

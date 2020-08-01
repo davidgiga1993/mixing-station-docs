@@ -35,6 +35,7 @@ This view allows you to configure where and how you want to connect to the mixer
 ## Mix access
 Mix access allows you to restrict access to certain mix buses. 
 The user will not be able to change any other mix than the ones selected. This is ideal for personal monitor mixing or dedicated monitor engineers.
+It is possible to limit the access to multiple mixes as well.
 
 ## Console IP
 This field allows entering the console IP address. It's only used the using the `Connect` button.

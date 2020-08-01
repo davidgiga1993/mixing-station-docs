@@ -17,7 +17,7 @@ nav:
       - Overview: settings/overview.md
       - Global settings: settings/global.md
       - Model settings: settings/console-model.md
-      - Session settings: settings/session.md
+      - Session settings: settings/user_session.md
     - Layers: layers.md
     - Channel strip: settings/channel-strip.md
   - Advanced:

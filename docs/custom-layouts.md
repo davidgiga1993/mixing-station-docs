@@ -3,8 +3,11 @@
 This feature allows you to fully customize the mixer view to match your workflow
 and create new views for different purposes (e.g. fixed installations).
 
+![Settings-Manager](../img/layouts/layouts-settings.png)
+
+
 ## Structure
-In the app you can create an unlimited number of layouts, each of them has a set of UI elements.
+You can create an unlimited number of layouts, each of them has a set of UI elements.
 **Note:** Landscape and portrait position/sizes are stored independent from each other.
 To edit any of the other orientations just rotate your device in the editor.
 
@@ -16,14 +19,9 @@ To edit any of the other orientations just rotate your device in the editor.
 ## Quickstart
 
 1. Open the menu of the main view
-2. `Menu->Setup ->Layouts`
+2. `Menu -> Setup -> Layouts`
 3. Press the `+` menu entry to add a new layout
-	1. Enter the name of the layout - the first layout will replace your default mixer view.
 4. Add and move UI items to your taste
-	1. Note: `Channel Strip` is only for fixed channels. Use `Mixer` to get the channel strips which match the currently selected layer.
-6. Make sure to save your layout (if autosave is disabled)
-	1. Goto step 2.
-	2. Press the folder icon in the menu
 
 ## UI items
 This section describes all available UI items and their configuration parameters
