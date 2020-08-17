@@ -3,7 +3,7 @@
 This feature allows you to fully customize the mixer view to match your workflow
 and create new views for different purposes (e.g. fixed installations).
 
-![Settings-Manager](../img/layouts/layouts-settings.png)
+![Settings-Manager](img/layouts/layouts-settings.png)
 
 
 ## Structure

@@ -36,7 +36,7 @@ These settings are only saved if `Autosave` is enabled or the user saves them ma
 - [Layer](../layers.md)
 - [Channel strip](channel-strip.md)
 - [Layouts](../custom-layouts.md)
-- [Midi](../usb-midi.md)
+- [Midi](../midi.md)
 
 To manualy save the settings open:
 ```

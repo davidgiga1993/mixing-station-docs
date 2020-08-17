@@ -48,7 +48,7 @@ This page lists all the special features in the professional version.
 | Supports development | X | | Any | Any |
 | [Re-Gain](re-gain.md) | X | | Any | Any |
 | [Custom layouts](custom-layouts.md) | X | | Any | Any |
-| [Midi](usb-midi.md) | X | | Any | Any |
+| [Midi](midi.md) | X | | Any | Any |
 | [Channel move](xm32/channel-move.md) | X | | XM32 | Any |
 | [Popgroups](settings/user_session.md) | X | | Any | Any |
 | Dashboard view | X | | Any | Any |
