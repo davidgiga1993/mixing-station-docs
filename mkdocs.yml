@@ -4,8 +4,8 @@ theme:
 
 plugins:
   - pdf-export:
-    media_type: print
-    combined: true
+      media_type: print
+      combined: true
   
 nav:
   - Home: index.md
