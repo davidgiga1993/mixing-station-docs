@@ -45,6 +45,7 @@ This page lists all the special features in the professional version.
 | Dynamic gain timeline | X | | Any | Any |
 | PEQ preview in channel strip | X | | Any | Any |
 | Meterbridge | X | | Any | Any |
+| Cross mixer presets | X | | Any | Any |
 | Supports development | X | | Any | Any |
 | [Re-Gain](re-gain.md) | X | | Any | Any |
 | [Custom layouts](custom-layouts.md) | X | | Any | Any |
