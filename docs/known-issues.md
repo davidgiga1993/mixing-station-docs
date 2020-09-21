@@ -15,4 +15,4 @@ This is caused by a validation bug of the keyboard. As a workaround you have two
 
 ### Turn screen off
 When turning the screen off iOS will terminate any network connections. Therefore the app will lose any connections and you have to reconnect.
-It's recommended not to turn the screen of. By default mixing station keeps the screen on so it will not turn off automatically.
+It's recommended keep the screen on. By default mixing station keeps the screen on so it will not turn off automatically.
