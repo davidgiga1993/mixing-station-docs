@@ -28,11 +28,12 @@ pipeline {
 			}
 		}
 		stage('Building') {
-			agent {
-				docker { image 'mkdocs-pdf:1.0' }
-			}
 			steps {
-				sh '/usr/local/bin/mkdocs build'
+				script {
+					docker.image('mkdocs-pdf:1.0').inside {
+						sh '/usr/local/bin/mkdocs build'
+					}
+				}
 			}
 		}
 		stage('Deploy') {
