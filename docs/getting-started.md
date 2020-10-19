@@ -24,6 +24,11 @@ Here is a basic sample configuration:
 
 For Soundcraft mixers also take a look at the [HiQNet guide](soundcraft/hiqnet.md)
 
+### iOS privacy settings
+Starting with iOS 14 you need to exlicitly allow the app to communicate in your local network.
+iOS will ask you for your permission once you try to connect to a mixer for the first time.
+You can check the settings in iOS: `Settings > Privacy > Local Network`
+
 
 ## First launch
 
