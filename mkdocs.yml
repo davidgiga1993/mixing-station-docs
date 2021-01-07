@@ -28,6 +28,7 @@ nav:
     - Layers: layers.md
     - Channel strip: settings/channel-strip.md
   - Advanced:
+    - App-Link: app-link.md
     - IDCAs: layer-idcas.md
     - Mix copy: mix-copy.md
     - Re-Gain: re-gain.md
