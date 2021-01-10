@@ -31,6 +31,7 @@ nav:
     - App-Link: app-link.md
     - IDCAs: layer-idcas.md
     - Mix copy: mix-copy.md
+    - Mix presets: mix-presets.md
     - Re-Gain: re-gain.md
     - Custom layouts: custom-layouts.md
     - Midi: midi.md
