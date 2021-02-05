@@ -26,7 +26,7 @@ By default the channels are mapped to the currently active layer in mixing stati
 #### Buttons
 | Control | Action | Description |
 | --- | --- | --- |
-| TRACK | Gain on knobs | - |
+| TRACK (Assign-1) | Gain on knobs | - |
 | SEND | Sends 1-8 on knobs | of the selected channel |
 | PAN/SURROUND | Pan on knobs | - |
 | PLUG-IN | Gate on knobs | of the selected channel |
@@ -34,7 +34,7 @@ By default the channels are mapped to the currently active layer in mixing stati
 | INSTRUMENT | Dynamics on knobs | of the selected channel |
 | - | - | - |
 | < BANK > | Prev / next layer | - |
-| < CHANNEL > | Not yet implemented | - |
+| < CHANNEL > | Scroll current layer | Scrolls 4 channels in the current layer (if more than 8 channels) |
 | F1-F8 | Sends on fader | Bus 1-8 |
 
 
