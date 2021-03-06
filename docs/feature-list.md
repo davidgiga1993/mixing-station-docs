@@ -15,15 +15,16 @@ It is possible to use one license on multiple devices of the same platform (e.g.
 ## Compatible mixers
 Please make sure your mixer has the latest compatible firmware
 
-| App | Mixers | Required firmware | Notes | 
+| Feature name | Mixers | Required firmware | Notes | 
 | -- | -- | -- | -- |
-| XM32 | Any X32/M32 mixer | V1.15 or newer | |
-| XAir | Any XAir mixer | V1.12 or newer | |
-| Qu | Any Qu mixer | V1.90 or newer | |
-| SQ | Any SQ mixer | V1.4.1 or newer | |
-| GLD | Any GLD mixer | V1.61 | |
-| Si | Any Si Performer/Expression/Impact | V1.8 / V1.8 / V1-2 | See [HiQNet guide](soundcraft/hiqnet.md)
-| Wing | Any Wing mixer | Any | |
+| XM32 | Behringer X32/M32 mixer | V1.15 or newer | |
+| XAir | Behringer XAir or Midas MR mixer | V1.12 or newer | |
+| Qu | A&H Qu mixer | V1.90 or newer | |
+| SQ | A&H SQ mixer | V1.4.1 or newer | |
+| GLD | A&H GLD mixer | V1.61 | |
+| Si | Si Performer/Expression/Impact | V1.8 / V1.8 / V1-2 | See [HiQNet guide](soundcraft/hiqnet.md)
+| Vi | Vi 1 | Latest | See [HiQNet guide](soundcraft/hiqnet.md)
+| Wing | Behringer Wing mixer | Any | |
 
 
 ## Features
@@ -34,7 +35,8 @@ This page lists all the special features in the professional version.
 | Channel parameters | X | X | Any | Any |
 | FX access | X | X | XM32, XAir, Qu | Any |
 | Console settings | X | X | XM32, XAir, Qu | Any |
-| Layers | X | X | Any | Any |
+| [Layers](layers.md)  | X | X | Any | Any |
+| [Fixed layer mix](layers.md) | X | | Any | Any |
 | [Unlimited DCA](layer-idcas.md) | X | X | Any | Any |
 | [App-Link](app-link.md) | X | X | Any | Any |
 | RTA | X | X | Any\* | Any |

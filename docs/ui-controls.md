@@ -3,8 +3,21 @@ This page shows the most common UI controls and how to use them.
 
 You can always also use **right click** instead of **press and hold** if you're using a mouse.
 
-## Knobs
+## Buttons
 
+| On | Off |
+| --- | --- |
+| ![Button On](img/button-on.png)| ![Button Off](img/button-off.png) |
+
+### Long click
+![Button long click](img/button-long-click.png)
+
+Buttons with an indicator (`...`) in the top right have a long-click action.
+You can press and hold or right click the button.
+
+
+
+## Knobs
 ### Default behaviour
 - **Drag** to change the value
 - **Press and hold** to open a popup for more precise control
@@ -48,15 +61,15 @@ Default behavior:
 ![Channel buttons](img/channel-buttons.png)
 
 ## Mixer sidebar
-![Sidebar](img/sidebar.png)
+![Sidebar](img/sidebar-soflist.png)
 
 Contains two **scrollable** bars for layer and access to [sends on faders](sends-on-faders.md)
 
 ### Fine mode
-Toggles the fine mode. This will affect every channel fader in the app.
+When enabled faders will be more less sensitive and you can make smaller adjustments.
 
 ### Mute enable
-Toggles the mute enable mode. This will enable/disable every channel mute button in the app.
+Enables/disables every channel mute button in the app.
 
 ### Layer buttons
 Each button provides access to a single layer
@@ -66,14 +79,13 @@ Each button provides access to a single layer
 
 > PC only
 
-- **Press and hold** Open context menu, also allows you to open the layer in a new window.
-
-
-
+- **Press and hold** Allows you to open the layer in a separate window.
 
 
 
 ## Menu bar
+![Mixer menu](img/mixer-menu.png)
+
 The top menu provides access to other views and options. Depending on the current platform and view you're in the items will change.
 
 ### Status
@@ -82,7 +94,6 @@ On the left side the current view and additional information are shown
 ### Menu items
 The menu items are shown in a fixed order. If too many items are in the menu, they will be hidden and a `...` item is shown to access other items.
 
-![Mixer menu](img/mixer-menu.png)
 
 ## Quick access
 ### Mute groups
