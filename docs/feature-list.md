@@ -22,8 +22,8 @@ Please make sure your mixer has the latest compatible firmware
 | Qu | A&H Qu mixer | V1.90 or newer | |
 | SQ | A&H SQ mixer | V1.4.1 or newer | |
 | GLD | A&H GLD mixer | V1.61 | |
-| Si | Si Performer/Expression/Impact | V1.8 / V1.8 / V1-2 | See [HiQNet guide](soundcraft/hiqnet.md)
-| Vi | Vi 1 | Latest | See [HiQNet guide](soundcraft/hiqnet.md)
+| Si | Si Performer/Expression/Impact | V1.8 / V1.8 / V1-2 | See [HiQNet guide / limitations](soundcraft/hiqnet.md)
+| Vi | Soundcraft Vi (any) | Latest | See [HiQNet guide / limitations](soundcraft/hiqnet.md)
 | Wing | Behringer Wing mixer | Any | |
 
 
