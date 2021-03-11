@@ -5,7 +5,13 @@ Soundcraft mixers use HiQNet for remote control apps. This protocol has certain 
 ## Limitations
 The Soundcraft Vi and Si series mixer does not allow remote control of all parameters via network.
 Mixing Station currently implements nearly all parameters which can be remote controlled. 
-Any other features such as Mutegroups, FX or routing **cannot be implemented**.
+The following parameters are **not controlable** via network due to firmware limitations:
+- Mutegroups
+- FX
+- Routing
+- Pan for stereo sends (VI)
+- Limiter (VI)
+- Auto makeup gain (VI)
 
 ### Mutegroups
 It is not possible to access the mutegroups of the mixer - therefore the mute status might be shown incorrectly in the app.
