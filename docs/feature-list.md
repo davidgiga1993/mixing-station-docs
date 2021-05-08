@@ -7,10 +7,7 @@ Since the app store policies are slightly different each app has different versi
 Click on the left menu items to open the page for your platform to get more details.
 
 ### Licensing
-Due to the different app store policies each platform (iOS, PC, Android) has it's own licensing system.
-Therefore you **can't** use one license on another platform (e.g. iOS license on android).
-
-It is possible to use one license on multiple devices of the same platform (e.g. multiple android tablets).
+For details about the licensing, please refer to the [licensing page](license/overview.md).
 
 ## Compatible mixers
 Please make sure your mixer has the latest compatible firmware
