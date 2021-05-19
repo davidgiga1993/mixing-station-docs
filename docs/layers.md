@@ -1,6 +1,6 @@
 ## What is a layer?
 A layer defines what channels should be shown in the mixer.
-You can creates an unlimited number of layers and each layer can contain up to 32 channels.
+You can create an unlimited number of layers and each layer can contain up to 32 channels.
 
 ## Layer settings
 This view lets you configure all layers
