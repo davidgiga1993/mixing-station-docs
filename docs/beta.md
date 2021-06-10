@@ -2,6 +2,10 @@
 The beta program allows you to test an upcoming version before anyone else.
 As for now it's only available via Google Play.
 
+## Discussion / Feedback
+All discussion about the beta versions and feedback is happening in our [discord channel](https://discord.gg/d8bJPg6kZm). Feel free to join us!
+
+
 ## Android
 If you want to join the program just follow the link: [Mixing Station beta](https://play.google.com/apps/testing/org.devcore.mixingstation )
 
