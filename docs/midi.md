@@ -5,7 +5,9 @@ You can use any generic midi device to remote control the mixer via mixing stati
 ## Supported protocols
 - General Midi
 - Mackie Control (MCU - recommended)
-- Baby HUI
+- X-Touch (in MCU mode, with metering and LCD support)
+- X-Touch Expander (in MCU mode, with metering and LCD support)
+- Baby HUI (deprecated)
 
 ## Default mappings
 The MCU and HUI protocols have a default mapping in mixing station, making it very easy to get started.
@@ -38,7 +40,7 @@ By default the channels are mapped to the currently active layer in mixing stati
 | F1-F8 | Sends on fader | Bus 1-8 |
 
 
-### Baby HUI
+### Baby HUI (deprecated)
 This driver can be used with the BFC2000 and other HUI capable devices. Make sure the device is set to HUI emulation mode (bhui for BFC2000).
 
 ![Sof list](img/midi/bfc2000.png)
