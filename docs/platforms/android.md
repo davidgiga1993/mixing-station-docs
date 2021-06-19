@@ -33,7 +33,7 @@ Here is a step by step guide:
 6. Done! You can now uninstall all other mixing station apps from your device
 
 ### Multiple devices
-If you have multiple devices follow the guide above. The continue here for the other devices:
+If you have multiple devices follow the guide above for the first device, then continue here for the other devices:
 
 1.  Create a [mixing station account](https://dev-core.org/mixing-station/profile/create) with the same email address as above
 2. Select `Skip`
@@ -42,3 +42,10 @@ If you have multiple devices follow the guide above. The continue here for the o
    ![Screenshot menu](../img/migration/11.png)
 4. Select `Restore purchases`
    ![Screenshot license](../img/migration/12.png)
+
+### Settings
+Due to more restrictive google play policies the app settings can't be migrated automatically.
+To overcome this issue either export/import your settings using the community feature or
+copy the files manually to the new location:
+
+From `internal storage/MixingStation` to `Internal/Android/data/org.devcore.mixingstation/files/MixingStation`
