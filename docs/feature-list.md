@@ -30,20 +30,18 @@ This page lists all the special features in the professional version.
 | Feature | Pro | Free | Model | Platform |
 | ------ |  ------ | ------ | --- | --- |
 | Channel parameters | X | X | Any | Any |
-| FX access | X | X | XM32, XAir, Qu | Any |
-| Console settings | X | X | XM32, XAir, Qu | Any |
+| FX access | X | X | Any | Any |
+| Routing | X| X | Any | Any |
 | [Layers](layers.md)  | X | X | Any | Any |
 | [Fixed layer mix](layers.md) | X | | Any | Any |
 | [Unlimited DCA](layer-idcas.md) | X | X | Any | Any |
 | [App-Link](app-link.md) | X | X | Any | Any |
 | Gain on fader | X | | Any | Any |
 | RTA | X | X | Any\* | Any |
-| Routing | X| X | XM32, XAir, Qu | Any |
 | Password protection | X | X | [XM32](xm32/bus-password.md)/[XAir](xair/bus-password.md)/Qu | Any |
 | Different color schemes | X | | Any | Any |
 | Configurable peak hold time | X | | Any | Any |
-| Gate gain timeline | X | | Any | Any |
-| Dynamic gain timeline | X | | Any | Any |
+| Gain reduction timeline | X | | Any | Any |
 | PEQ preview in channel strip | X | | Any | Any |
 | Meterbridge | X | | Any | Any |
 | Cross mixer channel presets | X | | Any | Any |
