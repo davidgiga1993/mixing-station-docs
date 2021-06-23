@@ -45,7 +45,7 @@ If you have multiple devices follow the guide above for the first device, then c
 
 ### Settings
 Due to more restrictive google play policies the app settings can't be migrated automatically.
-To overcome this issue either export/import your settings using the [community feature](https://dev-core.org/ms-docs/settings/overview) or
+To overcome this issue either export/import your settings using the [community feature](../settings/overview) or
 copy the files manually to the new location:
 
 From `internal storage/MixingStation` to `Internal/Android/data/org.devcore.mixingstation/files/MixingStation`
