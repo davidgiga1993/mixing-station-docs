@@ -22,6 +22,7 @@ Please make sure your mixer has the latest compatible firmware
 | Si | Si Performer/Expression/Impact | V1.8 / V1.8 / V1-2 | See [HiQNet guide / limitations](soundcraft/hiqnet.md)
 | Vi | Soundcraft Vi ([view details](soundcraft/vi.md)) | Latest | See [HiQNet guide / limitations](soundcraft/hiqnet.md)
 | Wing | Behringer Wing mixer | Any | |
+| DL | Mackie DL32S | MFV V5.2 (Mandolin 1.6) | |
 
 
 ## Features

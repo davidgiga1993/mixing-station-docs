@@ -54,6 +54,8 @@ nav:
       HiQNet: soundcraft/hiqnet.md
   - Allen & Heath:
       General: ah/general.md
+  - Mackie:
+      General: mackie/general.md
 
   - Known issues: known-issues.md
   - Licensing: license/overview.md
