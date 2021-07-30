@@ -119,7 +119,9 @@ To do so use one of the following tags:
 | `[value]` | Any | Shows the current value of the action |
 | `[bpm]` | FX | BPM for 1/4 notes |
 | `[sofname]` | Sends on fader | Name of the current bus master |
+| `[shortLabel]` | Channel actions | Short version of label |
 | `[chname]` | Channel actions | Name of the channel of the action |
+| `[sendName]` | Channel send actions | Name of the channel send used by the action |
 
 
 ## Example: Tap delay button
