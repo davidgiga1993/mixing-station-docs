@@ -14,7 +14,7 @@ Make sure to use the same email address as used for purchasing! Otherwise we can
 ![License-page](../img/license/profile.png)
 
 ## Activation
-Each license can be activated on a limited number of devices. Once the limit has been reached you can either deactivate devices you don't use anymore or purchase another license. This can be done on your Mixing Station account page.
+Each license can be activated on a 4 different devices at the same time. Once the limit has been reached you can either deactivate devices you don't use anymore or purchase another license. This can be done on your Mixing Station account page.
 
 ## Restore licenses
 The following shows you how to restore / import the license on another device.
