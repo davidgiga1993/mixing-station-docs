@@ -7,7 +7,6 @@ There are 4 different settings categories: Globa, Series, Session and user setti
 | ---- | --- | --- |
 | Global settings | Applies to all apps | No |
 | Console series settings | Applies to a console series / Android app | No |
-| Session settings | Applies to connected/offline mode | No |
 | User settings | Applies to connected/offline mode | Yes |
 
 ## Global settings
@@ -16,25 +15,21 @@ These settings apply to the whole app. On android these settigns apply to all ap
 - Update branch
 - UI scale
 - Network interface settings
+- All app UI / UX related configuration
+- [Channel strip](channel-strip.md)
 
 ## Console series settings
 These settings apply to the currently selected mixer series (or a single android app).
 
 - Restricted access config
 - Last IP address and mix access
-
-
-## Session settings
-These settings are saved when starting / closing the app and are stored for each mixer model separatly.
-
-- All app UI / UX related configuration
 - Mutegroup names
+
 
 ## User settings
 These settings are only saved if `Autosave` is enabled or the user saves them manualy.
 
 - [Layer](../layers.md)
-- [Channel strip](channel-strip.md)
 - [Layouts](../custom-layouts.md)
 - [Midi](../midi.md)
 
@@ -48,6 +43,13 @@ Menu -> Setup (gear icon) ->  Folder icon
 
 Use the scope buttons to select which settings should be saved or loaded.
 **Press and hold** an entry to open a context menu.
+
+### Backup / Restore
+To backup **all** settings of the entire app, select the `gear icon` after starting the app, and select `Backup / Restore`.
+You can backup all your data to a local file, or your mixing station account.
+
+![Backup-Restore](../img/settings/backup-restore.png)
+
 
 ### Export / Import settings
 There are two ways to share `User settings` settings:
