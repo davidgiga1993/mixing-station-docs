@@ -11,6 +11,7 @@ Mixing Station can be used on Raspberry PI 4.
 	```
 	apt install openjdk-11-jre
 	```
+
 2) Download mixing station. In this case I'm installing it to `~/ms`.
 	```
 	mkdir ms
