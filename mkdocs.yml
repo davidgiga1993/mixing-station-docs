@@ -16,6 +16,7 @@ nav:
     - PC: platforms/pc.md
     - Android: platforms/android.md
     - iOS: platforms/ios.md
+    - RPi: platforms/rpi.md
   - Getting started: 
     - General: getting-started.md
     - UI controls: ui-controls.md
