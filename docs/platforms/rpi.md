@@ -7,21 +7,21 @@ Mixing Station can be used on Raspberry PI 4.
 - Java 11 or newer
 
 ## Installation
-1) Install java:
+1. Install java:
 	```
 	apt install openjdk-11-jre
 	```
 
-2) Download mixing station. In this case I'm installing it to `~/ms`.
-	```
-	mkdir ms
-	cd ms
-	wget https://mixingstation.app/backend/api/web/download/update/mixing-station-pc/release
-	unzip release
-	rm release
-	```
+2. Download mixing station. In this case I'm installing it to `~/ms`.
+   ```
+   mkdir ms
+   cd ms
+   wget https://mixingstation.app/backend/api/web/download/update/mixing-station-pc/release
+   unzip release
+   rm release
+   ```
 
-3) Start the app
+3. Start the app
 	```
 	java -jar mixing-station-pc.jar
 	```
