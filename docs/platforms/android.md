@@ -4,7 +4,7 @@ You can use all features of the app in the offline mode for free. As soon as you
 
 
 ## Requirements
-- Android >= 4.0.1
+- Android >= 4.4
 - Android emulators will work for Midas/Behringer mixers, but not for A&H mixers
 - Chromebooks are not supported (but still might work)
 
