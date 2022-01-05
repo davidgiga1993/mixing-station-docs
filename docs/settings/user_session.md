@@ -29,14 +29,13 @@ Enables the USB midi stack. This should only be enabled if you're using this fun
 
 ## Mixer category
 ![Mixer settings](../img/settings/session-mixer.png)
-![Mixer settings 2](../img/settings/session-mixer-2.png)
 These settings are related to the mixer and channel views
 
 ### Global knobs / sliders
 This section configures how the knobs/sliders should behave. This setting is applied to all knobs in the app, excep sliders in a channel strip. These can be configured in the `Channel Strip` tap.
 
 
-### Popgroups
+### DCA Spill
 Enables a midas pro style popgroup functionality.
 When tapping on a channel button of a DCA/group the assigned channels will be shown in the mixer instead of opening the DCA/group. To edit an DCA/IDCA while popgroup mode is enabled **press and hold** the channel button.
 

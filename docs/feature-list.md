@@ -32,6 +32,7 @@ This page lists all the special features in the professional version.
 | ------ |  ------ | ------ | --- | --- |
 | Channel parameters | X | X | Any | Any |
 | FX access | X | X | Any | Any |
+| FX Presets | X | | Any | Any |
 | Routing | X| X | Any | Any |
 | [Layers](layers.md)  | X | X | Any | Any |
 | [Fixed layer mix](layers.md) | X | | Any | Any |
@@ -43,7 +44,7 @@ This page lists all the special features in the professional version.
 | Different color schemes | X | | Any | Any |
 | Configurable peak hold time | X | | Any | Any |
 | Gain reduction timeline | X | | Any | Any |
-| PEQ preview in channel strip | X | | Any | Any |
+| [Custom channel strip](channel-strip.md) | X | | Any | Any |
 | Meterbridge | X | | Any | Any |
 | Cross mixer channel presets | X | | Any | Any |
 | [Personal mix presets](mix-presets.md) | X | | Any | Any |
@@ -52,7 +53,7 @@ This page lists all the special features in the professional version.
 | [Custom layouts](custom-layouts.md) | X | | Any | Any |
 | [Midi](midi.md) | X | | Any | Any |
 | [Channel move](xm32/channel-move.md) | X | | XM32 | Any |
-| [Popgroups](settings/user_session.md) | X | | Any | Any |
+| [Channel/DCA Spill](settings/user_session.md) | X | | Any | Any |
 | Dashboard view | X | | Any | Any |
 | [Automatic ringing out](feedback-detection.md) | X | | Any* | Any |
 | [Mix copy](mix-copy.md) | X | | Any | Any |
