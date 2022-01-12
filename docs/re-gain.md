@@ -5,9 +5,12 @@ A typical use case would be if an input is louder than during soundcheck and you
 
 ## Usage
 1. Open the config page of the channel you want to adjust the gain
-2. Select the gear icon in the menu
-3. Select the new gain
-4. Enable the signal paths that should be adjusted
+2. Press and hold the gain knob (or rightclick)
+3. Enable "Re Gain" from the top menu
+4. Adjust the gain
+
+
+![Re-Gain popup](img/regain/overview.png)
 
 ## Adjustment
 Gate and dynamics thresholds will be increased / decreased with the gain value
@@ -23,3 +26,4 @@ Sends / Faders will be adjusted in the inverted direction.
 
 
 ![Re-Gain example](gif/re-gain.gif)
+
