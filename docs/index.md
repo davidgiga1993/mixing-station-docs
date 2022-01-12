@@ -1,4 +1,7 @@
 # Mixing Station
+
+![MS-Icon](assets/ms.png)
+
 Welcome! This page contains all the documentation for mixing station.
 If you're missing something feel free to [contribute to the documentation](https://github.com/davidgiga1993/mixing-station-docs) or contact me at david [at] dev-core.org 
 

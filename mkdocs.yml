@@ -1,13 +1,27 @@
 site_name: Mixing Station Docs
 theme:
   name: 'material'
+  logo: assets/ms.png
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.sections
+    - header.autohide
+    - announce.dismiss
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
-#plugins:
-#  - pdf-export:
-#      combined: true
-
-#extra_css:
-#  - ../pdf.css
+plugins:
+  - search
 
 nav:
   - Home: index.md
@@ -52,6 +66,7 @@ nav:
       Samsung & Android 6: xm32/samsung-android6.md
   - Soundcraft:
       Si: soundcraft/si-performer.md
+      Vi: soundcraft/vi.md
       HiQNet: soundcraft/hiqnet.md
   - Allen & Heath:
       General: ah/general.md
@@ -66,3 +81,4 @@ nav:
 markdown_extensions:
   - attr_list
   - pymdownx.superfences
+  - md_in_html

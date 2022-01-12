@@ -44,7 +44,7 @@ This page lists all the special features in the professional version.
 | Different color schemes | X | | Any | Any |
 | Configurable peak hold time | X | | Any | Any |
 | Gain reduction timeline | X | | Any | Any |
-| [Custom channel strip](channel-strip.md) | X | | Any | Any |
+| [Custom channel strip](settings/channel-strip.md) | X | | Any | Any |
 | Meterbridge | X | | Any | Any |
 | Cross mixer channel presets | X | | Any | Any |
 | [Personal mix presets](mix-presets.md) | X | | Any | Any |
