@@ -19,8 +19,13 @@ All settings and license files are stored in one folder
 | OSX | `%HOME%/MixingStation` |
 | Linux | `%HOME%/MixingStation` |
 
-## License files
-Make sure to keep a backup of your license files in case of data loss!
+## Licensing
+After purchasing a license you'll receive a download like to a license file. Make sure to keep a backup of your license files in case of data loss!
+
+You can import the license into the app via the license page:
+![menu](../img/license/pc-menu.png)
+![menu](../img/license/pc-file-import.png)
+![menu](../img/license/pc-license-file.png)
 
 ## Scaling
 Mixing Station tries to honor the scaling option of the OS.
