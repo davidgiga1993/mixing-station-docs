@@ -16,9 +16,10 @@ Please make sure your mixer has the latest compatible firmware
 | -- | -- | -- | -- |
 | XM32 | Behringer X32/M32 mixer | V1.15 or newer | |
 | XAir | Behringer XAir or Midas MR mixer | V1.12 or newer | |
-| Qu | A&H Qu mixer | V1.90 or newer | |
-| SQ | A&H SQ mixer | V1.4.1 or newer | |
+| Avantis | A&H Avantis mixer | V1.12 or newer | | 
 | GLD | A&H GLD mixer | V1.61 | |
+| SQ | A&H SQ mixer | V1.4.1 or newer | |
+| Qu | A&H Qu mixer | V1.90 or newer | |
 | Si | Si Performer/Expression/Impact | V1.8 / V1.8 / V1-2 | See [HiQNet guide / limitations](soundcraft/hiqnet.md)
 | Vi | Soundcraft Vi ([view details](soundcraft/vi.md)) | Latest | See [HiQNet guide / limitations](soundcraft/hiqnet.md)
 | Wing | Behringer Wing mixer | Any | |
@@ -40,6 +41,8 @@ This page lists all the special features in the professional version.
 | [App-Link](app-link.md) | X | X | Any | Any |
 | Gain on fader | X | | Any | Any |
 | RTA | X | X | Any\* | Any |
+| Channel links | X | X | Any | Any |
+| Channel quick-gang | X | X | Any | Any |
 | Password protection | X | X | [XM32](xm32/bus-password.md)/[XAir](xair/bus-password.md)/Qu | Any |
 | Different color schemes | X | | Any | Any |
 | Configurable peak hold time | X | | Any | Any |
