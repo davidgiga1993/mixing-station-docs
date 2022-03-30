@@ -41,7 +41,7 @@ The layout modes option configures when/how the layout is applied to the app.
 The `Open on startup` option is designed for scenarios where you want to limit the parameters accessible (the top menu is empty).
 Additionally it's possible to **password protect** going back to the main mixer.
 
-This allowes you to create a dedicated layout (for example for a wall mounted tablet) and completely limit access to anything else in the app.
+This allows you to create a dedicated layout (for example for a wall mounted tablet) and completely limit access to anything else in the app.
 
 
 ## UI items
