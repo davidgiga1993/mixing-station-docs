@@ -1,52 +1,49 @@
 # APIs
-Mixing station provides different APIs for external software and hardware to connect to.
+Mixing Station provides different APIs for external software and hardware to connect to.
 The goal of these APIs is to cover most of the console parameters using a unified API.
-This enables your app to work with every mixer compatible with mixing station.
+This enables your app to work with every mixer compatible with Mixing Station.
 
 ## Overview
-All APIs are only available in the desktop version of mixing station.
-To enable an api make sure you start the programm with the correct [command line arguments](../platforms/pc.md)!
+All APIs are only available in the desktop version of Mixing Station.
 
+## Configure APIs
+To enable the API access, open the [global app settings](../settings/global.md) and enable REST and/or OSC.
+
+## Data Types
 The following data types are used:
 
 | Type | Sample |
 | --- | --- |
 | bool | true/false |
 | float | 1.20 |
-| long | 1 |
+| long/int | 1 |
 | string | "hello" |
 
 
 
-All data can be get/set using two different data formats:
+There are two possible float formats which can be used:
 
 | Format | Description | 
 | --- | --- |
-| Plain values | The actual value of the parameter (e.g. -5dB) |
+| Plain values | The actual value of the parameter (e.g. -5) |
 | Normalized | The value will be normalized into a range of 0-1 |
 
 
 ## REST
 The REST api allows access via http using json encoded data.
-By default CORS requests are allowed from any origin.
 
-### OpenAPI
-The documentation for the API is generated using OpenAPI.
-To view the documentation:
+### Using the API
 
-1. Start mixing station with the web server enabled
-2. Open the [swagger-ui](https://petstore.swagger.io/){target=_blank}
-3. Enter the following url into the top text field `http://localhost:<web port>/openapi.json` and hit `Explore`
+1. Enable the http/rest api in the global app settings
+2. Open the following URL in your browser: `http://localhost:<your-configured-port>`
 
-The editor should now show the documentation:
-![swagger-docs](../img/integrations/swagger.png)
-
-### Mixer data definition
-If you just want to see all data available for the current mixer open your browser and enter `http://localhost:<web port>/console/data/definition`
+You should now see a landing page which describes all API endpoints available.
+Additionaly you can explore all data exposed via the API.
 
 
 ## OSC
-The OSC api has access to the same parameters as the rest api. Therefore it's possible to use the data model described in the rest api for implementing the OSC api. To see all `dataPath`s  available you need to use the rest api.
+Provides access to the same parameters accessible via the rest api.
+You can see all available parameters by opening the data explorer (follow the rest api steps above and open the webpage)
 
 OSC bundles are **not** supported.
 
