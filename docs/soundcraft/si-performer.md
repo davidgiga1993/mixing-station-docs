@@ -4,7 +4,13 @@ The performer and expression series has certain limitation when it comes to remo
 Mixing Station currently implements all parameters which can be remote controlled. 
 Any other features such as Mutegroups, FX or routing **cannot be implemented**.
 
-## Mutegroups
+The following parameters are **not controlable** via network due to firmware limitations:
+
+- Mutegroups
+- FX
+- Routing
+
+### Mutegroups
 It is not possible to access the mutegroups of the mixer - therefore the mute status might be shown incorrectly in the app.
 
 ## Mixer not connecting

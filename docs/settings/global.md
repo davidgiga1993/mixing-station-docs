@@ -28,6 +28,8 @@ When enabled a user with restricted access to a single bus is allowed to access 
 Autostart allows you to configure to which mixer the app should connect after starting.
 This is usefull for installation purposes where the app should always connect to a mixer without user interaction.
 
+## API
+Only available on Desktop platform. Lets you enable the API access for Mixing Station. 
 
 ## Skip sync
 > Debugging purposes only
