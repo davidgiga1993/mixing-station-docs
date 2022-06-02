@@ -4,7 +4,7 @@ You can use all features of the app in the offline mode for free.
 As soon as you want to connect to a mixer it's required to buy the app for the mixer model you want to connect to.
 
 ## Requirements
-- Operating system: Windows 10 (x64), OSX 10.9 or later, Linux (arm64, x64)
+- Operating system: Windows 10 (x64) or later, OSX 10.9 or later, Linux (arm64, x64)
 - Screen: Any screen works - multi screen is only supported if they are the same size.
 - Touchscreen: Multitouch is supported on windows 10 - untested on any other OS.
 
