@@ -1,11 +1,11 @@
-Due to the different app store policies each platform (iOS, PC, Android) has it's own licensing system.
+Due to the different app store policies each platform (iOS, Desktop, Android) has it's own licensing system.
 Therefore you **can't** use one license on another platform (e.g. iOS license on android).
 
 It is possible to use one license on multiple devices of the same platform (e.g. multiple android tablets).
 
 
 
-## Mixing Station account (PC, Android)
+## Mixing Station account (Desktop, Android)
 All licenses can be managed using your [Mixing Station account](https://dev-core.org/mixing-station/profile/licenses). If you don't have an account yet, you can [register here](https://dev-core.org/mixing-station/profile/create).
 
 Make sure to use the same email address as used for purchasing! Otherwise we can't link the license to your account.
@@ -23,9 +23,9 @@ The following shows you how to restore / import the license on another device.
 Make sure you're logged in with the same apple id.
 ![iOS-Import](../img/license/ios-import.gif)
 
-### PC
+### Desktop
 You can always access your licenses using your Mixing Station account.
-![PC-Import](../img/license/pc-import.gif)
+![Desktop-Import](../img/license/pc-import.gif)
 
 ### Android
 You can always access your licenses using your Mixing Station account.
