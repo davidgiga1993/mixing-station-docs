@@ -46,8 +46,8 @@ This section will get updated based off the feedback I receive
 
 ### A&H Dlive
 
-1) Open secret mode (see below)
-2) Enter `dlive` and confirm
+1. Open secret mode (see below)
+2. Enter `dlive` and confirm
 
 Things which should be tested:
 
