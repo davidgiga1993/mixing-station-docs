@@ -57,6 +57,22 @@ Things which should be tested:
 | Value update | Untested | The values of the app should update correctly                           | 
 | Errors       | Untested | The mixer should not show any errors during the usage of mixing station |
 
+### Soundcraft UI 24
+
+1. Open secret mode (see below)
+2. Enter `ui` and confirm
+
+| Feature      | Result   | Remark                                                                           |
+|--------------|----------|----------------------------------------------------------------------------------|
+| Metering     | Untested | The metering of the channels should work, especially the gain reduction metering |
+| Value update | Untested | The values of the app should update correctly                                    | 
+
+#### Known issues
+
+- Search doesn't work
+- Channel link may not work
+- Features missing
+
 ## Secret Mode
 The secret mode allows you to access untested features of the app.
 
