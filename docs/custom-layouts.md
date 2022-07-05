@@ -110,18 +110,8 @@ Changes how the text will be aligned on screen.
 
 
 ## Label tags
-It is possible to use dynamic text as a label for the UI items.
-To do so use one of the following tags:
-
-| Tag | Action | Description |
-| -- | -- | -- |
-| `[label]` | Any | Shows a short description of the action |
-| `[value]` | Any | Shows the current value of the action |
-| `[bpm]` | FX | BPM for 1/4 notes |
-| `[sofname]` | Sends on fader | Name of the current bus master |
-| `[shortLabel]` | Channel actions | Short version of label |
-| `[chname]` | Channel actions | Name of the channel of the action |
-| `[sendName]` | Channel send actions | Name of the channel send used by the action |
+It is possible to use dynamic text as a label for the UI items. 
+See [label tags](custom-actions.md#label-tags) for more details.
 
 
 ## Example: Tap delay button
