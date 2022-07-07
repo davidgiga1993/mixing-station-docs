@@ -62,6 +62,8 @@ Things which should be tested:
 1. Open secret mode (see below)
 2. Enter `ui` and confirm
 
+Things which should be tested:
+
 | Feature      | Result   | Remark                                                                           |
 |--------------|----------|----------------------------------------------------------------------------------|
 | Metering     | Untested | The metering of the channels should work, especially the gain reduction metering |
