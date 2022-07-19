@@ -24,7 +24,7 @@ Please make sure your mixer has the latest compatible firmware
 | Vi | Soundcraft Vi ([view details](soundcraft/vi.md)) | Latest | See [HiQNet guide / limitations](soundcraft/hiqnet.md)
 | Ui | Soundcraft Ui | Latest | |
 | Wing | Behringer Wing mixer | Any | |
-| DL | Mackie DL32S | MFV V5.2 (Mandolin 1.6) | |
+| DL | Mackie DL32S/DL16S | MFV V5.2 (Mandolin 1.6) | |
 
 
 ## Features
