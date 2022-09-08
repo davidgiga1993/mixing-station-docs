@@ -5,8 +5,8 @@ As soon as you want to connect to a mixer it's required to buy the app for the m
 
 ## Requirements
 - Operating system: Windows 10 (x64) or later, OSX 10.9 or later, Linux (arm64, x64)
-- Screen: Any screen works - multi screen is only supported if they are the same size.
-- Touchscreen: Multitouch is supported on windows 10 - untested on any other OS.
+- Screen: Any screen works
+- Touchscreen: Multitouch is supported on Windows 10/11 - untested on any other OS.
 
 Please make sure the app is working in offline mode before purchasing any licenses!
 
