@@ -14,17 +14,17 @@ Please make sure your mixer has the latest compatible firmware
 
 | Feature name | Mixers | Required firmware | Notes | 
 | -- | -- | -- | -- |
-| XM32 | Behringer X32/M32 mixer | V1.15 or newer | |
-| XAir | Behringer XAir or Midas MR mixer | V1.12 or newer | |
-| Avantis | A&H Avantis mixer | V1.12 or newer | | 
-| GLD | A&H GLD mixer | V1.61 | |
-| SQ | A&H SQ mixer | V1.4.1 or newer | |
-| Qu | A&H Qu mixer | V1.90 or newer | |
-| Si | Si Performer/Expression/Impact | V1.8 / V1.8 / V1-2 | See [HiQNet guide / limitations](soundcraft/hiqnet.md)
+| XM32 | Behringer X32/M32 | V1.15 or newer | |
+| XAir | Behringer XAir or Midas MR  | V1.12 or newer | |
+| Avantis | A&H Avantis  | V1.12 or newer | | 
+| GLD | A&H GLD  | V1.61 | |
+| SQ | A&H SQ  | V1.4.1 or newer | |
+| Qu | A&H Qu  | V1.90 or newer | |
+| Si | Soundcraft Si | V1.8 / V1.8 / V1-2 | See [HiQNet guide / limitations](soundcraft/hiqnet.md)
 | Vi | Soundcraft Vi ([view details](soundcraft/vi.md)) | Latest | See [HiQNet guide / limitations](soundcraft/hiqnet.md)
 | Ui | Soundcraft Ui | Latest | |
-| Wing | Behringer Wing mixer | Any | |
-| DL | Mackie DL32S/DL16S | MFV V5.2 (Mandolin 1.6) | |
+| Wing | Behringer Wing | Any | |
+| DL | Mackie DL32S/DL16S/DL32R/DL1608 | MFV V5.2 (Mandolin 1.6) | |
 
 
 ## Features
