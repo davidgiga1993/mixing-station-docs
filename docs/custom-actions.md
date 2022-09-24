@@ -28,7 +28,8 @@ To do so use one of the following tags:
 | `[bpm]` | FX | BPM for 1/4 notes |
 | `[sofname]` | Sends on fader | Name of the current bus master |
 | `[shortLabel]` | Channel actions | Short version of label |
-| `[chname]` | Channel actions | Name of the channel of the action |
+| `[chname]` | Channel actions | Current name of the channel |
+| `[chnum]`  | Channel actions | Channel type + name (e.g. `Mix 01`) |
 | `[sendName]` | Channel send actions | Name of the channel send used by the action |
 | `[fx]` | FX actions | Name of the FX type |
 | `[varname]` | FX actions | Name of FX parameter |
