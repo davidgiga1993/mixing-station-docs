@@ -33,20 +33,25 @@ You can check the settings in iOS: `Settings > Privacy > Local Network`
 ## First launch
 
 When opening the app you'll see the launcher view.
-![Launcher](img/launcher.png)
+![Launcher](img/generated/start-screenshot.png)
+
+### Menu
+The top menu gives you access to the global settings as well as this help page.
+
+## Mixer series
+Once you've selected the mixer series you want to work with, you'll see the
+following view
+![Launcher](img/generated/console-start-screenshot.png)
 
 This view allows you to configure where and how you want to connect to the mixer.
 
-## Mix access
-Mix access allows you to restrict access to certain mix buses. 
+### Permissions
+The `permissions` button allows you to restrict access to certain mix buses. 
 The user will not be able to change any other mix than the ones selected. This is ideal for personal monitor mixing or dedicated monitor engineers.
 It is possible to limit the access to multiple mixes as well.
 
-## Console IP
-This field allows entering the console IP address. It's only used the using the `Connect` button.
+### Mixer IP
+This field allows entering the console IP address or hostname. It's only used the using the `Connect` button.
 
-## App version
+### App version
 In the bottom left of the screen you can see the version of the app
-
-## Menu
-The top menu gives you access to the global settings as well as this help page.

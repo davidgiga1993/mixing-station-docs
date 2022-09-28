@@ -7,7 +7,7 @@ The app settings can be opened via the menu from the `start view` (directly afte
 Menu -> Gear icon
 ```
 
-![Settings-Manager](../img/settings/global.png)
+![Settings-Manager](../img/generated/global-settings-screenshot.png)
 
 ## Update branch
 > PC version only

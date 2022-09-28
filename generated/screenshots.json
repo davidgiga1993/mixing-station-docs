@@ -1,0 +1,141 @@
+{
+    "width": 800,
+    "height": 500,
+    "targetDensity": 1.1,
+    "screenshots":
+    [
+        {
+            "name": "start"
+        },
+        {
+            "name": "global-settings",
+            "activity": "GLOBAL_SETUP"
+        },
+        {
+            "name": "console-start",
+            "mixer": "Avantis",
+            "activity": "START"
+        },
+        {
+            "name": "layers-overview",
+            "mixer": "X32/M32",
+            "activity": "APP_LAYER_ORDER"
+        },
+        {
+            "name": "settings-manager",
+            "mixer": "X32/M32",
+            "activity": "APP_SETTINGS_MANAGER"
+        },
+        {
+            "name": "button-long-click",
+            "mixer": "Avantis",
+            "activity": "MIXER",
+            "uiArea":
+            [
+                {
+                    "type": "button",
+                    "byName": "Ch 1-8"
+                }
+            ]
+        },
+        {
+            "name": "button-off",
+            "mixer": "X32/M32",
+            "activity": "MIXER",
+            "actions":
+            [
+                {
+                    "type": "button",
+                    "byName": "Fine",
+                    "state": "off"
+                }
+            ],
+            "uiArea":
+            [
+                {
+                    "type": "button",
+                    "byName": "Fine"
+                }
+            ]
+        },
+        {
+            "name": "button-on",
+            "mixer": "X32/M32",
+            "activity": "MIXER",
+            "actions":
+            [
+                {
+                    "type": "button",
+                    "byName": "Fine",
+                    "state": "on"
+                }
+            ],
+            "uiArea":
+            [
+                {
+                    "type": "button",
+                    "byName": "Fine"
+                }
+            ]
+        },
+        {
+            "name": "app-link-settings",
+            "mixer": "X32/M32",
+            "activity": "APP_SETUP_APP_LINK",
+            "actions":
+            [
+                {
+                    "type": "button",
+                    "byName": "Off",
+                    "state": "clickOn"
+                }
+            ]
+        },
+        {
+            "name": "sidebar-soflist",
+            "mixer": "X32/M32",
+            "activity": "MIXER",
+            "settings":
+            {
+                "app":
+                {
+                    "showSoFMixList": true
+                }
+            },
+            "uiArea":
+            [
+                {
+                    "type": "button",
+                    "byName": "Fine"
+                },
+                {
+                    "type": "button",
+                    "byName": "Mix 1-8"
+                }
+            ]
+        },
+        {
+            "name": "sidebar",
+            "mixer": "X32/M32",
+            "activity": "MIXER",
+            "settings":
+            {
+                "app":
+                {
+                    "showSoFMixList": false
+                }
+            },
+            "uiArea":
+            [
+                {
+                    "type": "button",
+                    "byName": "Fine"
+                },
+                {
+                    "type": "button",
+                    "byName": "Mix 1-8"
+                }
+            ]
+        }
+    ]
+}

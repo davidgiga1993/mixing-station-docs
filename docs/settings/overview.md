@@ -39,7 +39,7 @@ Menu -> Setup (gear icon) ->  Folder icon
 ```
 
 
-![Settings-Manager](../img/settings-manager.png)
+![Settings-Manager](../img/generated/settings-manager-screenshot.png)
 
 Use the scope buttons to select which settings should be saved or loaded.
 **Press and hold** an entry to open a context menu.
@@ -76,4 +76,4 @@ There are two ways to share `User settings` settings:
 1) Open the context menu and selecting `OS share`.
 
 Depending on the platform, multiple share options are available.
-For importing you can use the arrow menu button or select the file you want to import in a file explorer and open it with mixing station.
+For importing, you can use the arrow menu button or select the file you want to import in a file explorer and open it with mixing station.

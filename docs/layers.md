@@ -10,7 +10,7 @@ Open from the mixer view:
 Menu -> Setup (gear icon) -> Layers
 ```
 
-![Overview](img/layers-overview.png)
+![Overview](img/generated/layers-overview-screenshot.png)
 
 
 ### Channels per layer
@@ -50,9 +50,9 @@ The `Target Mix` option allows you to select which mix of a channel you want to 
 
 This is useful if you want for example to be able to change an FX send for your main vocals without using sends on faders. 
 
-By default the `Any` option is selected. `Any` will cause the channel to follow the currently selected sends on fader mix (default app behavior). Any other selection will cause all channels added in that mode to be fixed to the selected mix.
+By default, the `Any` option is selected. `Any` will cause the channel to follow the currently selected sends on fader mix (default app behavior). Any other selection will cause all channels added in that mode to be fixed to the selected mix.
 
 
-In the follwing example I'm adding 3x `Ch 1` but with different target mixes. As you can see in the mixer view, each fader now controls the send level to the selected mix.
+In the following example I'm adding 3x `Ch 1` but with different target mixes. As you can see in the mixer view, each fader now controls the send level to the selected mix.
 
 ![Target Mix Example](gif/layer-target-mix.gif)

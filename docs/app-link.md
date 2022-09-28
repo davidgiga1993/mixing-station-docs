@@ -12,7 +12,7 @@ App-Link can synchronize the currently selected channel between those devices.
 The table at the bottom shows all other devices found using App-Link
 
 ## Settings
-![Settings](img/app-link/1.png)
+![Settings](img/generated/app-link-settings-screenshot.png)
 
 ### Enable
 Enables the feature.
