@@ -39,7 +39,7 @@ nav:
       - Overview: settings/overview.md
       - Global settings: settings/global.md
       - User / Session settings: settings/user_session.md
-    - Layers: layers.md
+    - Layers / SoF: layers.md
     - Channel strip: settings/channel-strip.md
   - Advanced:
     - App-Link: app-link.md

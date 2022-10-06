@@ -1,16 +1,20 @@
+This page describes the layer and Sends on Fader configuration.
+
+
 ## What is a layer?
 A layer defines what channels should be shown in the mixer.
 You can create an unlimited number of layers and each layer can contain up to 32 channels.
 
 ## Layer settings
-This view lets you configure all layers
+This view lets you configure all layers as well as change the sends on fader configuration
 
 Open from the mixer view:
 ```
 Menu -> Setup (gear icon) -> Layers
 ```
 
-![Overview](img/generated/layers-overview-screenshot.png)
+![Overview](img/layers-settings.png)
+
 
 
 ### Channels per layer
@@ -56,3 +60,10 @@ By default, the `Any` option is selected. `Any` will cause the channel to follow
 In the following example I'm adding 3x `Ch 1` but with different target mixes. As you can see in the mixer view, each fader now controls the send level to the selected mix.
 
 ![Target Mix Example](gif/layer-target-mix.gif)
+
+
+## Sends on Fader
+On the right side you can select which mixes should be shown in the sends on fader list of the app.
+It is also possible to change the order of the items.
+
+You can reset the configuration to the default using the top menu.

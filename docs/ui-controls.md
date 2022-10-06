@@ -47,6 +47,8 @@ Additionally you can tap the red area to nudge the fader by 0.25db increments.
 - GEQ: **Double tap** to reset the value
 
 ## Sliders
+The behavior of the sliders can be configured in the [app settings](settings/user_session.md).
+Default behavior:
 
 - **Double tap** to reset the value to the default
 - **Drag** to change the value
@@ -67,7 +69,7 @@ Default behavior:
 
 ## Mixer sidebar
 
-![Sidebar](img/sidebar-soflist.png)
+![Sidebar](img/generated/sidebar-soflist-screenshot.png)
 
 Contains two **scrollable** bars for layer and access to [sends on faders](sends-on-faders.md)
 

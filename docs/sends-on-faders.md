@@ -30,3 +30,8 @@ Additionaly you have to press the `Snd-Fader` button to enable sends on fader.
 
 At the very end of the sends on fader selection is a `Gain` item. When selected the fader knobs will turn red
 and show the current gain of the channel.
+
+## Configuration
+
+It's possible to change the order of the items in the list, as well as remove any unused items,
+see [layer setup](layers.md) for more details.
