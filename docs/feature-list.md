@@ -16,6 +16,7 @@ Please make sure your mixer has the latest compatible firmware
 | -- | -- | -- | -- |
 | XM32 | Behringer X32/M32 | V1.15 or newer | |
 | XAir | Behringer XAir or Midas MR  | V1.12 or newer | |
+| dLive | A&H dLive  | V1.93 or newer | | 
 | Avantis | A&H Avantis  | V1.12 or newer | | 
 | GLD | A&H GLD  | V1.61 | |
 | SQ | A&H SQ  | V1.4.1 or newer | |
