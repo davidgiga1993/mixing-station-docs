@@ -57,6 +57,11 @@ Sliders are used in some FX views and in the knob popup described above.
 The white line indicates the default value for this parameter.
 ![Slider popup](img/slider-popup.png)
 
+## Text input
+![Input button](img/text-input.png)
+
+Dark buttons indicate a text input. Some fields may allow multiline text input. On iOS you can use the `$` character to indicate a line break.
+
 ## Channel buttons
 
 The behavior of these button can be configured in the [app settings](settings/user_session.md).

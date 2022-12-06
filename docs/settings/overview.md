@@ -1,33 +1,37 @@
 # Settings
 This page explains how the app stores settings.
 
-There are 4 different settings categories: Globa, Series, Session and user settings.
+There are 4 different settings categories: Global, Series, App, and User settings.
 
 | Name | Scope | Custom saves (import/export) possible |
 | ---- | --- | --- |
-| Global settings | Applies to all apps | No |
+| Global settings | Applies to the entire app | No |
 | Console series settings | Applies to a console series / Android app | No |
-| User settings | Applies to connected/offline mode | Yes |
+| App settings | Applies to the entire app | No |
+| User settings | Applies to a specific mixer model | Yes |
 
 ## Global settings
 These settings apply to the whole app. On android these settigns apply to all app instances.
 
-- Update branch
-- UI scale
+- All app UI / UX related configuration (scale, slider sensitity and behavior, ...)
 - Network interface settings
-- All app UI / UX related configuration
-- [Channel strip](channel-strip.md)
 
 ## Console series settings
-These settings apply to the currently selected mixer series (or a single android app).
+These settings apply to the currently selected mixer series (for example the `XM32`).
 
-- Restricted access config
-- Last IP address and mix access
-- Mutegroup names
+- [Permissions configuration](../getting-started.md#permissions)
+- IP address of the mixer
+
+
+## App settings
+These settings are also global for the entire app and let you change UI/UX related settings, for example the [Channel strip](channel-strip.md).
+```
+Menu -> Setup (gear icon)
+```
 
 
 ## User settings
-These settings are only saved if `Autosave` is enabled or the user saves them manualy.
+These settings are saved automatically by default (see `Autosave`). You can save them manualy as well.
 
 - [Layer](../layers.md)
 - [Layouts](../custom-layouts.md)

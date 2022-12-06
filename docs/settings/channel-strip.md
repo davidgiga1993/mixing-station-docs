@@ -1,26 +1,30 @@
 # Channel strip settings
-![Channel strip settings](../img/settings/channel-strip.gif)
-These settings are related to the channel strips in the mixer and belong to the **user settings**
+![Channel strip settings](../img/settings/channel-strip.webp)
 
-## Items
+These settings are related to the channel strips in the mixer and belong to the **user settings** (aka. apply to all mixers)
+
+## Channel strip items
 On the left side of the view you can change the size and position of the channel strip UI elements.
-Drag the green rectanges to resize the items. Drag anywhere else to change the position.
+Drag directly on the item resize the items. Drag on the left side to change the position.
 
-You can add new items by using the `Add Item` button. To remove an item simply click or long click on it.
+## Fader
+### Show groups
+When enabled, all assigned DCA and Mutegroups will be shown on the right of the fader
 
-### Touch modes
-It is possible to change the touch modes for this setup dialog using the `Auto` button in the top menu:
+### Fader touch
+Defines what should happen if the fader is touched
 
-- Auto: The item will be moved/resized depending on where you touch the icon
-- Resize: The item will always resized when dragging
-- Move: The item will always be moved when dragging
-
+### Double tap
+Defines what should happen if the fader is double tapped
 
 ## Sliders
 This section configures all sliders inside a channel strip (e.g. in the mixer and any other channel strip).
 
 ## Behaviour
 This section configures how the channel strip should behave
+
+### Highlight channel
+If enabled, the currently selected channel will be highlighted
 
 ### Fine fader ratio
 Changes the sensitivity of the fader when [fine mode](/ui-controls/#fine-mode) is enabled
@@ -31,5 +35,8 @@ Changes the behavior when taping a channel button
 ### Channel long click
 Changes the behavior when long pressing a channel button
 
-## Channel strip items
-In this section you can select what items should be shown in a channel strip
+### Sends click
+Defines what should happen if a sends slider inside the channel strip was clicked
+
+### Sends readonly
+If enabled, the sends slider inside the channel strip are read-only (to prevent accidential changes)

@@ -3,18 +3,16 @@
 This feature allows you to fully customize the mixer view to match your workflow
 and create new views for different purposes (e.g. fixed installations).
 
-![Settings-Manager](img/layouts/layouts-settings.png)
+![Layouts-Overview](img/layouts/layouts-settings.png)
 
 
 ## Structure
 You can create an unlimited number of layouts, each of them has a set of UI elements.
-**Note:** Landscape and portrait position/sizes are stored independent from each other.
-To edit any of the other orientations just rotate your device in the editor.
 
 - Layout Overview
 	- Layout
 		- UI items
-			- One or more [actions](custom-actions.md) per UI item
+			- One or more [action](custom-actions.md) per UI item
 
 ## Quickstart
 
@@ -23,25 +21,27 @@ To edit any of the other orientations just rotate your device in the editor.
 3. Press the `+` menu entry to add a new layout
 4. Add and move UI items to your taste
 
+> By default, the first custom layout you create will override the mixer layout
+
 ## Layout Settings
 While in the layout editor, press the `gear icon` in the top menu to open the layout settings.
 ![Layout settings](img/layouts/layout-settings.png)
 
-From there you can rename your layout or change the mode.
+From there you can rename your layout, or change the general behavior
 
-### Layout modes
-The layout modes option configures when/how the layout is applied to the app.
+### Behavior
+The layout behavior option configures when/how the layout is applied to the app.
 
 | Mode | Description
 | --- | --- |
 | Default | The layout is only shown if the user manually opens the layout |
-| Override mixer layout | The layout replaces the stock mixer layout, |
+| Override mixer layout | The layout replaces the default mixer layout |
 | Open on startup | Opens the layout on startup. |
 
 The `Open on startup` option is designed for scenarios where you want to limit the parameters accessible (the top menu is empty).
 Additionally it's possible to **password protect** going back to the main mixer.
 
-This allows you to create a dedicated layout (for example for a wall mounted tablet) and completely limit access to anything else in the app.
+This allows you to create a dedicated layout (for example for a wall mounted tablet) and completely restrict access to anything else in the app.
 
 
 ## UI items

@@ -38,7 +38,8 @@ nav:
     - Settings: 
       - Overview: settings/overview.md
       - Global settings: settings/global.md
-      - User / Session settings: settings/user_session.md
+      - App settings: settings/app.md
+      - User settings: settings/user.md
     - Layers / SoF: layers.md
     - Channel strip: settings/channel-strip.md
   - Advanced:

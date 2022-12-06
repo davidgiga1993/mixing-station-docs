@@ -8,10 +8,15 @@ Menu -> Setup -> App
 ```
 
 ## App tab
-![General settings](../img/settings/session-general.png)
-The first tab contains all *session settings*. On the left side you have different setting categories available.
+![General settings](../img/settings/app.png)
+The first tab contains all *app settings*. On the left side you have different setting categories available.
 
 You can press the `?` for more details. Some special settings are explained here in more detail.
+
+The [channel strip](channel-strip.md) tab is explaiend on it's dedicated page.
+
+### Setup wizard
+Restarts the setup wizard that was shown to you the first time you've opened the app.
 
 ### Orientation lock
 If supported by the platform you can lock the orientation of the device. If not available please use the OS mechanism for locking the screen.
@@ -19,13 +24,13 @@ If supported by the platform you can lock the orientation of the device. If not 
 ### Autosave
 When enabled automatically saves all `User settings` as `default` when leaving any settings view.
 
+### USB Midi
+Enables the USB midi stack. This should only be enabled if you're using this functionality as it consumes more battery.
+
 ### Windows
 >PC only
 
 These settings allow you to configure the multi window behavior of the app.
-
-### USB Midi
-Enables the USB midi stack. This should only be enabled if you're using this functionality as it consumes more battery.
 
 ## Mixer category
 ![Mixer settings](../img/settings/session-mixer.png)
@@ -74,10 +79,23 @@ Depending on the mixer this means that the app will change the PAFL selection.
 ![Mixer settings](../img/settings/session-metering.png)
 In this section you can configure everything related to signal metering and RTA.
 
-### Gate/Dyn Timeline
-Enables a history plot of the gate/dynamics input and gain reduction signal.
+### Meterbridge
+Shows a meterbrige on top the mixer. The number of meters pre group follows your `visible channels` layer configuration.
+
+### Peak hold
+Defines how long the peak indicator should be shown before resetting.
+
+### Decay
+Defines how fast the meter should decay (fall down).
+
+### GR level plot
+Enables a history plot of the dynamics input and gain reduction signal.
 ![timeline](../img/dyn-timeline.png)
 
 ### Tap points
 Depending on the mixer you can change the signal tap points that should be used for showing the meters.
 If you mixer doesn't support this feature it will not be shown in the app.
+
+
+## App-Link category
+See [app-link](../app-link.md)
