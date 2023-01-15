@@ -4,8 +4,8 @@ The beta program allows you to test an upcoming version before anyone else.
 
 ## Discussion / Feedback
 
-All discussion about the beta versions and feedback is happening in our [discord channel](https://discord.gg/d8bJPg6kZm)
-. Feel free to join us!
+All discussion about the beta versions as well as general feedback is happening in our [discord channel](https://discord.gg/d8bJPg6kZm). 
+Feel free to join us!
 
 ## Android
 
@@ -44,29 +44,11 @@ I'm very thankful for all the feedback I can get for those mixers.
 
 This section will get updated based off the feedback I receive
 
-### A&H Dlive
-
-1. Open secret mode (see below)
-2. Enter `dlive` and confirm
-
-Things which should be tested:
-
-| Feature      | Result   | Remark                                                                  |
-|--------------|----------|-------------------------------------------------------------------------|
-| Metering     | Untested | The metering of the channels should work                                |
-| Value update | Untested | The values of the app should update correctly                           | 
-| Errors       | Untested | The mixer should not show any errors during the usage of mixing station |
-
-
-#### Known issues
-
-- Search doesn't work
-- Channel link may not work
-- Features missing
-
-## Secret Mode
+## Secret Mode / Pre-release
 The secret mode allows you to access untested features of the app.
 
 You can open it by `double-tapping with two fingers` on the screen after opening the app,
 or by pressing `CTRL+D`.
 This will open a new dialog where you can enter the code.
+
+- Currently there are no pre-relase secret features.
