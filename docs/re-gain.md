@@ -4,8 +4,8 @@ This feature allows you to change the gain/trim of a channel without affecting t
 A typical use case would be if an input is louder than during soundcheck and you need to adjust the gain but keep the monitor sound stable.
 
 ## Usage
-1. Open the config page of the channel you want to adjust the gain
-2. Press and hold the gain knob (or rightclick)
+1. Open the config page of the relevant channel
+2. Press and hold the gain knob (or right-click)
 3. Enable "Re Gain" from the top menu
 4. Adjust the gain
 
@@ -13,7 +13,7 @@ A typical use case would be if an input is louder than during soundcheck and you
 ![Re-Gain popup](img/regain/overview.png)
 
 ## Adjustment
-Gate and dynamics thresholds will be increased / decreased with the gain value
+Gate and dynamics thresholds will be increased / decreased with the gain value.
 Sends / Faders will be adjusted in the inverted direction.
 
 ### Example

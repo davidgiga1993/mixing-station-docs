@@ -3,7 +3,7 @@
 Soundcraft mixers use HiQNet for remote control apps. This protocol has certain limitations which may prevent the app from working correctly.
 
 ## Limitations
-The Soundcraft Vi and Si series mixer does not allow remote control of all parameters via network.
+The Soundcraft Vi and Si series mixer does not allow remote control of all parameters via a network.
 Mixing Station currently implements nearly all parameters which can be remote controlled. 
 
 
@@ -21,11 +21,11 @@ Additional configuration for the hiqnet addresses (this is a sample configuratio
 | Console | Any other than 1337 | Make sure **not** to use any access restrictions on the mixer | 
 | Android/iOS | 1337 | Make sure each instance of the app (including ViSi remote) has a different address! |
 
-You can also refer to the official [soundcraft setup guide](https://www.youtube.com/watch?v=P-j-x1BJrx0).
+You can also refer to the official [Soundcraft setup guide](https://www.youtube.com/watch?v=P-j-x1BJrx0).
 
 ## Troubleshooting
 ### Mixer not connecting
-Sometimes the network stack of the mixer crashes - this also happens with the official ipad app and is not related to mixing station.
+Sometimes the network stack of the mixer crashes - this also happens with the official ipad app and is not related to Mixing Station.
 Only a reboot of the mixer can fix this issue. 
 
 1. Make sure you can ping the IP address of the mixer from your mobile device. If this is not possible your network configuration is wrong.
@@ -40,8 +40,8 @@ Here is how the connection is established:
 1. App sends broadcast request for connection (udp)
 2. The mixer connects to the app (tcp)
 
-Note: If the mixer does not respond to the message from step `1.` for whatever reason (e.g. the network of the mixer crashed internaly) you won't be able to connect to the mixer.
+Note: If the mixer does not respond to the message from step `1.` for whatever reason (e.g. the network of the mixer crashed internally), you won't be able to connect to the mixer.
 
-During testing this happend randomly with the Si Performer and Expression series but is known to happen to any soundcraft mixer.
-I cannot change this behaviour since it's a bug in the mixers firmware.
+During testing this happened randomly with the Si Performer and Expression series but is known to happen with any Soundcraft mixer.
+I cannot change this behaviour since it's a bug in the mixers' firmware.
 

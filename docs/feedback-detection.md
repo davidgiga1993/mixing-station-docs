@@ -9,13 +9,13 @@ Menu -> Fbk Detection
 ```
 
 ## UI Elements
-- RTA Source: Selects the signal source which should be used for showing the RTA and detecting the feedback.
-- Target: Select the channel of which GEQ should be used to eliminate the feedback.
-- Auto: This button activates automatic GEQ mode. It will reduce the gain of the frequencies which are creating a feedback.
-- Yellow RTA lines: These lines indicate which frequencies are detected as feedback. The higher the line, the more the app is confident that this frequency is a feedback.
+- RTA Source: Select the signal source that should be used for showing the RTA and detecting the feedback.
+- Target: Select the channel on which GEQ should be used to eliminate the feedback.
+- Auto: This button activates automatic GEQ mode. It reduces the gain of the frequencies which are causing feedback.
+- Yellow RTA lines: These lines indicate which frequencies the app infers to be feedback. A higher line indicates greater confidence in the app's evaluation.
 
 ## Example
-Here is an example on how to ring out a monitor with the feedback detection view.
+There follow instructions on how to ring out a monitor with the feedback detection view.
 
 Requirements: a monitor and a microphone.
 
@@ -24,8 +24,8 @@ Requirements: a monitor and a microphone.
 3. Open the feedback detection view and select the microphone as RTA source
 4. Select the Bus as target
 5. Press the auto button
-6. Create a feedback by holding the mic close to the monitor or increasing its gain
+6. Create feedback by holding the mic close to the monitor or increasing its gain
 
 The app should now remove the frequencies that are creating the feedback.
-Make sure you stop the "auto" mode when the desired goal was reached.
-Auto mode will be stopped automatically when leaving the view.
+Make sure you stop the "auto" mode when the desired goal is reached.
+Auto mode stops automatically when you leave the view.

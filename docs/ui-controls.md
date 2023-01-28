@@ -1,8 +1,8 @@
 # UI Controls
 
-This page shows the most common UI controls and how to use them.
+This page describes the most common UI controls and how to use them.
 
-You can always also use **right click** instead of **press and hold** if you're using a mouse.
+Note that if you are using a mouse, **right click** - in the following instructions - is equivalent to **press and hold**.
 
 ## Buttons
 
@@ -42,30 +42,31 @@ To decrease the value just use the opposite direction as shown in the image belo
 Drag the fader knob to change the value. If **fine mode** is enabled you can start dragging the fader from any position
 and the movements will be more precise.
 
-Additionally you can tap the red area to nudge the fader by 0.25db increments.
+Additionally, you can tap the areas highlighted in red above to nudge the fader by 0.25db increments.
 
 - GEQ: **Double tap** to reset the value
 
 ## Sliders
-The behavior of the sliders can be configured in the [app settings](settings/user_session.md).
-Default behavior:
+The behaviour of the sliders can be configured in the [app settings](settings/user_session.md).
+Default behaviour:
 
 - **Double tap** to reset the value to the default
 - **Drag** to change the value
 
 Sliders are used in some FX views and in the knob popup described above.
 The white line indicates the default value for this parameter.
+
 ![Slider popup](img/slider-popup.png)
 
 ## Text input
 ![Input button](img/text-input.png)
 
-Dark buttons indicate a text input. Some fields may allow multiline text input. On iOS you can use the `$` character to indicate a line break.
+Dark buttons indicate a text input. Some fields may allow multiline text input. In iOS you can use the `$` character to indicate a line break.
 
 ## Channel buttons
 
-The behavior of these button can be configured in the [app settings](settings/user_session.md).
-Default behavior:
+The behaviour of these button can be configured in [app settings](settings/user_session.md).
+Default behaviour is as follows:
 
 - **Tap** Open channel details
 - **Press and hold** Open scribble strip
@@ -76,7 +77,7 @@ Default behavior:
 
 ![Sidebar](img/generated/sidebar-soflist-screenshot.png)
 
-Contains two **scrollable** bars for layer and access to [sends on faders](sends-on-faders.md)
+Contains two **scrollable** bars for layers and access to [sends on faders](sends-on-faders.md)
 
 ### Fine mode
 
@@ -101,24 +102,22 @@ Each button provides access to a single layer
 
 ![Mixer menu](img/mixer-menu.png)
 
-The top menu provides access to other views and options. Depending on the current platform and view you're in the items
-will change.
+The top menu provides access to other views and options. The exact items depend on the current platform and view.
 
 ### Status
 
-On the left side the current view and additional information are shown
+The current view and additional information are display on the left.
 
 ### Menu items
 
-The menu items are shown in a fixed order. If too many items are in the menu, they will be hidden and a `...` item is
-shown to access other items.
+The menu items are shown in a fixed order. If there are too many items, some will be hidden and accessible using the  `...` item.
 
 ## Quick access
 
 ### Mute groups
 
 You can always open the mute groups from any view by **double tapping with two fingers** anywhere
-on the screen
+on the screen.
 
 ### Clear solo
 

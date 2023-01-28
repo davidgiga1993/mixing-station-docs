@@ -1,7 +1,7 @@
 # Sends on faders
 
 Sends on faders allows you to quickly access all sends to a certain mix.
-When enabled all faders will show the level send to the selected bus instead of the LR mix.
+When enabled, all faders will show the level sent to the selected bus instead of the LR mix.
 
 It is also possible to show the channel gains on the faders.
 
@@ -14,7 +14,7 @@ There are two possible UI modes available:
 ## Bus master
 
 The *bus master* is the master channel of the currently selected mix.
-If sends on fader is disabled this will correspond to the LR mix. Otherwise to the selected target mix.
+If sends on fader is disabled this will correspond to the LR mix, otherwise to the selected target mix.
 
 ### SoF list
 

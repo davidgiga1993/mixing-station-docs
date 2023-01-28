@@ -1,7 +1,7 @@
 # Global settings
 There are two places for configuring global settings:
 
-- The `Global settings` view allows you to change generic settings such as UI scale, scroll behavior or network interfaces
+- The `Global settings` view allows you to change generic settings such as UI scale, scroll behaviour or network interfaces
 - The `App settings` view allows you to change settings related to the mixing UI
 
 ## Global settings
@@ -16,28 +16,28 @@ Menu -> Gear icon
 ### Update branch
 > PC version only
 
-Configures which branch to use when checking for updates
+Configures which branch to use when checking for updates.
 
 ### Scale
 Changes the UI scale of the app.
 
 ### Invert scroll
-Inverts the mouse / touchpad scroll direction
+Inverts the mouse / touchpad scroll direction.
 
 
 ### Access bus processing
-When enabled a user with restricted access to a single bus is allowed to access the processing of that bus.
+When enabled, a user with restricted access to a single bus is allowed to access the processing of that bus.
 
 ### Autostart
-Autostart allows you to configure to which mixer the app should connect after starting.
-This is usefull for installation purposes where the app should always connect to a mixer without user interaction.
+Autostart allows you to configure which mixer the app should connect to when starting.
+This is useful for installation purposes where the app should always connect to a mixer without user interaction.
 
 ### API
-Only available on Desktop platform. Lets you enable the API access for Mixing Station. 
+Only available on Desktop platform. Enables API access for Mixing Station. 
 
 
 ### Auto reconnect
-When enabled the app will automatically reconnect to the mixer in case of a connection error
+When enabled, the app automatically reconnects to the mixer in the case of a connection error.
 
 
 ### Network

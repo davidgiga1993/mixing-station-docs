@@ -7,4 +7,4 @@ Mixing Station supports all models of the VI mixer series, but there are some li
 
 
 ## Limitations
-The general [hiqnet limitations](hiqnet.md) apply
+The general [hiqnet limitations](hiqnet.md) apply.

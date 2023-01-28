@@ -1,7 +1,7 @@
 # PC
-For pc only one app is distributed. This app can control all mixers and is only available as "pro" version.
+For pc only one app is distributed. This app can control all mixers and is only available as a "pro" version.
 You can use all features of the app in the offline mode for free.
-As soon as you want to connect to a mixer it's required to buy the app for the mixer model you want to connect to.
+As soon as you want to connect to a mixer you must buy the app for that mixer model.
 
 ## Requirements
 - Operating system: Windows 10 (x64) or later, OSX 10.9 or later, Linux (arm64, x64)
@@ -15,12 +15,12 @@ All settings and license files are stored in one folder
 
 | OS | Location | 
 | --- | --- |
-| Windows | `%USERPFORILE%/MixingStation` |
+| Windows | `%USERPROFILE%/MixingStation` |
 | OSX | `%HOME%/MixingStation` |
 | Linux | `%HOME%/MixingStation` |
 
 ## Licensing
-After purchasing a license you'll receive a download like to a license file. Make sure to keep a backup of your license files in case of data loss!
+After purchasing a license you will receive a download link to a license file. Make sure to keep a backup of your license files in case of data loss!
 
 You can import the license into the app via the license page:
 ![menu](../img/license/pc-menu.png)
@@ -44,12 +44,12 @@ This section is work in progress.
 
 
 ## Program arguments
-You can provide additional the following arguments to mixing station.
+You can provide the following additional command-line arguments to Mixing Station.
 
 | Parameter | Description | Purpose |
 | --- | --- | --- |
 | `-appSeries` | Which mixer series to use (PC/iOS). Same value as the button text in the app | Auto connect |
-| `-ip` | IP address of the mixer, remove if you want to start the search instead. | Auto connect |
+| `-ip` | IP address of the mixer. Remove if you want to start the search instead. | Auto connect |
 | `-mixTarget` | Target mix for the access restrictions. See table below | Auto connect |
 | `-web` | Port of the webserver (disabled by default) | [API](../integrations/apis.md) |
 | `-osc` | Port of the OSC server (disabled by default) | [API](../integrations/apis.md) |
@@ -69,9 +69,9 @@ mixing-station.exe "-appSeries=X AIR" -ip=192.168.1.1 -mixTarget=-1
 
 
 ### Auto connect
-Since V0.0.8 you can configure mixing station to automatically connect to a mixer on startup. See the example above.
+Since V0.0.8 you can configure Mixing Station to automatically connect to a mixer on startup. See the example above.
 
 
 
 ## Known issues
-- Intel  HD Graphics 620, Driver 26.20.100.6859 - please downgrade to 22.20.16.4836
+- Intel HD Graphics 620, Driver 26.20.100.6859 - please downgrade to 22.20.16.4836

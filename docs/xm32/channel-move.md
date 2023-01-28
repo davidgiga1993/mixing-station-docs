@@ -16,7 +16,7 @@ The source channel will be stored in channel preset slot 100.
 Make sure you've got a good network connection!
 
 ## Signal source
-The signal source of a channel is fixed to its position. Due to the nature of how the move process works the routing will stay fixed at the physical channel.
+The signal source of a channel is fixed to its position. Due to the nature of how the move process works the routing will stay fixed to the physical channel.
 
 Before moving
 

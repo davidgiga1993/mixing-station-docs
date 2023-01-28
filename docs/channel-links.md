@@ -1,14 +1,14 @@
 # Channel Links and Quick Gangs
-Channel Links allows you to link the values of multiple channels together.
-Quick-Gangs allows you to edit multiple channels relative to each other.
+Channel Links allows you to link together the values of multiple channels.
+Quick-Gangs allows you to edit multiple channels relative to one another.
 
-This video gives a quick demonstration about the two features:
+The following video provides a brief demonstration of the two features:
 <div class="video-wrapper">
   <iframe width="650" height="400" src="https://www.youtube.com/embed/dLx8Jjchq7s" frameborder="0" allowfullscreen></iframe>
 </div>
 
-** Warning ** Using channel links on multiple mixing station instances at the same time may cause issues!
-It is recommended only to use this feature on one instance.
+** Warning ** Using channel links on multiple Mixing Station instances at the same time may cause issues!
+It is recommended to use this feature on one instance only.
 
 ## Channel Links
 Open main menu -> `Channel Links` to open the Channel Links view.
@@ -21,18 +21,18 @@ Open main menu -> `Channel Links` to open the Channel Links view.
 3. Opens the settings dialog
 
 #### Link table description
-This section describes the meaning of the columns of the link table
+The link table columns are described below:
 
 | Column   | Description                                                       | 
 |----------|-------------------------------------------------------------------|
 | Name     | Name of the link group                                            |
 | Channels | Number of channels included                                       |
 | Status   | Shows if the link is currently active                             |
-| Startup  | Indicates if this link group will be enabled when opening the app |
+| Startup  | Indicates if the link group is enabled when opening the app |
 
 
 All channel links are stored automatically for the current mixer model.
-When connecting to a mixer, all links will be disabled by default. This can be changed in the settings.
+When connecting to a mixer, all links are disabled by default. This can be changed in the settings.
 
 
 ### Creating links
@@ -43,7 +43,7 @@ When connecting to a mixer, all links will be disabled by default. This can be c
 
 
 ### Settings
-The `Apply after connect` setting defines if the links marked with `Startup: true` should be enabled automatically after 
+The `Apply after connect` setting determines if the links marked with `Startup: true` should be enabled automatically after 
 connecting to a mixer.
 
 
@@ -54,7 +54,7 @@ The difference between quick-gang and channel links is that quick-gang links all
 An example use case would be to adjust the gain of all drum channels by a certain amount - for example when the drummer 
 suddenly plays louder than during soundcheck.
 
-You can access this feature via the chain icon in the top menu of any channel view
+You can access this feature via the chain icon in the top menu of any channel view as shown below.
 
 ![quick-gang](img/chlinks/quickgang.png)
 

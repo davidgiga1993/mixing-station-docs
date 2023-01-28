@@ -13,8 +13,8 @@ Select channel -> SENDS -> Menu -> Mix Copy
 To use the mix copy feature open any channel and select "SENDS".
 Then press the gear icon in the top menu bar and select "Mix Copy".
 
-On the `Source` side select the mix which you want to copy.
-On the `Destination` side select the mix where the data should be pasted to.
+On the `Source` side select the mix that you want to copy.
+On the `Destination` side select the mix where the data should be pasted.
 Press the `Copy` button to start the copy process.
 
 **The target mix will be muted.**
