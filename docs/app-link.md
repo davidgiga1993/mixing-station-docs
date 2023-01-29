@@ -21,12 +21,13 @@ Enables the feature.
 The `Device Name` indicates the name of the current device. It's used for easier identification.
 
 ### Group Name
-Usually you don't need to change this at all.
+You don't usually need to change this.
 
-All devices with the same group name communicate with each other. In case you have multiple independent persons using the app-link feature in one network make sure to change the group name.
+All devices having the same group name communicate with one another. 
+If several groups of users want to use the App-Link feature independently on the same network, change the group name as required.
 
 ### Channel select
-If enabled the app will send the currently selected channel to other apps in the same group
+If enabled, the app sends the currently selected channel to other apps in the same group.
 
 
 ## Custom Layouts / Open view action

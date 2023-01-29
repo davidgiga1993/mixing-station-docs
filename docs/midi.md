@@ -1,6 +1,6 @@
 # Midi
 
-You can use any generic midi device to remote control the mixer via mixing station.
+You can use any generic midi device to remote control the mixer via Mixing Station.
 
 ## Supported protocols
 - General Midi
@@ -10,16 +10,16 @@ You can use any generic midi device to remote control the mixer via mixing stati
 - Baby HUI (deprecated)
 
 ## Default mappings
-The MCU and HUI protocols have a default mapping in mixing station, making it very easy to get started.
-At the bottom of this page you can find the default mapping.
+The MCU and HUI protocols have a default mapping in Mixing Station, making it very easy to get started.
+The default mapping is shown at the bottom of this page.
 
 ### MCU
-By default the channels are mapped to the currently active layer in mixing station.
+By default the channels are mapped to the currently active layer in Mixing Station.
 
 #### Channel strips
 | Control | Action | Description |
 | --- | --- | --- |
-| SELECT | Select in mixing station | - |
+| SELECT | Select in Mixing Station | - |
 | MUTE | Mute | - |
 | SOLO | Solo/PAFL | - |
 | REC | Not assigned | - |
@@ -67,7 +67,7 @@ In the app you define `faders`, `buttons` and `knobs` (called controller) which 
 
 - Midi controller (fader, button, ..)
 	- Uses one midi input and output device
-	- Has one or more actions assigned which define what parameter should be controlled
+	- Has one or more actions assigned defining the parameter that should be controlled
 
 ### Controller types
 There are three controller types available:
@@ -88,22 +88,22 @@ You can add / edit the midi devices form here.
 ### Add a new device
 1. Press the `+` item in the menu to add a new device.
 2. Give the device a name, select the appropriate protocol and input / output ports you want to use.
-3. Press `Apply`
+3. Press `Apply`.
 
 
 ### Add a new controller
-1. Select the midi device where you want to add a controller to.
+1. Select the midi device you want to add a controller to.
 2. Press the `+` item in the menu to add a new controller.
-3. Select the controller
+3. Select the controller.
 
 ### Configure a controller
 The edit controller view allows you to change the properties of the controller:
 
-- Unique name: Name which will be shown in the controller overview
+- Unique name: Name that will be shown in the controller overview
 - Input/Output: Selects which USB device should be used for Midi communication
 
 #### Output Modes
-The output mode configures when the value should be send back to the midi device.
+The output mode configures when the value should be sent back to the midi device.
 
 | Mode | Description |
 | -- | -- |
@@ -117,7 +117,7 @@ The app will automatically detect the midi channel and parameter type.
 
 You can also configure the parameters yourself:
 
-- Event type: The event type defines what midi command the controller should react to
+- Event type: The event type defines what midi command the controller should react to.
 
 	| Event type | Description |
 	| -- | -- | 
@@ -127,24 +127,24 @@ You can also configure the parameters yourself:
 	| CC | Triggers the actions on "Control Change" events |
 	| Pitch | Triggers the actions on "Pitch" events |
 
-- Channel: The midi channel which should be used
+- Channel: The midi channel that should be used
 - Param A/B: These two selections are for filtering the midi parameter.
-Depending on the current selected event type the names of the parameters will change.
+Depending on the currently selected event type the names of the parameters will change.
 A value of `-1` means that the value will be ignored.
 - Value source: Selects which midi parameter should be used as a value source.
-Example: A fader sends midi CC events. The position of the fader will be sends as `Value` of the CC command so this parameter should be used. Select `Param B` to select the second parameter which is in this case
+Example: A fader sends midi CC events. The position of the fader will be sent as `Value` of the CC command so this parameter should be used. Select `Param B` to choose the second parameter which in this case is 
 the `Value` parameter.
 
-	Note: Buttons do not require a value source because the action will be triggered as soon as a matching midi command was received.
+	Note: Buttons do not require a value source because the action will be triggered as soon as a matching midi command is received.
 
 #### Additional button settings
-- Output "on" value: Sets the value that should be send when the button is currently `on`. Some midi devices can show different colors depending on the midi value so this parameter can be used to change the color.
+- Output "on" value: Sets the value that should be sent when the button is currently `on`. Some midi devices can show different colors depending on the midi value so this parameter can be used to change the color.
 - Mode: How the button should react to midi commands
 
 	| Mode | Description |
 	| -- | -- |
 	| Toggle | One button press toggles the value |
-	| Momentary | Press and hold for a `on` command. Release for an `off` command |
+	| Momentary | Press and hold for an `on` command. Release for an `off` command |
 	| Momentary inv. | Same as `Momentary` but inverted |
 
 #### Additional rotary settings

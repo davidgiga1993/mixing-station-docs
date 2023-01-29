@@ -1,12 +1,12 @@
 # Allen & Heath
 
 ## Qu Connection modes
-Mixing Station has two different modes how it can connect to the mixer:
+Mixing Station has two different modes for connection to the mixer:
 
 - Qu-Drive enable
 - Qu-Drive disable
 
-The table below shows the differences of the two modes:
+The table below shows the differences between the two modes:
 
 | Mode | Parallel instances | Qu-Drive access |
 | --- | --- | --- |

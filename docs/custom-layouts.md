@@ -7,7 +7,7 @@ and create new views for different purposes (e.g. fixed installations).
 
 
 ## Structure
-You can create an unlimited number of layouts, each of them has a set of UI elements.
+You can create an unlimited number of layouts, each of them has a set of UI elements as illustrated below.
 
 - Layout Overview
 	- Layout
@@ -21,79 +21,80 @@ You can create an unlimited number of layouts, each of them has a set of UI elem
 3. Press the `+` menu entry to add a new layout
 4. Add and move UI items to your taste
 
-> By default, the first custom layout you create will override the mixer layout
+> By default, the first custom layout you create will override the mixer layout.
 
 ## Layout Settings
-While in the layout editor, press the `gear icon` in the top menu to open the layout settings.
+While in the layout editor, press the `gear icon` in the top menu to open the layout settings as shown below.
+
 ![Layout settings](img/layouts/layout-settings.png)
 
-From there you can rename your layout, or change the general behavior
+Here you can rename your layout, or change the general behaviour.
 
-### Behavior
-The layout behavior option configures when/how the layout is applied to the app.
+### Behaviour
+The layout behaviour option configures when and how the layout is applied to the app.
 
 | Mode | Description
 | --- | --- |
 | Default | The layout is only shown if the user manually opens the layout |
 | Override mixer layout | The layout replaces the default mixer layout |
-| Open on startup | Opens the layout on startup. |
+| Open on startup | Opens the layout on startup |
 
-The `Open on startup` option is designed for scenarios where you want to limit the parameters accessible (the top menu is empty).
-Additionally it's possible to **password protect** going back to the main mixer.
+The `Open on startup` option is designed for scenarios where you want to limit the accessible parameters (the top menu is empty).
+Additionally it's possible to **password protect** the ability to return to the main mixer.
 
 This allows you to create a dedicated layout (for example for a wall mounted tablet) and completely restrict access to anything else in the app.
 
 
 ## UI items
-This section describes all available UI items and their configuration parameters
+This section describes all available UI items and their configuration parameters.
 
 ### General
-These settings are available for all UI items
+These settings are available for all UI items.
 
 #### Settings: Visibility
-This settings controls under which conditions the UI will be visible.
+This setting controls the conditions under which the UI is visible.
 
 | Visibility | Description
 | -- | -- |
-| Always | Item will always be visible |
-| Only SoF | Item will only be visible if SoF is active |
-| Not SoF | Item will only be visible if SoF is not active |
+| Always | Item is always visible |
+| Only SoF | Item is only visible if SoF is active |
+| Not SoF | Item is only visible if SoF is not active |
 
 ### Mixer 
-Shows a container which displays all channels of the currently active layer.
+Shows a container that displays all channels of the currently active layer.
 This also includes the meterbridge (if enabled in the app settings).
 
 ![Mixer](img/layouts/mixer.png)
 
 ### Channel strip
-A single channel strip which can be assigned to a fixed channel,
+A single channel strip that can be assigned to a fixed channel,
 or a dynamic channel source like the `Bus master`.
 Do **NOT** use this if you want "something that follows the layer" - use the `Mixer` instead.
 
 
 ### SoF list
-List of buttons for controlling the sends on fader, fine and mute enable status
+List of buttons for controlling the sends on fader, fine and mute enable status.
 
 ![Sof list](img/layouts/sof-list.png)
 
 ### Layer list
-List of buttons for selecting a layer
+List of buttons for selecting a layer.
 
 ![Layer list](img/layouts/layer-list.png)
 
 
 ### Button
-A button can be used to toggle the status of an action
+A button can be used to toggle the status of an action.
 
 ![Button](img/layouts/buttons.png)
 
 #### Settings: Label
-Defines the text that will be shown on the button. It is possible to write multiple lines of text.
+Defines the text that is shown on the button. It is possible to write multiple lines of text.
 See [Label Tags](##Label-tags) for more information.
 
 #### Settings: Touch mode
-It is possible to change the touch behavior of the button.
-This can be useful when you want to control a mute group, but only when the button was long pressed.
+It is possible to change the touch behaviour of the button.
+This can be useful, for example, when you want to control a mute group via a long press only.
 
 ### Knob
 A knob can be used to control a numeric value (like a send level or pan).
@@ -101,12 +102,12 @@ A knob can be used to control a numeric value (like a send level or pan).
 ![Knob](img/layouts/knob.png)
 
 ### Label
-A label can be used to show values like the current scene or just for showing text.
+A label can be used to show values like the current scene, or just to display text.
 
 ![Label](img/layouts/label.png)
 
 #### Settings: Text position
-Changes how the text will be aligned on screen.
+Changes how the text is aligned on screen.
 
 
 ## Label tags

@@ -3,14 +3,14 @@
 ## App versions
 The app is available for three different platforms: **[iOS](platforms/ios.md)**, **[Android](platforms/android.md)** and **[PC](platforms/pc.md)**.
 
-Since the app store policies are slightly different each app has different versions on each platform.
-Click on the left menu items to open the page for your platform to get more details.
+Since the app store policies are slightly different, each app has different versions on each platform.
+Click on the left menu items to open the page for your platform and see further details.
 
 ### Licensing
-For details about the licensing, please refer to the [licensing page](license/overview.md).
+For licensing information, please refer to the [licensing page](license/overview.md).
 
 ## Compatible mixers
-Please make sure your mixer has the latest compatible firmware
+Please make sure your mixer has the latest compatible firmware.
 
 | Feature name | Mixers | Required firmware | Notes | 
 | -- | -- | -- | -- |
