@@ -7,4 +7,9 @@ Mixing Station supports all models of the VI mixer series, but there are some li
 
 
 ## Limitations
-The general [hiqnet limitations](hiqnet.md) apply.
+The general [hiqnet limitations](hiqnet.md) apply as well as the following:
+
+### Matrix Mixes
+Mixing Station can only correctly assign the source channels to a matrix if the `Long Label` and `Short Label` are equal for the first 6 chars.
+
+**Example** Long Label: `My Drums` Short Label: `My Dru`
