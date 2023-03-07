@@ -77,7 +77,7 @@ Default behaviour is as follows:
 
 ![Sidebar](img/generated/sidebar-soflist-screenshot.png)
 
-Contains two **scrollable** bars for layers and access to [sends on faders](sends-on-faders.md)
+Contains two **scrollable** bars for layers and access to ["sends on faders"](sends-on-faders.md).
 
 ### Fine mode
 

@@ -56,7 +56,7 @@ The following syntax is used to describe the OSC packets:
 
 ### Subscribe
 Send the following packet at least once every 5 seconds to get updates for all parameters.
-The last char determines the formatting
+The last char determines the formatting:
 
 Plain value
 ```
@@ -69,7 +69,7 @@ Normalized value
 ```
 
 ### Get data
-A OSC packet without any parameters is used to request the current value.
+An OSC packet without any parameters is used to request the current value.
 ```
 /con/[vn]/{dataPath}
 ```

@@ -1,6 +1,6 @@
 # iOS
 
-For iOS, only one app is distributed. This app can control all mixers and is only available as a "pro" version.
+For iOS, only one app is distributed. This app can control all mixers and is only available as a "pro" edition.
 You can use all features of the app in the offline mode for free.
 As soon as you want to connect to a mixer you must buy the app for that mixer model.
 
