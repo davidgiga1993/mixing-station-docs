@@ -1,8 +1,8 @@
 # User / Session settings
-This page provides access to all session and user settings
+This page provides access to all session and user settings.
 
 ## Open settings
-The app settings can be opened via the menu from the *mixer view*
+The app settings can be opened via the menu from the *mixer view*.
 ```
 Menu -> Setup -> App
 ```
@@ -13,19 +13,19 @@ The first tab contains all *app settings*. The different setting categories are 
 
 Press `?` for more details. Some special settings are explained here in more detail.
 
-The [channel strip](channel-strip.md) tab is explained on its dedicated page.
+The [channel strip](channel-strip.md) tab is described on its own page.
 
 ### Setup wizard
 Restarts the setup wizard that is shown the first time the app is opened.
 
 ### Orientation lock
-If supported by the platform, you can lock the orientation of the device. If not available please use the OS mechanism for locking the screen orientation.
+If supported by the platform, you can lock the orientation of the device. If it's not available please use the OS mechanism for locking the screen orientation.
 
 ### Autosave
 When enabled, this feature automatically saves all `User settings` under the name "default" when leaving any settings view.
 
 ### USB Midi
-Enables the USB midi stack. This should only be enabled if you're using this functionality as it consumes more power.
+Enables the USB midi stack. This should only be enabled if you're using the functionality as it consumes more power.
 
 ### Windows
 >PC only
@@ -42,9 +42,9 @@ This section configures how the knobs and sliders behave. The settings apply to 
 
 ### DCA Spill
 Enables a Midas Pro style popgroup functionality.
-When tapping on a channel button of a DCA/group, the assigned channels will be shown in the mixer instead of opening the DCA/group. To edit an DCA/IDCA while popgroup mode is enabled, **press and hold** the channel button.
+If you tap the channel button of a DCA/group, the assigned channels will be shown in the mixer instead of opening the DCA/group. To edit a DCA/IDCA while popgroup mode is enabled, **press and hold** the channel button.
 
-When selecting an IDCA in popgroup mode, the displayed channels do **not** follow the currently selected sends on fader selection. Instead the assigned target mix of the IDCA is used.
+When selecting an IDCA in popgroup mode, the displayed channels do **not** follow the currently selected "sends on fader" selection. Instead, the assigned target mix of the IDCA is used.
 
 ### Layer channel change
 When enabled, the `<-` and `->` buttons in the channel view follow the current layer instead of the default channel order.

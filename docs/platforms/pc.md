@@ -1,5 +1,5 @@
 # PC
-For pc only one app is distributed. This app can control all mixers and is only available as a "pro" version.
+For PC, only one app is distributed. This app can control all mixers and is only available as a "pro" edition.
 You can use all features of the app in the offline mode for free.
 As soon as you want to connect to a mixer you must buy the app for that mixer model.
 
@@ -29,8 +29,8 @@ You can import the license into the app via the license page:
 
 ## Scaling
 Mixing Station tries to honor the scaling option of the OS.
-If for whatever reason the UI is too large to too small you can manually adjust the scaling in the global app settings.
-See [settings](../settings/global.md) for more details
+If for whatever reason the UI is too large or too small, you can manually adjust the scaling in the global app settings.
+See [settings](../settings/global.md) for more details.
 
 ## Keyboard shortcuts
 This section is work in progress.

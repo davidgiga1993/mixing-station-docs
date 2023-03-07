@@ -30,7 +30,7 @@ If enabled, the currently selected channel is highlighted.
 Changes the sensitivity of the fader when [fine mode](/ui-controls/#fine-mode) is enabled.
 
 ### Channel click
-Changes the behaviour when taping a channel button.
+Changes the behaviour when tapping a channel button.
 
 ### Channel long click
 Changes the behaviour when long pressing a channel button.

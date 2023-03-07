@@ -73,7 +73,7 @@ Do **NOT** use this if you want "something that follows the layer" - use the `Mi
 
 
 ### SoF list
-List of buttons for controlling the sends on fader, fine and mute enable status.
+List of buttons for controlling the "sends on fader", fine and mute enable status.
 
 ![Sof list](img/layouts/sof-list.png)
 

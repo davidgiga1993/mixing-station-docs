@@ -1,4 +1,4 @@
-This page describes the Layer and Sends on Fader configuration.
+This page describes the Layer and "Sends on Fader" configuration.
 
 
 ## What is a layer?
@@ -6,7 +6,7 @@ A layer defines what channels should be shown in the mixer.
 You can create an unlimited number of layers and each layer can contain up to 32 channels.
 
 ## Layer settings
-This view lets you configure all layers as well as change the sends on fader configuration.
+This view lets you configure all layers as well as change the "sends on fader" configuration.
 
 Open from the mixer view:
 ```
@@ -51,9 +51,9 @@ Use the menu's `+` button to add [IDCAs](layer-idcas.md) or blank items.
 ### Target Mix
 The `Target Mix` option allows you to select which mix of a channel you want to add to the layer.
 
-This is useful if you want, for example, to be able to change an FX send for your main vocals without using sends on faders.
+This is useful if you want, for example, to be able to change an FX send for your main vocals without using "sends on faders".
 
-By default, the `Any` option is selected. `Any` causes the channel to follow the currently selected sends on fader mix (default app behaviour). Any other selection causes all channels added in that mode to be fixed to the selected mix.
+By default, the `Any` option is selected. `Any` causes the channel to follow the currently selected "sends on fader" mix (default app behaviour). Any other selection causes all channels added in that mode to be fixed to the selected mix.
 
 In the following example I'm adding 3x `Ch 1` but with different target mixes. As you can see in the mixer view, each fader now controls the send level to the selected mix.
 
@@ -61,7 +61,7 @@ In the following example I'm adding 3x `Ch 1` but with different target mixes. A
 
 
 ## Sends on Fader
-On the right side you can select which mixes should be shown in the sends on fader list of the app.
+On the right side you can select which mixes should be shown in the "sends on fader" list of the app.
 It is also possible to change the order of the items.
 
 You can reset the configuration to the default using the top menu.

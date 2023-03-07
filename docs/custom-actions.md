@@ -13,7 +13,7 @@ Depending on the current mixer type, more or less action types are available.
 - Mutegroup
 - Open view: Opens a view
 - Layer based actions
-- Sends on fader: Activates/Deactivates sends on fader
+- Sends on fader: Activates/Deactivates "sends on fader"
 - Select Layer: Selects a layer
 - ...
 
@@ -46,7 +46,7 @@ These actions can be used to change a value in a channel
 The `Invert output` button can be used to invert the output. This might be useful when you want to create a mute button, but the channel only has an "on" function.
 
 ### Settings: Use SoF
-When activated, the `Fader`, `Pan`, and `On` values will be affected by sends on fader. When this is disabled, these values will always affect the main mix only.
+When activated, the `Fader`, `Pan`, and `On` values will be affected by "sends on fader". When this is disabled, these values will always affect the main mix only.
 
 ## FX
 Allows FX value changes. This action also has tap delay support for the `time` value of an FX.
@@ -60,7 +60,7 @@ Opens a view in the app. Depending on the mixer, there may be more or fewer view
 **Note:** No other actions in the list will be executed after this action. If you want for example to change a layer and open a view, place the "open view" action last.
 
 ## Sends on fader
-Changes the current sends on fader status and target mix.
+Changes the current "sends on fader" status and target mix.
 
 
 ## Show
