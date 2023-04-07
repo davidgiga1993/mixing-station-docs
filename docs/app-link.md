@@ -4,12 +4,14 @@ This feature allows you to use multiple devices for mixing and synchronize app p
 You could for example use two tablets where one shows the channel details and the other the mixer.
 App-Link can synchronize the currently selected channel between those devices.
 
+For App-Link to work, both devices need to be in the same subnet and broadcast needs to be allowed between devices.
+
 ## Usage
 1. Go to app settings
 2. Select `App-Link`
 3. `Enable` the feature on all devices you want to use this feature with
 
-The table at the bottom shows all other devices found using App-Link
+The table at the bottom shows all other Mixing Station instances which are also using App-Link
 
 ## Settings
 ![Settings](img/generated/app-link-settings-screenshot.png)
@@ -21,7 +23,7 @@ Enables the feature.
 The `Device Name` indicates the name of the current device. It's used for easier identification.
 
 ### Group Name
-You don't usually need to change this.
+You usually don't need to change this.
 
 All devices having the same group name communicate with one another. 
 If several groups of users want to use the App-Link feature independently on the same network, change the group name as required.

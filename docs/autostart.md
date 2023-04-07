@@ -1,1 +1,0 @@
-This page has been moved to [here](platforms/pc.md)

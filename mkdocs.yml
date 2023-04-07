@@ -22,9 +22,14 @@ theme:
 
 plugins:
   - search
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+      num_workers: 8
+      puml_keyword: plantuml
 
 nav:
   - Home: index.md
+  - FAQ: faq.md
   - Versions & Features: feature-list.md
   - Platforms:
     - PC: platforms/pc.md
@@ -54,7 +59,6 @@ nav:
     - Actions: custom-actions.md
     - Auto EQ: auto-eq.md
     - Feedback detection: feedback-detection.md
-    - Autostart: autostart.md
   - Beta program: beta.md
   - APIs: integrations/apis.md
   - WING:
@@ -76,7 +80,7 @@ nav:
       General: mackie/general.md
 
   - Known issues: known-issues.md
-  - Licensing: license/overview.md
+  - Licenses: license/overview.md
   - Privacy policy: https://dev-core.org/dsgvo
 
 

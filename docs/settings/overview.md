@@ -67,7 +67,7 @@ There are two ways to share `User settings` settings as follows:
 1. Open the context menu for a setting entry.
 2. Select `Upload` You might be prompted to log in with your Mixing Station account.
  If your browser is too old (e.g. iOS 9), you can also open to this url from any other browser: 
- [https://dev-core.org/mixing-station/community/msSettings/stash](https://dev-core.org/mixing-station/community/msSettings/stash)
+ [https://mixingstation.app/community/msSettings/stash](https://mixingstation.app/community/msSettings/stash)
 3. A browser will open (you might need to log in again) and you can enter additional meta data.
 4. Once saved, the setting is stored online and can be accessed from any device using your account. If you enabled public sharing, other users can also download your settings.
 

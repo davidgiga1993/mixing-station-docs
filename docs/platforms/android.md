@@ -35,7 +35,7 @@ Here is a step by step guide:
 ### Multiple devices
 If you have multiple devices, follow the guide above for the first device, then continue here for the other devices:
 
-1.  Create a [Mixing Station account](https://dev-core.org/mixing-station/profile/create) with the same email address as above
+1.  Create a [Mixing Station account](https://mixingstation.app/profile/create) with the same email address as above
 2. Select `Skip`
    ![Screenshot skip](../img/migration/10.png)
 3. Open the license page
