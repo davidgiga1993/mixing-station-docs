@@ -40,4 +40,4 @@ You can always access your licenses using your Mixing Station account.
 You can always access your licenses using your Mixing Station account.
 ![Android-Import](../img/license/android-import.gif)
 
-As an alternative you can select "restore purchases" in the license page inside the app to restore any previous in-app purchases made with your Google account.
+As an alternative you can select `restore purchases` in the license page inside the app to restore any previous in-app purchases made with your Google account (this won't work if you migrated your license from the old app).
