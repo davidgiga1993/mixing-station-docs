@@ -58,7 +58,7 @@ This page lists all the special features in the professional version.
 | [Custom layouts](custom-layouts.md)                | X   |      | Any                                                          | Any      |
 | [Midi](midi.md)                                    | X   |      | Any                                                          | Any      |
 | [Channel move](xm32/channel-move.md)               | X   |      | XM32                                                         | Any      |
-| [Channel/DCA Spill](settings/user_session.md)      | X   |      | Any                                                          | Any      |
+| [Channel/DCA Spill](settings/app.md#dca-spill)      | X   |      | Any                                                          | Any      |
 | Dashboard view                                     | X   |      | Any                                                          | Any      |
 | [Automatic ringing out](feedback-detection.md)     | X   |      | Any*                                                         | Any      |
 | [Mix copy](mix-copy.md)                            | X   |      | Any                                                          | Any      |

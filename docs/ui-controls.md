@@ -25,7 +25,7 @@ You can press and hold or right-click the button.
 - **Press and hold** to open a popup for more precise control
 - **Double tap** to reset the value to the default
 
-This behaviour can be configured in the [app settings](settings/user_session.md).
+This behaviour can be configured in the [app settings](settings/app.md).
 
 ### Dragging
 
@@ -47,7 +47,7 @@ Additionally, you can tap the areas highlighted in red above to nudge the fader 
 - GEQ: **Double tap** to reset the value
 
 ## Sliders
-The behaviour of the sliders can be configured in the [app settings](settings/user_session.md).
+The behaviour of the sliders can be configured in the [app settings](settings/app.md).
 Default behaviour:
 
 - **Double tap** to reset the value to the default
@@ -65,7 +65,7 @@ Dark buttons indicate a text input. Some fields may allow multiline text input. 
 
 ## Channel buttons
 
-The behaviour of these button can be configured in [app settings](settings/user_session.md).
+The behaviour of these button can be configured in [app settings](settings/app.md).
 Default behaviour is as follows:
 
 - **Tap** Open channel details

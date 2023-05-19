@@ -7,7 +7,15 @@ You can use any generic midi device to remote control the mixer via Mixing Stati
 - Mackie Control (MCU - recommended)
 - X-Touch (in MCU mode, with metering and LCD support)
 - X-Touch Expander (in MCU mode, with metering and LCD support)
+- Waves FIT (in LV-1 Mode, with LCDs and colors)
 - Baby HUI (deprecated)
+
+## Known issues
+### Android
+In Android 5.0 (Lollipop) only the last plugged USB device is working correctly. This is a [known bug](https://code.google.com/p/android/issues/detail?id=159897) in Android and cannot be fixed.
+
+### iOS / MacOS
+Current iOS (>= 16) / MacOS (>=10.14) versions have a bug causing them to not support fast sysex, meaning in MCU mode the LCD display and color of the controller won't be updated.
 
 ## Default mappings
 The MCU and HUI protocols have a default mapping in Mixing Station, making it very easy to get started.
@@ -38,25 +46,6 @@ By default the channels are mapped to the currently active layer in Mixing Stati
 | < BANK > | Prev / next layer | - |
 | < CHANNEL > | Scroll current layer | Scrolls 4 channels in the current layer (if more than 8 channels) |
 | F1-F8 | Sends on fader | Bus 1-8 |
-
-
-### Baby HUI (deprecated)
-This driver can be used with the BFC2000 and other HUI capable devices. Make sure the device is set to HUI emulation mode (bhui for BFC2000).
-
-![Sof list](img/midi/bfc2000.png)
-
-
-### Android
-- [USB OTG](http://en.wikipedia.org/wiki/USB_On-The-Go) compatible Android device
-- [USB OTG cable](https://www.google.com/search?q=USB+OTG+cable) / USB host port
-- Mixing Station Pro
-
-#### Known issues
-In Android 5.0 (Lollipop) only the last plugged USB device is working correctly. This is a [known bug](https://code.google.com/p/android/issues/detail?id=159897) in Android and cannot be fixed.
-
-### iOS / PC / OSX
-- Full support for usb, bluetooth and network midi devices
-
 
 
 ## Overview
