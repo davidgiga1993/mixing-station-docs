@@ -22,6 +22,10 @@ theme:
 
 plugins:
   - search
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
       num_workers: 8
