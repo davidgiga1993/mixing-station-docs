@@ -15,7 +15,9 @@ You can use any generic midi device to remote control the mixer via Mixing Stati
 In Android 5.0 (Lollipop) only the last plugged USB device is working correctly. This is a [known bug](https://code.google.com/p/android/issues/detail?id=159897) in Android and cannot be fixed.
 
 ### iOS / MacOS
-Current iOS (>= 16) / MacOS (>=10.14) versions have a bug causing them to not support fast sysex, meaning in MCU mode the LCD display and color of the controller won't be updated.
+Current iOS (>= 16) / MacOS (>=10.14) versions have a bug in CoreMIDI causing them to not support fast sysex messages. This causes MCU mode not to work correctly (faders moving to random locations).
+Mixing Station >= 1.9.0 includes a mitigation to this issue by disabling the LCD display and color of the controller to make at least the faders work correctly.
+Other than that we can only wait for Apple to fix this issue.
 
 ## Default mappings
 The MCU and HUI protocols have a default mapping in Mixing Station, making it very easy to get started.
