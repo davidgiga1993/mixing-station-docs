@@ -19,12 +19,15 @@ Current iOS (>= 16) / MacOS (>=10.14) versions have a bug in CoreMIDI causing th
 Mixing Station >= 1.9.0 includes a mitigation to this issue by disabling the LCD display and color of the controller to make at least the faders work correctly.
 Other than that we can only wait for Apple to fix this issue.
 
+If you want to use the old mode, select `V1 force sysex` or `V2 force sysex`. Note that this may result in erratic fader movement.
+Also a hard app restart is required for the changes to be applied.
+
 ## Default mappings
 The MCU and HUI protocols have a default mapping in Mixing Station, making it very easy to get started.
 The default mapping is shown at the bottom of this page.
 
 ### MCU
-By default the channels are mapped to the currently active layer in Mixing Station.
+By default, the channels are mapped to the currently active layer in Mixing Station.
 
 #### Channel strips
 | Control | Action | Description |

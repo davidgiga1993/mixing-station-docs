@@ -17,4 +17,4 @@ All devices using Mixing Station. Any other app including the X32-Mix will simpl
 The security settings are stored in the `Name` field of the 100th routing preset on the X32. The routing preset itself will not be touched.
 
 ## How to reset the password?
-Delete the 100th routing preset using any official X32-Edit app.
+Save and then delete the 100th routing preset using any official X32-Edit app.
