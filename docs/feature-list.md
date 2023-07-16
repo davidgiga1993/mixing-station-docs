@@ -1,21 +1,26 @@
 # Versions and features
 
 ## App versions
-The app is available for three different platforms: **[iOS](platforms/ios.md)**, **[Android](platforms/android.md)** and **[PC](platforms/pc.md)**.
+
+The app is available for three different platforms: **[iOS](platforms/ios.md)**, **[Android](platforms/android.md)** and
+**[PC](platforms/pc.md)**.
 
 Since the app store policies are slightly different, each app has different versions on each platform.
 Click on the left menu items to open the page for your platform and see further details.
 
 ### Licensing
+
 For licensing information, please refer to the [licensing page](license/overview.md).
 
 ## Compatible mixers
+
 Please make sure your mixer has the latest compatible firmware.
 
 | Feature name | Mixers                                           | Required firmware       | Notes                                                  | 
 |--------------|--------------------------------------------------|-------------------------|--------------------------------------------------------|
 | XM32         | Behringer X32/M32(R)                             | V1.15 or newer          |                                                        |
 | XAir         | Behringer XAir or Midas MR                       | V1.12 or newer          |                                                        |
+| HD96         | Midas HD96 series                                | V1.24.0 or newer        |                                                        |
 | dLive        | A&H dLive                                        | V1.93 or newer          |                                                        | 
 | Avantis      | A&H Avantis                                      | V1.12 or newer          |                                                        | 
 | GLD          | A&H GLD                                          | V1.61                   |                                                        |
@@ -27,8 +32,8 @@ Please make sure your mixer has the latest compatible firmware.
 | Wing         | Behringer Wing                                   | Any                     |                                                        |
 | DL           | Mackie DL32S/DL16S/DL32R/DL1608                  | MFV V5.2 (Mandolin 1.6) |                                                        |
 
-
 ## Features
+
 This page lists all the special features in the professional version.
 
 | Feature                                            | Pro | Free | Model                                                        | Platform |
@@ -58,7 +63,7 @@ This page lists all the special features in the professional version.
 | [Custom layouts](custom-layouts.md)                | X   |      | Any                                                          | Any      |
 | [Midi](midi.md)                                    | X   |      | Any                                                          | Any      |
 | [Channel move](xm32/channel-move.md)               | X   |      | XM32                                                         | Any      |
-| [Channel/DCA Spill](settings/app.md#dca-spill)      | X   |      | Any                                                          | Any      |
+| [Channel/DCA Spill](settings/app.md#dca-spill)     | X   |      | Any                                                          | Any      |
 | Dashboard view                                     | X   |      | Any                                                          | Any      |
 | [Automatic ringing out](feedback-detection.md)     | X   |      | Any*                                                         | Any      |
 | [Mix copy](mix-copy.md)                            | X   |      | Any                                                          | Any      |
