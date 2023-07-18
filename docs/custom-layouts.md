@@ -243,10 +243,15 @@ A button can be used to toggle the status of an action.
 
 ![Button](img/layouts/buttons.png)
 
-#### Settings: Touch mode
+Action slots:
 
-It is possible to change the touch behaviour of the button.
-This can be useful, for example, when you want to control a mute group via a long press only.
+| Slot | Behavior |
+| --- | --- |
+| Click | Finger needs to touch and lift |
+| Long click | Finger needs to touch for a longer period |
+| Touch | Finger needs to touch |
+| Momentary | Touch triggers "on", lift triggers "off" |
+| Inv. Momentary | Same as `Momentary` but inverted |
 
 --- 
 
