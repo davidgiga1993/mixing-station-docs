@@ -31,6 +31,8 @@ Please make sure your mixer has the latest compatible firmware.
 | Ui           | Soundcraft Ui                                    | Latest                  |                                                        |
 | Wing         | Behringer Wing                                   | Any                     |                                                        |
 | DL           | Mackie DL32S/DL16S/DL32R/DL1608                  | MFV V5.2 (Mandolin 1.6) |                                                        |
+| DM3          | Yamaha DM3/DM3S                                  | V1.10 or newer          | See [DM](yamaha/dm.md)                                 |
+
 
 ## Features
 
