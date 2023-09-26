@@ -170,6 +170,7 @@ To do so, use one of the following tags:
 | `[shortLabel]` | Channel actions      | Short version of label                      |
 | `[chname]`     | Channel actions      | Current name of the channel                 |
 | `[chnum]`      | Channel actions      | Channel type + name (e.g. `Mix 01`)         |
+| `[chnumShort]` | Channel actions      | Channel index (e.g. `1`)                    |
 | `[sendName]`   | Channel send actions | Name of the channel send used by the action |
 | `[fx]`         | FX actions           | Name of the FX type                         |
 | `[varname]`    | FX actions           | Name of FX parameter                        |
