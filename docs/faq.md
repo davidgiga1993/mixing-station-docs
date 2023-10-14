@@ -3,6 +3,10 @@
 ## Does this app work with my mixer?
 Probably, take a look at the [versions and features](feature-list.md) page.
 
+## How many app instances can I use?
+This depends on your mixer. Some manufacturers / models have a hard limit how many clients
+can connect at a time. Best is to consult the manual of your mixer.
+
 ## Will this app support mixer XYZ in the future?
 Maybe. Adding support for a new mixer is a cost and time-consuming process. Due to lack of documentation for a lot
 of devices, a lot of time is required to fully understand the protocol used by certain mixers and implement it accordingly.
@@ -23,3 +27,7 @@ Note for Android users: If you migrated your license from the old app the only w
 No, this manual contains videos/animations demonstrating certain app features, and therefore
 it's not really possible to provide a pdf for it.
 
+## I can't find the GEQ!
+If you're using an XAir mixer make sure to change the EQ type to `GEQ`, see screenshot.
+In case the left sidebar is missing, press the top `fullscreen` button.
+![xair geq](img/faq/xair-geq.png)
