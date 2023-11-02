@@ -12,18 +12,13 @@
             "activity": "GLOBAL_SETUP"
         },
         {
-            "name": "console-start",
-            "mixer": "Avantis",
-            "activity": "START"
-        },
-        {
             "name": "layers-overview",
             "mixer": "X32/M32",
             "activity": "APP_LAYER_ORDER"
         },
         {
             "name": "settings-manager",
-            "mixer": "X32/M32",
+            "mixer": "Avantis",
             "activity": "APP_SETTINGS_MANAGER"
         },
         {
@@ -40,7 +35,7 @@
         },
         {
             "name": "button-off",
-            "mixer": "X32/M32",
+            "mixer": "Avantis",
             "activity": "MIXER",
             "actions":
             [
@@ -60,7 +55,7 @@
         },
         {
             "name": "button-on",
-            "mixer": "X32/M32",
+            "mixer": "Avantis",
             "activity": "MIXER",
             "actions":
             [
@@ -80,7 +75,7 @@
         },
         {
             "name": "app-link-settings",
-            "mixer": "X32/M32",
+            "mixer": "Avantis",
             "activity": "APP_SETUP_APP_LINK",
             "actions":
             [
@@ -93,7 +88,7 @@
         },
         {
             "name": "sidebar-soflist",
-            "mixer": "X32/M32",
+            "mixer": "Avantis",
             "activity": "MIXER",
             "settings":
             {
@@ -116,7 +111,7 @@
         },
         {
             "name": "sidebar",
-            "mixer": "X32/M32",
+            "mixer": "Avantis",
             "activity": "MIXER",
             "settings":
             {

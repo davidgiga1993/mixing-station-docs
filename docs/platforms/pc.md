@@ -29,7 +29,10 @@ license files in case of data loss!
 
 You can import the license into the app via the license page:
 ![menu](../img/license/pc-menu.png)
+Either select `Mixing Station account` or `from file` 
 ![menu](../img/license/pc-file-import.png)
+Then select your license file
+
 ![menu](../img/license/pc-license-file.png)
 
 ## Scaling

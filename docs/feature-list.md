@@ -26,13 +26,14 @@ Please make sure your mixer has the latest compatible firmware.
 | GLD          | A&H GLD                                          | V1.61                   |                                                        |
 | SQ           | A&H SQ                                           | V1.4.1 or newer         |                                                        |
 | Qu           | A&H Qu                                           | V1.90 or newer          |                                                        |
+| CQ           | A&H CQ                                           | V1.1 or newer           |                                                        |
 | Si           | Soundcraft Si                                    | V1.8 / V1.8 / V1-2      | See [HiQNet guide / limitations](soundcraft/hiqnet.md) |
 | Vi           | Soundcraft Vi ([view details](soundcraft/vi.md)) | Latest                  | See [HiQNet guide / limitations](soundcraft/hiqnet.md) |
 | Ui           | Soundcraft Ui                                    | Latest                  |                                                        |
 | Wing         | Behringer Wing                                   | Any                     |                                                        |
 | DL           | Mackie DL32S/DL16S/DL32R/DL1608                  | MFV V5.2 (Mandolin 1.6) |                                                        |
 | DM3          | Yamaha DM3/DM3S                                  | V1.10 or newer          | See [DM](yamaha/dm.md)                                 |
-
+| TF           | Yamaha TF                                        | V4.50 or newer          |                                                        |
 
 ## Features
 

@@ -29,15 +29,18 @@ purchase another license.
 The following describes how to restore / import the license on another device.
 
 ### iOS
-Make sure you're logged in with the same Apple id.
-![iOS-Import](../img/license/ios-import.gif)
+Make sure you're logged in with the same Apple ID as used for the initial purchase.
+
+![iOS-Import](../img/license/licenses-overview.png)
+
+In case nothing happens when using the `Restore purchases` button, and you are 100% sure you're using the correct Apple ID,
+you can try pressing the `Buy` button again as it's not possible to purchase the same feature multiple times.
+This might be required when switching to a new iOS device since Apple doesn't load all in app payments correctly all the time.
 
 ### Desktop
-You can always access your licenses using your Mixing Station account.
-![Desktop-Import](../img/license/pc-import.gif)
+You can restore access your licenses using your Mixing Station account or the `.lic` file.
+![Desktop-Import](../img/license/licenses-overview.png)
 
 ### Android
-You can always access your licenses using your Mixing Station account.
-![Android-Import](../img/license/android-import.gif)
-
-As an alternative you can select `restore purchases` in the license page inside the app to restore any previous in-app purchases made with your Google account (this won't work if you migrated your license from the old app).
+You can restore your licenses from your Mixing Station account or the app store used for the purchase (`Google Play`, `Amazon`, ect)
+![Android-Import](../img/license/licenses-overview.png)

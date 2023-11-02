@@ -32,16 +32,14 @@ You can check the settings in iOS: `Settings > Privacy > Local Network`
 
 When opening the app you'll see the launcher view as shown below.
 
-![Launcher](img/generated/start-screenshot.png)
+![Launcher](img/mixer-selection.png)
+You can select the mixer model you want to use in this view. This will open the Quick-Connect dialog (see below)
 
-### Menu
-The top menu gives you access to the global settings as well as this help page.
-
-## Mixer series
+### Quick-Connect
 Once you've selected the mixer series you want to work with, you'll see the
 following view.
 
-![Launcher](img/generated/console-start-screenshot.png)
+![Launcher](img/connection-profile.png)
 
 This view allows you to configure where and how you want to connect to the mixer.
 
@@ -50,8 +48,39 @@ The `permissions` button allows you to restrict access to certain mix buses.
 The user will not be able to change any mix other than the ones selected. This is ideal for personal monitor mixing or dedicated monitor engineers.
 It is also possible to limit the access to multiple mixes.
 
-### Mixer IP
+### Mixer IP / Hostname
 This field is used to enter the console IP address or hostname. It's only used in conjunction with `Connect` button.
 
-### App version
-The app version is displayed bottom left. 
+
+## Mixer history
+If you've already connected to a mixer in the past you'll see the history view instead:
+![Launcher](img/generated/start-screenshot.png)
+
+In this view you see up to 10 recently used mixers. Each entry stores the mixer series, connection details such as IP address
+and the permissions.
+
+### Favorites
+
+<div style="float:left;margin:0 10px 10px 0" markdown="1">
+![Favorite mixer](img/favorite-mixer.png)
+</div>
+
+You can pin connections by pressing the `star` or `mixer icon`:
+Pinned entries will always appear at the top of the list
+and won't get removed over time.
+<div style="clear: both;"></div>
+
+### Editing entries
+<div style="float:left;margin:0 10px 10px 0" markdown="1">
+![edit connection](img/edit-connection.png)
+</div>
+You can edit an entry by long-pressing (or `right-clicking`) the entry.
+This will open the edit view.
+In this view you can:
+
+- Set a name for the entry
+- Change the permission settings
+- Set the IP/Hostname that should be used for connect
+- Configure if a click should start the search or directly connect to the specified address.
+- 
+<div style="clear: both;"></div>
