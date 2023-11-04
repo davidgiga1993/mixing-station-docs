@@ -1,14 +1,14 @@
-# PC
-
-For pc only one app is distributed. This app can control all mixers and is only available as a "pro" version.
-You can use all features of the app in the offline mode for free.
-As soon as you want to connect to a mixer you must buy the app for that mixer model.
+# Desktop
 
 ## Requirements
 
-- Operating system: Windows 10 (x64) or later, OSX 10.9 or later, Linux (arm64, x64)
+- Operating system: Windows 10 (x64) or later, macOS 10.9 or later, Linux (arm64, x64)
 - Screen: Any screen works
-- Touchscreen: Multitouch is supported on Windows 10/11 - untested on any other OS.
+
+## Touchscreen
+
+Multitouch is supported on Windows 10/11 as well as macOS.
+For macOS you need the TouchBase driver `7.1.108` or newer.
 
 Please make sure the app is working in offline mode before purchasing any licenses!
 
@@ -19,7 +19,7 @@ All settings and license files are stored in one folder
 | OS      | Location                                                                                                                | 
 |---------|-------------------------------------------------------------------------------------------------------------------------|
 | Windows | `%USERPROFILE%/MixingStation`                                                                                           |
-| OSX     | `%HOME%/MixingStation`                                                                                                  |
+| macOS   | `%HOME%/MixingStation`                                                                                                  |
 | Linux   | `$XDG_CONFIG_HOME/MixingStation`<br/>`$HOME/.config/MixingStation`<br/>`$HOME/.MixingStation`<br/>`$HOME/MixingStation` |
 
 ## Licensing
@@ -29,7 +29,7 @@ license files in case of data loss!
 
 You can import the license into the app via the license page:
 ![menu](../img/license/pc-menu.png)
-Either select `Mixing Station account` or `from file` 
+Either select `Mixing Station account` or `from file`
 ![menu](../img/license/pc-file-import.png)
 Then select your license file
 
@@ -56,13 +56,13 @@ This section is work in progress.
 
 You can provide the following additional command-line arguments to Mixing Station.
 
-| Parameter    | Description                                                                  | Purpose                        |
-|--------------|------------------------------------------------------------------------------|--------------------------------|
-| `-appSeries` | Which mixer series to use (PC/iOS). Same value as the button text in the app | Auto connect                   |
-| `-ip`        | IP address of the mixer. Remove if you want to start the search instead.     | Auto connect                   |
-| `-mixTarget` | Target mix for the access restrictions. See table below                      | Auto connect                   |
-| `-web`       | Port of the webserver (disabled by default)                                  | [API](../integrations/apis.md) |
-| `-osc`       | Port of the OSC server (disabled by default)                                 | [API](../integrations/apis.md) |
+| Parameter    | Description                                                              | Purpose                        |
+|--------------|--------------------------------------------------------------------------|--------------------------------|
+| `-appSeries` | Which mixer series to use. Same value as the button text in the app      | Auto connect                   |
+| `-ip`        | IP address of the mixer. Remove if you want to start the search instead. | Auto connect                   |
+| `-mixTarget` | Target mix for the access restrictions. See table below                  | Auto connect                   |
+| `-web`       | Port of the webserver (disabled by default)                              | [API](../integrations/apis.md) |
+| `-osc`       | Port of the OSC server (disabled by default)                             | [API](../integrations/apis.md) |
 
 Example
 

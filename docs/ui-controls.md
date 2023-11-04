@@ -2,7 +2,8 @@
 
 This page describes the most common UI controls and how to use them.
 
-Note that if you are using a mouse, **right click** - in the following instructions - is equivalent to **press and hold**.
+Note that if you are using a mouse, **right click** - in the following instructions - is equivalent to **press and hold
+**.
 
 ## Buttons
 
@@ -47,6 +48,7 @@ Additionally, you can tap the areas highlighted in red above to nudge the fader 
 - GEQ: **Double tap** to reset the value
 
 ## Sliders
+
 The behaviour of the sliders can be configured in the [app settings](settings/app.md).
 Default behaviour:
 
@@ -59,9 +61,11 @@ The white line indicates the default value for this parameter.
 ![Slider popup](img/slider-popup.png)
 
 ## Text input
+
 ![Input button](img/text-input.png)
 
-Dark buttons indicate a text input. Some fields may allow multiline text input. In iOS you can use the `$` character to indicate a line break.
+Dark buttons indicate a text input. Some fields may allow multiline text input. In iOS you can use the `$` character to
+indicate a line break.
 
 ## Channel buttons
 
@@ -94,7 +98,7 @@ Each button provides access to a single layer
 - **Tap** Select layer
 - **Press and hold** Edit this layer
 
-> PC only
+> Desktop only
 
 - **Press and hold** Allows you to open the layer in a separate window.
 
@@ -110,7 +114,8 @@ The current view and additional information are display on the left.
 
 ### Menu items
 
-The menu items are shown in a fixed order. If there are too many items, some will be hidden and accessible using the  `...` item.
+The menu items are shown in a fixed order. If there are too many items, some will be hidden and accessible using
+the  `...` item.
 
 ## Quick access
 

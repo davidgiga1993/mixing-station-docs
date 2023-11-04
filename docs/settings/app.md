@@ -28,7 +28,7 @@ When enabled, this feature automatically saves all `User settings` under the nam
 Enables the USB midi stack. This should only be enabled if you're using this functionality as it consumes more power.
 
 ### Windows
->PC only
+>Desktop only
 
 These settings allow you to configure the multi window behaviour of the app.
 

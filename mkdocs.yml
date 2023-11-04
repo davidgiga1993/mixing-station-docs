@@ -2,67 +2,56 @@ site_name: Mixing Station Docs
 theme:
   name: 'material'
   logo: assets/ms.png
-  custom_dir: overrides
+  custom_dir: docs/overrides
   features:
     - navigation.instant
     - navigation.sections
     - header.autohide
     - announce.dismiss
   palette:
-    - media: "(prefers-color-scheme: light)" 
+    - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)" 
+    - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-
-plugins:
-  - search
-  - mkdocs-video:
-      is_video: True
-      video_muted: True
-      video_controls: True
-  - plantuml:
-      puml_url: https://www.plantuml.com/plantuml/
-      num_workers: 8
-      puml_keyword: plantuml
 
 nav:
   - Home: index.md
   - FAQ: faq.md
   - Versions & Features: feature-list.md
   - Platforms:
-    - PC: platforms/pc.md
-    - Android: platforms/android.md
-    - iOS: platforms/ios.md
-    - RPi: platforms/rpi.md
-  - Getting started: 
-    - General: getting-started.md
-    - UI controls: ui-controls.md
-    - Sends on faders: sends-on-faders.md
-    - Settings: 
-      - Overview: settings/overview.md
-      - Global settings: settings/global.md
-      - App settings: settings/app.md
-      - User settings: settings/user.md
-    - Layers / SoF: layers.md
-    - Channel strip: settings/channel-strip.md
+      - Desktop: platforms/desktop.md
+      - Android: platforms/android.md
+      - iOS: platforms/ios.md
+      - RPi: platforms/rpi.md
+  - Getting started:
+      - General: getting-started.md
+      - UI controls: ui-controls.md
+      - Sends on faders: sends-on-faders.md
+      - Settings:
+          - Overview: settings/overview.md
+          - Global settings: settings/global.md
+          - App settings: settings/app.md
+          - User settings: settings/user.md
+      - Layers / SoF: layers.md
+      - Channel strip: settings/channel-strip.md
   - Advanced:
-    - App-Link: app-link.md
-    - IDCAs: layer-idcas.md
-    - Channel Links: channel-links.md
-    - Mix copy: mix-copy.md
-    - Mix presets: mix-presets.md
-    - Re-Gain: re-gain.md
-    - Custom layouts: custom-layouts.md
-    - Midi: midi.md
-    - Actions: custom-actions.md
-    - Auto EQ: auto-eq.md
-    - Feedback detection: feedback-detection.md
+      - App-Link: app-link.md
+      - IDCAs: layer-idcas.md
+      - Channel Links: channel-links.md
+      - Mix copy: mix-copy.md
+      - Mix presets: mix-presets.md
+      - Re-Gain: re-gain.md
+      - Custom layouts: custom-layouts.md
+      - Midi: midi.md
+      - Actions: custom-actions.md
+      - Auto EQ: auto-eq.md
+      - Feedback detection: feedback-detection.md
   - Beta program: beta.md
   - APIs: integrations/apis.md
   - WING:
@@ -93,3 +82,20 @@ markdown_extensions:
   - attr_list
   - pymdownx.superfences
   - md_in_html
+
+plugins:
+  - search
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+      num_workers: 8
+      puml_keyword: plantuml
+  - redirects:
+      redirect_maps:
+        'platforms/pc.md': 'platforms/desktop.md'
+  # Must be last plugin
+  - print-site
+

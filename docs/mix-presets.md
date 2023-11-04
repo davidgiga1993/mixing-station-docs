@@ -1,3 +1,4 @@
+# Mix Presets
 Mix presets allow you to store your monitor mix on your device and recall it later.
 
 A common use case for this would be a band with changing members. Each member can recall their personal monitor mix without having to deal with mixer scenes, cues or other stuff.

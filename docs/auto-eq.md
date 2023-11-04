@@ -1,3 +1,5 @@
+# Auto-EQ
+
 The Auto EQ feature automatically adjusts an EQ to match a specified target curve. 
 It is not designed to replace your ears! In the end you decide what sounds best.
 It is just a tool, use it wisely.

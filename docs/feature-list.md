@@ -3,7 +3,7 @@
 ## App versions
 
 The app is available for three different platforms: **[iOS](platforms/ios.md)**, **[Android](platforms/android.md)** and
-**[PC](platforms/pc.md)**.
+**[Desktop](platforms/desktop.md)**.
 
 Since the app store policies are slightly different, each app has different versions on each platform.
 Click on the left menu items to open the page for your platform and see further details.

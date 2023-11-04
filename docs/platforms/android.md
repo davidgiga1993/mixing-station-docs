@@ -1,12 +1,9 @@
 # Android
-For Android, one app is distributed. Depending on the mixer model you can connect without purchasing a `pro` license. 
-You can use all features of the app in the offline mode for free. As soon as you want to connect to a mixer you must buy the app for that mixer model.
-
 
 ## Requirements
-- Android >= 4.4
-- Android emulators will work for Midas/Behringer mixers, but not for A&H mixers
+- Android >= 5.0
 - Chromebooks are not supported (but still might work)
+- Some android emulators might work
 
 ## Settings location
 The app stores all settings in the internal storage of the device.

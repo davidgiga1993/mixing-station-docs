@@ -14,7 +14,7 @@ Menu -> Gear icon
 ![Settings-Manager](../img/generated/global-settings-screenshot.png)
 
 ### Update branch
-> PC version only
+> Desktop version only
 
 Configures which branch to use when checking for updates.
 
