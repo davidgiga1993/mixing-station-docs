@@ -31,3 +31,8 @@ it's not really possible to provide a pdf for it.
 If you're using an XAir mixer make sure to change the EQ type to `GEQ`, see screenshot.
 In case the left sidebar is missing, press the top `fullscreen` button.
 ![xair geq](img/faq/xair-geq.png)
+
+
+## My faders in the channel view disappeared!
+You're very likely in `fullscreen mode` which can be toggled via the top menu:
+![fullscreen icon](img/faq/fullscreen-mode.png)
