@@ -22,3 +22,7 @@ When a channel level is changed, the ratio is recalculated.
 By changing the IDCA fader, all assigned channel levels will be adjusted according to the stored ratios.
 
 The red line behind the fader knob of an IDCA shows the minimum/maximum levels of the assigned channels.
+
+## How to remove
+To remove an IDCA, long press it in the ordering row at the
+bottom of the `Layer Setup` view and select the `Delete` option.
