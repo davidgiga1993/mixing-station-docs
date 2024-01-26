@@ -46,7 +46,7 @@ When tapping on a channel button of a DCA/group, the assigned channels will be s
 
 When selecting an IDCA in popgroup mode, the displayed channels do **not** follow the currently selected sends on fader selection. Instead the assigned target mix of the IDCA is used.
 
-### Layer channel change
+### Follow Layers
 When enabled, the `<-` and `->` buttons in the channel view follow the current layer instead of the default channel order.
 #### Example
 With the option enabled, suppose your current layer configuration is as follows:
