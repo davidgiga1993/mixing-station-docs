@@ -48,6 +48,7 @@ This page lists all the special features in the professional version.
 | [Layers](layers.md)                                | X   | X    | Any                                                          | Any      |
 | [Fixed layer mix](layers.md)                       | X   |      | Any                                                          | Any      |
 | [Unlimited DCA](layer-idcas.md)                    | X   | X    | Any                                                          | Any      |
+| [MCAs](mca.md)                                     | X   | X    | Any                                                          | Any      |
 | [App-Link](app-link.md)                            | X   | X    | Any                                                          | Any      |
 | [Gain on fader](sends-on-faders.md#gain-on-faders) | X   |      | Any                                                          | Any      |
 | RTA                                                | X   | X    | Any\*                                                        | Any      |
