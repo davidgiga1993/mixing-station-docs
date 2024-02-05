@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Operating system: Windows 10 (x64) or later, macOS 10.9 or later, Linux (arm64, x64)
+- Operating system: Windows 11 (x64), macOS 10.9 or later, Linux (arm64, x64)
 - Screen: Any screen works
 
 ## Touchscreen
