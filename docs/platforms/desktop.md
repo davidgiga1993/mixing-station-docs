@@ -2,7 +2,10 @@
 
 ## Requirements
 
-- Operating system: Windows 11 (x64), macOS 10.9 or later, Linux (arm64, x64)
+- Operating system: 
+  - Windows 11 (x64)
+  - macOS 10.15 or later
+  - Linux (arm64, x64) support for GLES2.0 (openGL)
 - Screen: Any screen works
 
 ## Touchscreen
