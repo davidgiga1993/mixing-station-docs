@@ -1,12 +1,12 @@
 # APIs
-Mixing Station provides different APIs for integration with external software and hardware.
+Mixing Station provides different {{ abbr('API') }}s for integration with external software and hardware.
 The goal of these APIs is to cover the majority of console parameters with a unified API, allowing your application to work with every mixer supported by Mixing Station.
 
 ## Overview
 Note that the *full* set of APIs is only available in the desktop version of Mixing Station.
 
 ## Configure APIs
-To enable API access, open the [global app settings](../settings/global.md) and enable REST and/or OSC (Open Sound Control).
+To enable {{ abbr('API') }} access, open the [global app settings](../settings/global.md) and enable {{ abbr('REST') }} and/or {{ abbr('OSC') }}.
 
 ## Data Types
 The following data types are used:

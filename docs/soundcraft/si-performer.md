@@ -2,7 +2,7 @@
 
 The performer and expression series has certain limitations when it comes to remote controlling.
 Mixing Station currently implements all parameters which can be remote controlled. 
-Any other features such as Mutegroups, FX or routing **cannot be implemented**.
+Any other features such as Mutegroups, {{ abbr('FX') }} or routing **cannot be implemented**.
 
 The following parameters are **not controllable** via network due to firmware limitations:
 
