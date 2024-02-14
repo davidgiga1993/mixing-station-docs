@@ -33,8 +33,7 @@ Autostart allows you to configure which mixer the app should connect to when sta
 This is useful for installation purposes where the app should always connect to a mixer without user interaction.
 
 ### API
-Only available on Desktop platform. Enables API access for Mixing Station. 
-
+Only available on Desktop platform. Enables {{ abbr('API') }} access for Mixing Station.
 
 ### Auto reconnect
 When enabled, the app automatically reconnects to the mixer in the case of a connection error.

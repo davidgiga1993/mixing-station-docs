@@ -45,7 +45,7 @@ and the movements will be more precise.
 
 Additionally, you can tap the areas highlighted in red above to nudge the fader by 0.25db increments.
 
-- GEQ: **Double tap** to reset the value
+- {{ abbr('GEQ') }}: **Double tap** to reset the value
 
 ## Sliders
 
@@ -55,7 +55,7 @@ Default behaviour:
 - **Double tap** to reset the value to the default
 - **Drag** to change the value
 
-Sliders are used in some FX views and in the knob popup described above.
+Sliders are used in some {{ abbr('FX') }} views and in the knob popup described above.
 The white line indicates the default value for this parameter.
 
 ![Slider popup](img/slider-popup.png)

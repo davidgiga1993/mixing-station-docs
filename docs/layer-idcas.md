@@ -3,16 +3,15 @@ Mixing Station can created an unlimited number of DCAs, called "IDCA" channels.
 
 It is also possible to create an IDCA which changes the send level of multiple channels instead of the LR mix.
 
-
 ## New IDCA
-To add a new IDCA to a layer, open the `Layer Setup` view.
+To add a new {{ abbr('IDCA') }} to a layer, open the `Layer Setup` view.
 Press the `+` symbol in the menu and select `IDCA` to open the `IDCA Setup` view as shown below.
 
 ![New IDCA](gif/new-idca.gif)
 
 ## IDCA Setup
 This view allows you to assign channels to an IDCA.
-Select the mix you want the IDCA to control by pressing the button on the right side of 
+Select the mix you want the IDCA to control by pressing the button on the right side of
 the `Target Mix` label. By default `Main LR` is selected.
 Now you can select the channels you want the IDCA to control.
 

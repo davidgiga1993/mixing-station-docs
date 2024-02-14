@@ -12,7 +12,7 @@ Drag directly on an item to resize it. Drag on the left side of an item to chang
 ## Fader
 This section configures the fader.
 
-- `Show groups`: When enabled, all assigned DCA and Mutegroups will be shown on the right of the fader.
+- `Show groups`: When enabled, all assigned {{ abbr('DCA') }} and Mutegroups will be shown on the right of the fader.
 - `Fader touch`: Defines what should happen if the fader is touched.
 - `Double tap`: Defines what should happen if the fader is double tapped.
 

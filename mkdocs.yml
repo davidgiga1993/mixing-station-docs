@@ -85,6 +85,9 @@ markdown_extensions:
 
 plugins:
   - search
+  - macros:
+      include_yaml:
+        - data/abbreviations.yml
   - mkdocs-video:
       is_video: True
       video_muted: True
