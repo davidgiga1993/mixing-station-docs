@@ -5,4 +5,4 @@ mkdocs_puml
 mkdocs-video==1.5.*
 mkdocs-redirects
 mkdocs-print-site-plugin
-mkdocs-macros
+mkdocs-macros-plugin
