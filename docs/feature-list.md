@@ -33,43 +33,43 @@ Please make sure your mixer has the latest compatible firmware.
 | Wing         | Behringer Wing                                   | Any                     |                                                        |
 | DL           | Mackie DL32S/DL16S/DL32R/DL1608                  | MFV V5.2 (Mandolin 1.6) |                                                        |
 | DM3          | Yamaha DM3/DM3S                                  | V1.10 or newer          | See [DM](yamaha/dm.md)                                 |
-| TF           | Yamaha TF                                        | V4.50 or newer          |                                                        |
+| TF           | Yamaha TF                                        | V4.50 or newer          | See [TF](yamaha/tf.md)                                 |
 
 ## Features
 
 This page lists all the special features in the professional version.
 
-| Feature                                            | Pro | Free | Model                                                        | Platform |
-|----------------------------------------------------|-----|------|--------------------------------------------------------------|----------|
-| Channel parameters                                 | X   | X    | Any                                                          | Any      |
-| {{ abbr('FX') }} access | X | X | Any | Any |
-| FX Presets                                         | X   |      | Any                                                          | Any      |
-| Routing                                            | X   | X    | Any                                                          | Any      |
-| [Layers](layers.md)                                | X   | X    | Any                                                          | Any      |
-| [Fixed layer mix](layers.md)                       | X   |      | Any                                                          | Any      |
-| [Unlimited {{ abbr('DCA') }}](layer-idcas.md) | X | X | Any | Any |
-| [{{ abbr('MCA') }}s](mca.md) | X | X | Any | Any |
-| [App-Link](app-link.md)                            | X   | X    | Any                                                          | Any      |
-| [Gain on fader](sends-on-faders.md#gain-on-faders) | X   |      | Any                                                          | Any      |
-| {{ abbr('RTA') }} | X | X | Any\* | Any |
-| [Channel links](channel-links.md)                  | X   | X    | Any                                                          | Any      |
-| [Channel quick-gang](channel-links.md#quick-gang)  | X   | X    | Any                                                          | Any      |
-| Password protection                                | X   | X    | [XM32](xm32/bus-password.md)/[XAir](xair/bus-password.md)/Qu | Any      |
-| Different color schemes                            | X   |      | Any                                                          | Any      |
-| Configurable peak hold time                        | X   |      | Any                                                          | Any      |
-| Gain reduction timeline                            | X   |      | Any                                                          | Any      |
-| [Custom channel strip](settings/channel-strip.md)  | X   |      | Any                                                          | Any      |
-| Meterbridge                                        | X   |      | Any                                                          | Any      |
-| Cross mixer channel presets                        | X   |      | Any                                                          | Any      |
-| [Personal mix presets](mix-presets.md)             | X   |      | Any                                                          | Any      |
-| Supports development                               | X   |      | Any                                                          | Any      |
-| [Re-Gain](re-gain.md)                              | X   |      | Any                                                          | Any      |
-| [Custom layouts](custom-layouts.md)                | X   |      | Any                                                          | Any      |
-| [Midi](midi.md)                                    | X   |      | Any                                                          | Any      |
-| [Channel move](xm32/channel-move.md)               | X   |      | XM32                                                         | Any      |
-| [Channel/DCA Spill](settings/app.md#dca-spill)     | X   |      | Any                                                          | Any      |
-| Dashboard view                                     | X   |      | Any                                                          | Any      |
-| [Automatic ringing out](feedback-detection.md)     | X   |      | Any*                                                         | Any      |
-| [Mix copy](mix-copy.md)                            | X   |      | Any                                                          | Any      |
+| Feature                                                 | Pro | Free | Model                                                        | Platform |
+|---------------------------------------------------------|-----|------|--------------------------------------------------------------|----------|
+| Channel parameters                                      | X   | X    | Any                                                          | Any      |
+| {{ abbr('FX') }} access                                 | X   | X    | Any                                                          | Any      |
+| FX Presets                                              | X   |      | Any                                                          | Any      |
+| Routing                                                 | X   | X    | Any                                                          | Any      |
+| [Layers](layers.md)                                     | X   | X    | Any                                                          | Any      |
+| [Fixed layer mix](layers.md)                            | X   |      | Any                                                          | Any      |
+| [Unlimited {{ abbr('DCA') }}](layer-idcas.md)           | X   | X    | Any                                                          | Any      |
+| [{{ abbr('MCA') }}s](mca.md)                            | X   | X    | Any                                                          | Any      |
+| [Channel/DCA Spill](settings/app.md#dca-spill)          | X   |      | Any                                                          | Any      |
+| [App-Link](app-link.md)                                 | X   | X    | Any                                                          | Any      |
+| [Gain/trim on fader](sends-on-faders.md#gain-on-faders) | X   |      | Any                                                          | Any      |
+| {{ abbr('RTA') }}                                       | X   | X    | Any\*                                                        | Any      |
+| [Channel links](channel-links.md)                       | X   | X    | Any                                                          | Any      |
+| [Channel quick-gang](channel-links.md#quick-gang)       | X   | X    | Any                                                          | Any      |
+| Different color schemes                                 | X   |      | Any                                                          | Any      |
+| Configurable peak hold an decay time                    | X   |      | Any                                                          | Any      |
+| Gain reduction timeline                                 | X   |      | Any                                                          | Any      |
+| [Custom channel strip](settings/channel-strip.md)       | X   |      | Any                                                          | Any      |
+| Meterbridge                                             | X   |      | Any                                                          | Any      |
+| Cross mixer channel presets                             | X   |      | Any                                                          | Any      |
+| [Personal mix presets](mix-presets.md)                  | X   |      | Any                                                          | Any      |
+| Supports development                                    | X   |      | Any                                                          | Any      |
+| [Re-Gain](re-gain.md)                                   | X   |      | Any                                                          | Any      |
+| [Custom layouts](custom-layouts.md)                     | X   |      | Any                                                          | Any      |
+| [Mix copy](mix-copy.md)                                 | X   |      | Any                                                          | Any      |
+| [Midi device support](midi.md)                          | X   |      | Any                                                          | Any      |
+| [Channel move](xm32/channel-move.md)                    | X   |      | XM32                                                         | Any      |
+| Dashboard view                                          | X   |      | Any                                                          | Any      |
+| [Automatic ringing out](feedback-detection.md)          | X   |      | Any*                                                         | Any      |
+| Password protection                                     | X   | X    | [XM32](xm32/bus-password.md)/[XAir](xair/bus-password.md)/Qu | Any      |
 
 \* Mixer must have RTA functionality

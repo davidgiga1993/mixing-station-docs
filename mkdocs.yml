@@ -73,6 +73,8 @@ nav:
       General: mackie/general.md
   - Yamaha:
       DM: yamaha/dm.md
+      TF: yamaha/tf.md
+
   - Known issues: known-issues.md
   - Licenses: license/overview.md
   - Privacy policy: https://dev-core.org/dsgvo
