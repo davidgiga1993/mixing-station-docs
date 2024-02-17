@@ -1,8 +1,11 @@
 # User / Session settings
+
 This page provides access to all session and user settings.
 
 ## Open settings
+
 The app settings can be opened via the menu from the *mixer view*
+
 ```
 Menu -> Setup -> App
 ```

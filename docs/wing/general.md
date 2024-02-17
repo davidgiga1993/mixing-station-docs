@@ -1,7 +1,9 @@
 # Connection
+
 The mixer allows up to 16 simultaneous connections.
 
 # RTA
+
 As with most mixers there is only one {{ abbr('RTA') }} available.
 
 In comparison to the XM32 series, the mixer will always override the RTA source if not locked.

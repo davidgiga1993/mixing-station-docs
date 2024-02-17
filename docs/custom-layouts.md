@@ -44,6 +44,7 @@ The following describes how layouts, UI items and actions correlate to each-othe
 If you want to go back to the app's default, simply delete your layout.
 
 ### Example: Tap Delay Button
+
 The following example shows how to add a tap delay button to your mixer layout.
 ![type:video](img/layouts/tap-delay.webm)
 
@@ -151,12 +152,14 @@ This section describes the settings available for the UI elements (aka when pres
 ![Layout settings](img/layouts/ui-settings.png)
 
 ### Label
+
 The label is the text that should be shown on the UI element.
 You can use action tags to build labels that change based on the current value, for example:
 `[label] [value]`.
 All available tags can be found on the [actions page](custom-actions.md#label-tags).
 
 ### Margin
+
 Defines how big the margin should be of the UI element
 
 ### Visibility
@@ -170,8 +173,9 @@ This setting controls the conditions under which the UI is visible.
 | Not SoF    | Item is only visible if SoF is not active |
 
 ### Actions
+
 This list shows all actions assigned to the UI element. Click on an entry to open the action,
- press and hold an entry to remove it.
+press and hold an entry to remove it.
 See [actions page](custom-actions.md#label-tags) for more details.
 
 Note: Some UI elements may have more or less settings, these are described below.
@@ -191,24 +195,29 @@ This also includes the meterbridge (if enabled in the app settings).
 ![Mixer settings](img/layouts/mixer-settings.png)
 
 #### Visible channels
+
 Defines how many channels should be shown, by default it uses the value of your layer settings.
 
 ### Layer offset
-Changes which layer is currently shown, relative to the currently selected layer. 
-You can use this to build up rows of mixer elements, each showing a different layer. 
+
+Changes which layer is currently shown, relative to the currently selected layer.
+You can use this to build up rows of mixer elements, each showing a different layer.
 
 ### Channel strip settings
+
 Defines how the channel strips should look. By default, the [global settings](settings/channel-strip.md) are used.
 
 --- 
 
 ### Channel strip
+
 Shows a single channel strip that can be assigned to a fixed, or dynamic channel (for example the current bus master).
 
 ![Channel strip](img/layouts/ch-strip.png)
 ![Channel strip settings](img/layouts/ch-strip-settings.png)
 
-Similar to the mixer element, the look of this item can also be configured to be independent of the global channel strip settings.
+Similar to the mixer element, the look of this item can also be configured to be independent of the global channel strip
+settings.
 
 --- 
 
@@ -219,7 +228,6 @@ List of buttons for controlling the sends on fader, fine and mute enable status.
 ![Sof list](img/layouts/sidebar.png)
 
 --- 
-
 
 ### Sends on fader buttons
 
@@ -245,13 +253,13 @@ A button can be used to toggle the status of an action.
 
 Action slots:
 
-| Slot | Behavior |
-| --- | --- |
-| Click | Finger needs to touch and lift |
-| Long click | Finger needs to touch for a longer period |
-| Touch | Finger needs to touch |
-| Momentary | Touch triggers "on", lift triggers "off" |
-| Inv. Momentary | Same as `Momentary` but inverted |
+| Slot           | Behavior                                  |
+|----------------|-------------------------------------------|
+| Click          | Finger needs to touch and lift            |
+| Long click     | Finger needs to touch for a longer period |
+| Touch          | Finger needs to touch                     |
+| Momentary      | Touch triggers "on", lift triggers "off"  |
+| Inv. Momentary | Same as `Momentary` but inverted          |
 
 --- 
 

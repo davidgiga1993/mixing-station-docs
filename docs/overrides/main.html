@@ -3,7 +3,7 @@
 {% block content %}
 
 {% if page.url_to_print_page %}
-<a href="{{ page.url_to_print_page }}" title="Print Site" class="md-content__button md-icon">
+<a class="md-content__button md-icon" href="{{ page.url_to_print_page }}" title="Print Site">
 	{% include ".icons/material/printer.svg" %}
 </a>
 {% endif %}
@@ -13,9 +13,11 @@
 
 
 {% block announce %}
-<span >
-  Join us on <a style="color: var(--md-code-hl-keyword-color);" href="https://discord.gg/d8bJPg6kZm" target="_blank">discord</a>,
-  <a style="color: var(--md-code-hl-keyword-color);" href="https://www.facebook.com/groups/570631653401079" target="_blank">facebook</a> or
-  <a style="color: var(--md-code-hl-keyword-color);" href="https://www.reddit.com/r/MixingStationAppUsers/" target="_blank">reddit</a>
+<span>
+  Join us on <a href="https://discord.gg/d8bJPg6kZm" style="color: var(--md-code-hl-keyword-color);" target="_blank">discord</a>,
+  <a href="https://www.facebook.com/groups/570631653401079" style="color: var(--md-code-hl-keyword-color);"
+	 target="_blank">facebook</a> or
+  <a href="https://www.reddit.com/r/MixingStationAppUsers/" style="color: var(--md-code-hl-keyword-color);"
+	 target="_blank">reddit</a>
 </span>
 {% endblock %}
