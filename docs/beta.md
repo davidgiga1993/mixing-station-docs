@@ -24,7 +24,13 @@ Open this link on your iOS device and follow the instructions:
 
 - [Test Flight](https://testflight.apple.com/join/lsd9mugy)
 
-Note: Beta builds are only available for 90 days. In that time, all in-app payment features can be **tested for free!**
+Note: Beta builds are only available for 90 days. 
+In that time, all in-app payment features can be **tested for free!** Just click on 'Buy' and it will show the price
+as 0€.
+
+If you decide to leave the beta make sure to select the `Restore purchses` button (see below) to restore your previous
+purchases.
+
 The beta testers are limited to 750 accounts so if there are no slots left you can't join the beta program.
 
 ## Desktop
