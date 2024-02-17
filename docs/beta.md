@@ -26,7 +26,7 @@ Open this link on your iOS device and follow the instructions:
 
 Note: Beta builds are only available for 90 days. 
 In that time, all in-app payment features can be **tested for free!** Just click on 'Buy' and it will show the price
-as 0€.
+as 0€. Previously made purchases won't be visible here as they are only for the release version of the app.  
 
 If you decide to leave the beta make sure to select the `Restore purchses` button (see below) to restore your previous
 purchases.
