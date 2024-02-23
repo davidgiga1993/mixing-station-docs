@@ -26,5 +26,5 @@ Mixing Station can be used on Raspberry PI 4.
 
 3. Start the app
    ```
-   java -DlegacyShaders=true -jar mixing-station-pc.jar
+   java -DlegacyShaders=true -jar mixing-station-desktop.jar
    ```
