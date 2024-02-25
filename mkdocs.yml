@@ -43,6 +43,7 @@ nav:
   - Advanced:
       - App-Link: app-link.md
       - IDCAs: layer-idcas.md
+      - MCAs: mca.md
       - Channel Links: channel-links.md
       - Mix copy: mix-copy.md
       - Mix presets: mix-presets.md
