@@ -60,6 +60,7 @@ end
 
 Click one of the following links to find out more about
 the different settings types:
+
 - [Global settings](global.md)
 - [App settings](app.md)
 - [User settings](user.md)
