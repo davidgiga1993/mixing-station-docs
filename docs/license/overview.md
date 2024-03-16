@@ -10,7 +10,7 @@ It is possible to use one license on multiple devices of the same platform (e.g.
 All licenses can be managed using your [Mixing Station account](https://mixingstation.app/profile/licenses). If you
 don't have an account yet, you can [register here](https://mixingstation.app/profile/create).
 
-Make sure to use the same email address as used for purchasing otherwise we can't link the license to your account!
+> Make sure to use the same email address as used for purchasing otherwise we can't link the license to your account!
 
 ![License-page](../img/license/profile.png)
 
@@ -33,7 +33,9 @@ purchase another license.
 
 ## Restore licenses
 
-The following describes how to restore / import the license on another device.
+The following describes how to restore / import the license on another device:
+![img.png](open1.png)
+![img.png](open2.png)
 
 ### iOS
 
@@ -56,4 +58,8 @@ You can restore access your licenses using your Mixing Station account or the `.
 
 You can restore your licenses from your Mixing Station account or the app store used for the
 purchase (`Google Play`, `Amazon`, ect)
+
+> Important: When you previously migrated your license it can only be 
+> restored using your Mixing Station account!
+
 ![Android-Import](../img/license/licenses-overview.png)
