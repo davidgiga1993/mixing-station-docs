@@ -30,8 +30,7 @@ for locking the screen orientation.
 
 ### Autosave
 
-When enabled, this feature automatically saves all `User settings` under the name "default" when leaving any settings
-view.
+When enabled, this feature automatically saves all [User Settings](user.md) under the name `default`.
 
 ### USB Midi
 

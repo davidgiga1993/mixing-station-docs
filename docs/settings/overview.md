@@ -2,92 +2,78 @@
 
 This page explains how the app stores settings.
 
-There are 4 different settings categories as follows: Global, Console Series, App, and User.
+There are 3 different settings categories described in the following diagram:
 
-| Name                    | Scope                                     | Custom saves (import/export) possible |
-|-------------------------|-------------------------------------------|---------------------------------------|
-| Global settings         | Applies to the entire app                 | No                                    |
-| Console Series settings | Applies to a console series / Android app | No                                    |
-| App settings            | Applies to the entire app                 | No                                    |
-| User settings           | Applies to a specific mixer model         | Yes                                   |
-
-## Global settings
-
-These settings apply to the whole app. On Android, these settings apply to all app instances.
-
-- All app UI / UX related configuration (scale, slider sensitivity and behaviour, ...)
-- Network interface settings
-
-## Console series settings
-
-These settings apply to the currently selected mixer series (for example the `XM32`).
-
-- [Permissions configuration](../getting-started.md#permissions)
-- IP address of the mixer
-
-## App settings
-
-These settings are also global for the entire app and let you change UI/UX related settings, for example
-the [Channel strip](channel-strip.md).
-
-```
-Menu -> Setup (gear icon)
-```
-
-## User settings
-
-These settings are saved automatically by default (see `Autosave`). You can also save them manually.
-
-- [Layer](../layers.md)
-- [Layouts](../custom-layouts.md)
-- [Midi](../midi.md)
-
-To manually save the settings, open:
-
-```
-Menu -> Setup (gear icon) ->  Folder icon
+```plantuml
+@startuml
+package "Mixing Station" {
+   package "Mixer independent" {
+      object "Global Settings" as global {
+      UI Scale
+      Autostart
+      Connection settings
+      Power configuration
+      }
+      
+      object "App settings" as app {
+      Channel strips
+      Metring
+      Themes
+      Click behavior
+      }
+   }
+   
+   package "Mixer dependent"{
+      object "User settings" as user {
+      Layers
+      Layouts
+      Midi
+       }
+   }
+}
+@enduml
 ```
 
-![Settings-Manager](../img/generated/settings-manager-screenshot.png)
+The settings are recalled by the following logic:
 
-Use the scope buttons to select which settings should be saved or loaded.
-**Press and hold** an entry to open a context menu.
+```plantuml
+start
+:Open app;
+:Load Global settings;
+:Load App settings;
+if ("default" user settings entry\n for current mixer available?) then (yes)
+:Load "default" User Settings for \ncurrent mixer model;
+else (no)
+endif
 
-### Backup / Restore
+if (Got Layout with "Open on startup" behavior?) then (yes)
+:Load "Open on startup" layout;
+else (no)
+   if (Got Layout with "Mixer override" behavior?) then (yes)
+   :Load "Mixer override" layout;
+   else (no)
+   :Show regular mixer;
+   endif
+endif
+end
+```
 
-To backup **all** settings of the entire app, select the `gear icon` after starting the app, and
+Click one of the following links to find out more about
+the different settings types:
+- [Global settings](global.md)
+- [App settings](app.md)
+- [User settings](user.md)
+
+
+## Backup / Restore
+
+To create a backup of  **all** settings, select the `gear icon` after starting the app, and
 select `Backup / Restore`.
-You can backup all your data to a local file, or your Mixing Station account.
+You can back up all your data to a local file, or your Mixing Station account.
 
 ![Backup-Restore](../img/settings/backup-restore.png)
 
 ### Export / Import settings
 
-There are two ways to share `User settings` settings as follows:
+See [user settings](user.md)
 
-1. Via the `Community` share feature (requires a Mixing Station account)
-2. Via the operating system
-
-### Using the Community feature
-
-#### Upload
-
-1. Open the context menu for a setting entry.
-2. Select `Upload` You might be prompted to log in with your Mixing Station account.
-   If your browser is too old (e.g. iOS 9), you can also open to this url from any other browser:
-   [https://mixingstation.app/community/msSettings/stash](https://mixingstation.app/community/msSettings/stash)
-3. A browser will open (you might need to log in again) and you can enter additional meta data.
-4. Once saved, the setting is stored online and can be accessed from any device using your account. If you enabled
-   public sharing, other users can also download your settings.
-
-#### Download
-
-1. Press the `Community` button in the app to view your settings and all settings you have bookmarked from other users.
-
-### Share settings via the operating system
-
-1. Open the context menu and select `OS share`.
-
-Depending on the platform, multiple share options are available.
-For importing, you can use the arrow menu button or select the file you want to import in a file explorer and open it
-with Mixing Station.
