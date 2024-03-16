@@ -1,6 +1,6 @@
 # Settings
 
-This page explains how the app stores settings.
+This page explains how the app stores its settings.
 
 There are 3 different settings categories described in the following diagram:
 
