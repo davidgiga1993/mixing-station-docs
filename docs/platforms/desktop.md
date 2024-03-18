@@ -3,7 +3,7 @@
 ## Requirements
 
 - Operating system:
-    - Windows 11 (x64)
+    - Windows 11 (x64) (Windows 10 x64 will still work but not recommended)
     - macOS 10.15 or later
     - Linux (arm64, x64) support for GL ES3.0 (openGL)
 - Screen: Any screen works
@@ -11,7 +11,7 @@
 ## Touchscreen
 
 Multitouch is supported on Windows 10/11 as well as macOS.
-For macOS you need the TouchBase driver `7.1.108` or newer.
+For macOS, you need the TouchBase driver `7.1.108` or newer.
 
 Please make sure the app is working in offline mode before purchasing any licenses!
 
