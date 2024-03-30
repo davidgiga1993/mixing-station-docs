@@ -156,7 +156,7 @@ You can also configure the parameters yourself:
 - Event type: The event type defines what midi command the controller should react to.
 
   | Event type                                        | Description                                            |
-          |---------------------------------------------------|--------------------------------------------------------| 
+  |---------------------------------------------------|--------------------------------------------------------| 
   | Note On/Off                                       | Triggers the action on "Note On" and "Note Off" events |
   | Note On |  Triggers the actions on "Note On" events              |
   | Note Off                                          | Triggers the actions on "Note Off" events              |
