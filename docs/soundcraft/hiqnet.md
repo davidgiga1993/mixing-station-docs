@@ -11,19 +11,31 @@ Mixing Station currently implements nearly all parameters which can be remote co
 ## Network Requirements
 
 - All devices must be in the same subnet
-- Broadcast must be enabled
+- Broadcast must be allowed
 
 ## Setup
 
 For the basic setup guide see the [getting started page](../getting-started.md).
 Additional configuration for the hiqnet addresses (this is a sample configuration and can be adjusted if required.)
 
-| Device      | HiQNet address      | Misc                                                                                | 
-|-------------|---------------------|-------------------------------------------------------------------------------------|
-| Console     | Any other than 1337 | Make sure **not** to use any access restrictions on the mixer                       | 
-| Android/iOS | 1337                | Make sure each instance of the app (including ViSi remote) has a different address! |
+| Device      | HiQNet address      | Misc                                                                                                   | 
+|-------------|---------------------|--------------------------------------------------------------------------------------------------------|
+| Console     | Any other than 1337 | Make sure **not** to use any access restrictions on the mixer, or use "All" for the App HiQNet address | 
+| Android/iOS | 1337                | Make sure each instance of the app (including ViSi remote) has a different address!                    |
 
 You can also refer to the official [Soundcraft setup guide](https://www.youtube.com/watch?v=P-j-x1BJrx0).
+
+### Without hiqnet access control
+This is a sample configuration how to use Mixing Station without hiqnet access control
+
+![No access control](noAccessControl.png)
+
+### With access control
+This is a sample configuration how to use Mixing Station with hiqnet access control.
+Note the hiqnet address `1337` is the one configured in Mixing Station.
+This might be different depending on your configuration.
+
+![With access control](accessControl.png)
 
 ## Troubleshooting
 
