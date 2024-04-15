@@ -51,12 +51,14 @@ I'm very thankful for all the feedback I can get for those mixers.
 
 This section will get updated based on the feedback I receive.
 
+## iLive
+
+The iLive beta is available since `2.0.10`, use the `ilive` code for the secret mode dialog (see below).
+
 ## Secret Mode / Pre-release
 
-The secret mode allows you to access untested features of the app.
+The secret mode allows you to access unreleased features of the app.
 
 You can open it by `double-tapping with two fingers` on the screen after opening the app,
 or by pressing `CTRL+D`.
 This opens a new dialog where you can enter the code.
-
-- Currently there are no pre-release secret features.
