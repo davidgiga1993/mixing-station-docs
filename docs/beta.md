@@ -59,6 +59,6 @@ The iLive beta is available since `2.0.10`, use the `ilive` code for the secret 
 
 The secret mode allows you to access unreleased features of the app.
 
-You can open it by `double-tapping with two fingers` on the screen after opening the app,
+You can open it by `double-tapping with two fingers` on the screen (on a free area!) after opening the app,
 or by pressing `CTRL+D`.
 This opens a new dialog where you can enter the code.
