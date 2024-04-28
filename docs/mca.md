@@ -21,3 +21,5 @@ can change the level of all assigned channels relatively.
 
 Every time you enter this mode, the fader will be reset to the
 center, so you have the entire range to motion.
+
+Note: MCAs only work in in unrestricted mode. Please use [IDCAs](layer-idcas.md) if you want to give your performers the ability to control volume groups for their mix on stage.

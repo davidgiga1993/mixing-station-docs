@@ -2,7 +2,7 @@
 
 Mixing Station can created an unlimited number of DCAs, called "IDCA" channels.
 
-It is also possible to create an IDCA which changes the send level of multiple channels instead of the LR mix.
+It is also possible to create an IDCA which changes the send level of multiple channels instead of the LR mix. Unlike MCAs, IDCAs also work in restricted mode, when the user access is limited to certain mix(es).
 
 ## New IDCA
 
