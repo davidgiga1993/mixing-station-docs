@@ -24,7 +24,7 @@ Please make sure your mixer has the latest compatible firmware.
 | dLive        | A&H dLive                                        | V1.93 or newer          |                                                          | 
 | Avantis      | A&H Avantis                                      | V1.12 or newer          |                                                          | 
 | GLD          | A&H GLD                                          | V1.61                   |                                                          |
-| iLive        | A&H iLive                                        | V1.95                   | Secondary mixracks and surface routing are not supported |
+| iLive        | A&H iLive                                        | V1.94                   | Secondary mixracks and surface routing are not supported |
 | SQ           | A&H SQ                                           | V1.4.1 or newer         |                                                          |
 | Qu           | A&H Qu                                           | V1.90 or newer          |                                                          |
 | CQ           | A&H CQ                                           | V1.1 or newer           |                                                          |
