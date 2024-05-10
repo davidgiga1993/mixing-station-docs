@@ -40,41 +40,43 @@ nav:
           - User settings: settings/user.md
       - Layers / SoF: layers.md
       - Channel strip: settings/channel-strip.md
-  - Advanced:
+  - Features:
+      - Actions: custom-actions.md
+      - Custom layouts: custom-layouts.md
+      - Auto EQ: auto-eq.md
       - App-Link: app-link.md
+      - Channel Links: channel-links.md
+      - Feedback detection: feedback-detection.md
       - IDCAs: layer-idcas.md
       - MCAs: mca.md
-      - Channel Links: channel-links.md
+      - Midi: midi.md
       - Mix copy: mix-copy.md
       - Mix presets: mix-presets.md
       - Re-Gain: re-gain.md
-      - Custom layouts: custom-layouts.md
-      - Midi: midi.md
-      - Actions: custom-actions.md
-      - Auto EQ: auto-eq.md
-      - Feedback detection: feedback-detection.md
+      - Surround Panning: surround.md
   - Beta program: beta.md
   - APIs: integrations/apis.md
-  - WING:
-      General: wing/general.md
-  - XAir:
-      Bus password: xair/bus-password.md
-  - XM32:
-      Channel move: xm32/channel-move.md
-      Bus password: xm32/bus-password.md
-      X32-Mix lag: xm32/network-compare.md
-      Samsung & Android 6: xm32/samsung-android6.md
-  - Soundcraft:
-      Si: soundcraft/si-performer.md
-      Vi: soundcraft/vi.md
-      HiQNet: soundcraft/hiqnet.md
-  - Allen & Heath:
-      General: ah/general.md
-  - Mackie:
-      General: mackie/general.md
-  - Yamaha:
-      DM: yamaha/dm.md
-      TF: yamaha/tf.md
+  - Mixer specifics:
+      - Allen & Heath:
+          General: ah/general.md
+      - Mackie:
+          General: mackie/general.md
+      - Soundcraft:
+          Si: soundcraft/si-performer.md
+          Vi: soundcraft/vi.md
+          HiQNet: soundcraft/hiqnet.md
+      - WING:
+          General: wing/general.md
+      - XAir:
+          Bus password: xair/bus-password.md
+      - XM32:
+          Channel move: xm32/channel-move.md
+          Bus password: xm32/bus-password.md
+          X32-Mix lag: xm32/network-compare.md
+          Samsung & Android 6: xm32/samsung-android6.md
+      - Yamaha:
+          DM: yamaha/dm.md
+          TF: yamaha/tf.md
 
   - Known issues: known-issues.md
   - Licenses: license/overview.md
