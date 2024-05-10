@@ -25,10 +25,10 @@ nav:
   - FAQ: faq.md
   - Versions & Features: feature-list.md
   - Platforms:
-      - Desktop: platforms/desktop.md
       - Android: platforms/android.md
-      - iOS: platforms/ios.md
+      - Desktop: platforms/desktop.md
       - RPi: platforms/rpi.md
+      - iOS: platforms/ios.md
   - Getting started:
       - General: getting-started.md
       - UI controls: ui-controls.md
@@ -42,10 +42,10 @@ nav:
       - Channel strip: settings/channel-strip.md
   - Features:
       - Actions: custom-actions.md
-      - Custom layouts: custom-layouts.md
-      - Auto EQ: auto-eq.md
       - App-Link: app-link.md
+      - Auto EQ: auto-eq.md
       - Channel Links: channel-links.md
+      - Custom layouts: custom-layouts.md
       - Feedback detection: feedback-detection.md
       - IDCAs: layer-idcas.md
       - MCAs: mca.md
@@ -94,9 +94,9 @@ plugins:
       include_yaml:
         - data/abbreviations.yml
   - mkdocs-video:
-      is_video: True
-      video_muted: True
-      video_controls: True
+      is_video: true
+      video_muted: true
+      video_controls: true
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
       num_workers: 8

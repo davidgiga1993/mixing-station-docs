@@ -31,6 +31,7 @@ pipeline {
 			steps {
 				script {
 					docker.image('mkdocs-pdf:1.0').inside {
+						sh 'python3 sort-nav.py'
 						sh '/usr/local/bin/mkdocs build'
 					}
 				}
