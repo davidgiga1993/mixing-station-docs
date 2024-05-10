@@ -58,25 +58,25 @@ nav:
   - APIs: integrations/apis.md
   - Mixer specifics:
       - Allen & Heath:
-          General: ah/general.md
+          - General: ah/general.md
       - Mackie:
-          General: mackie/general.md
+          - General: mackie/general.md
       - Soundcraft:
-          Si: soundcraft/si-performer.md
-          Vi: soundcraft/vi.md
-          HiQNet: soundcraft/hiqnet.md
+          - Si: soundcraft/si-performer.md
+          - Vi: soundcraft/vi.md
+          - HiQNet: soundcraft/hiqnet.md
       - WING:
-          General: wing/general.md
+          - General: wing/general.md
       - XAir:
-          Bus password: xair/bus-password.md
+          - Bus password: xair/bus-password.md
       - XM32:
-          Channel move: xm32/channel-move.md
-          Bus password: xm32/bus-password.md
-          X32-Mix lag: xm32/network-compare.md
-          Samsung & Android 6: xm32/samsung-android6.md
+          - Channel move: xm32/channel-move.md
+          - Bus password: xm32/bus-password.md
+          - X32-Mix lag: xm32/network-compare.md
+          - Samsung & Android 6: xm32/samsung-android6.md
       - Yamaha:
-          DM: yamaha/dm.md
-          TF: yamaha/tf.md
+          - DM: yamaha/dm.md
+          - TF: yamaha/tf.md
 
   - Known issues: known-issues.md
   - Licenses: license/overview.md
