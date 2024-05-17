@@ -11,7 +11,7 @@ The main channel is not used by the panner to ensure phase alignment.
 ## Setup
 
 1. Connect to your mixer / start offline mode
-2. Press the gear icon -> `Surround Pan`
+2. Press the `...` menu button in the mixer view -> `Surround Pan`
 3. Select the bus that should be used for the front and rear channel
 4. Press `Enable`, then select `Apply`
 5. Enable the `Surr.Pan` element in the [channel strip settings](settings/channel-strip.md)
