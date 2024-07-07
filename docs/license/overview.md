@@ -31,6 +31,16 @@ Once the limit has been reached you can either deactivate devices you don't use 
 see [manage activations](#manage-activations)) or
 purchase another license.
 
+## Move license
+You can move licenses from one email to another using the `Move license` button.
+![move-button](move-button.png)
+
+Just enter the source email, from which you want to move the licenses and confirm.
+An email confirmation will be sent to the email which you'll need to confirm.
+
+Afterward, all licenses previously associated with the entered email will be moved
+to your account.
+
 ## Restore licenses
 
 The following describes how to restore / import the license on another device:

@@ -29,6 +29,14 @@ The license restore process is described on [the license page](license/overview.
 Note for Android users: If you migrated your license from the old app the only way to import it again is to import it
 using your Mixing Station account. You won't be able to restore it using the `Google Play` option.
 
+## I see no licenses in my account, what can I do?
+Licenses are associated based on the email address provided during the purchase.
+On Google Play this is by default your gmail address, on purchases made via fastspring 
+this is the email you've provided during checkout.
+
+If this email is different from the email used in your Mixing Station account you can request a license move.
+To do that, please follow the "[move license](license/overview.md#move-license)" section in the manual.
+
 ## Is there a pdf version of this manual?
 
 No, however you can open the [print version](../print_page/) of this page and
