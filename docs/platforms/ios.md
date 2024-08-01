@@ -13,3 +13,8 @@ As soon as you want to connect to a mixer you must buy the app for that mixer mo
 
 The URL scheme of the app is `mixingstation`. This name can be used for other apps such as `BandHelper` in order to open
 Mixing Station.
+
+## MDM
+For mass license or MDM managed devices, please contact support and include your Apple Business/School manager Name and ID.
+
+Also make sure to enable `Custom Apps` in Apple School Manager Organisation Settings!

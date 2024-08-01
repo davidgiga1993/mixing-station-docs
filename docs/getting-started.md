@@ -89,7 +89,7 @@ In this view you can:
 - Set a name for the entry
 - Change the permission settings
 - Set the IP/Hostname that should be used for connect
-- Configure if a click should start the search or directly connect to the specified address.
--
+- Configure if you want to connect to a fixed ip address or search for the mixer every time
+
 
 <div style="clear: both;"></div>
