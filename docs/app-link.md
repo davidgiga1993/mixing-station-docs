@@ -1,6 +1,6 @@
 # App-Link
 
-This feature allows you to use multiple devices for mixing and synchronize app parameters.
+This feature allows you to use multiple devices for mixing and synchronize **app** parameters such as the selected channel.
 
 You could for example use two tablets where one shows the channel details and the other the mixer.
 App-Link can synchronize the currently selected channel between those devices.

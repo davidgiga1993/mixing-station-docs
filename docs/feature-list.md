@@ -16,25 +16,26 @@ For licensing information, please refer to the [licensing page](license/overview
 
 Please make sure your mixer has the latest compatible firmware.
 
-| Feature name | Mixers                                           | Required firmware       | Notes                                                    | 
-|--------------|--------------------------------------------------|-------------------------|----------------------------------------------------------|
-| XM32         | Behringer X32/M32(R)                             | V1.15 or newer          |                                                          |
-| XAir         | Behringer XAir or Midas MR                       | V1.12 or newer          |                                                          |
-| HD96         | Midas HD96 series                                | V1.24.0 or newer        |                                                          |
-| dLive        | A&H dLive                                        | V1.93 or newer          |                                                          | 
-| Avantis      | A&H Avantis                                      | V1.12 or newer          |                                                          | 
-| GLD          | A&H GLD                                          | V1.61                   |                                                          |
-| iLive        | A&H iLive                                        | V1.94                   | Secondary mixracks and surface routing are not supported |
-| SQ           | A&H SQ                                           | V1.4.1 or newer         |                                                          |
-| Qu           | A&H Qu                                           | V1.90 or newer          |                                                          |
-| CQ           | A&H CQ                                           | V1.1 or newer           |                                                          |
-| Si           | Soundcraft Si                                    | V1.8 / V1.8 / V1-2      | See [HiQNet guide / limitations](soundcraft/hiqnet.md)   |
-| Vi           | Soundcraft Vi ([view details](soundcraft/vi.md)) | Latest                  | See [HiQNet guide / limitations](soundcraft/hiqnet.md)   |
-| Ui           | Soundcraft Ui                                    | Latest                  |                                                          |
-| Wing         | Behringer Wing                                   | Any                     |                                                          |
-| DL           | Mackie DL32S/DL16S/DL32R/DL1608                  | MFV V5.2 (Mandolin 1.6) |                                                          |
-| DM3          | Yamaha DM3/DM3S                                  | V1.10 or newer          | See [DM](yamaha/dm.md)                                   |
-| TF           | Yamaha TF                                        | V4.50 or newer          | See [TF](yamaha/tf.md)                                   |
+| Feature name   | Mixers                                           | Required firmware       | Notes                                                    | 
+|----------------|--------------------------------------------------|-------------------------|----------------------------------------------------------|
+| XM32           | Behringer X32/M32(R)                             | V1.15 or newer          |                                                          |
+| XAir           | Behringer XAir or Midas MR                       | V1.12 or newer          |                                                          |
+| HD96           | Midas HD96 series                                | V1.24.0 or newer        |                                                          |
+| dLive          | A&H dLive                                        | V1.93 or newer          |                                                          | 
+| Avantis        | A&H Avantis                                      | V1.12 or newer          |                                                          | 
+| GLD            | A&H GLD                                          | V1.61                   |                                                          |
+| iLive          | A&H iLive                                        | V1.94                   | Secondary mixracks and surface routing are not supported |
+| SQ             | A&H SQ                                           | V1.4.1 or newer         |                                                          |
+| Qu             | A&H Qu                                           | V1.90 or newer          |                                                          |
+| CQ             | A&H CQ                                           | V1.1 or newer           |                                                          |
+| Si             | Soundcraft Si                                    | V1.8 / V1.8 / V1-2      | See [HiQNet guide / limitations](soundcraft/hiqnet.md)   |
+| Vi             | Soundcraft Vi ([view details](soundcraft/vi.md)) | Latest                  | See [HiQNet guide / limitations](soundcraft/hiqnet.md)   |
+| Ui             | Soundcraft Ui                                    | Latest                  |                                                          |
+| Wing           | Behringer Wing                                   | Any                     |                                                          |
+| StudioLive III | PreSonus StudioLive Series 3                     | V2.7.2 or newer         | Must be in the same subnet                               |
+| DL             | Mackie DL32S/DL16S/DL32R/DL1608                  | MFV V5.2 (Mandolin 1.6) |                                                          |
+| DM             | Yamaha DM3/DM3S                                  | V1.10 or newer          | See [DM](yamaha/dm.md)                                   |
+| TF             | Yamaha TF                                        | V4.50 or newer          | See [TF](yamaha/tf.md)                                   |
 
 ## Features
 
