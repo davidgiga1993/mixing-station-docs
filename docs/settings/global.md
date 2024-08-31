@@ -16,7 +16,7 @@ The app settings can be opened via the menu from the `start view` (directly afte
 Menu -> Gear icon
 ```
 
-![Settings-Manager](../img/generated/global-settings-screenshot.png)
+![Global Settings](../img/generated/global-settings-screenshot.png)
 
 ### Update branch
 
@@ -24,13 +24,24 @@ Menu -> Gear icon
 
 Configures which branch to use when checking for updates.
 
+## Close confirmation
+
+> Desktop version only
+
+When enabled, the app will ask the user for confirmation before closing
+
+## Font
+
+Defines which font should be used. Depending on the language that you're using you may need to change
+fonts in order for the characters to be correctly displayed.
+
 ### Scale
 
 Changes the UI scale of the app.
 
-### Invert scroll
+### Scroll mode
 
-Inverts the mouse / touchpad scroll direction.
+Allows you to invert the mouse / touchpad scroll direction or disable it entirely.
 
 ### Access bus processing
 
