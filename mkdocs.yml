@@ -61,6 +61,8 @@ nav:
           - General: ah/general.md
       - Mackie:
           - General: mackie/general.md
+      - PreSonous:
+          - SL3: presonus/sl3.md
       - Soundcraft:
           - Si: soundcraft/si-performer.md
           - Vi: soundcraft/vi.md
