@@ -2,16 +2,6 @@
 
 This page lists all known bugs and limitation of the app.
 
-## Android
-
-### Samsung keyboard issues
-
-After the latest Samsung OS update it's not possible to enter an IP address into the text field.
-This is caused by a validation bug of the keyboard. As a workaround you have two options:
-
-- Copy/paste the IP into the textfield
-- Use the `search` button
-
 ## iOS
 
 ### Turn screen off

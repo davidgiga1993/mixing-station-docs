@@ -79,6 +79,7 @@ nav:
       - Yamaha:
           - DM: yamaha/dm.md
           - TF: yamaha/tf.md
+      - Incompatible: incompatible-mixers.md
 
   - Known issues: known-issues.md
   - Licenses: license/overview.md

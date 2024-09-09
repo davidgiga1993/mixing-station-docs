@@ -37,6 +37,10 @@ Please make sure your mixer has the latest compatible firmware.
 | DM             | Yamaha DM3/DM3S                                  | V1.10 or newer          | See [DM](yamaha/dm.md)                                   |
 | TF             | Yamaha TF                                        | V4.50 or newer          | See [TF](yamaha/tf.md)                                   |
 
+See [incompatible mixers](incompatible-mixers.md) for a list of mixers
+which will never be supported in mixing station.
+
+
 ## Features
 
 This page lists all the special features in the professional version.
