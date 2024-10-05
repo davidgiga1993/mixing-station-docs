@@ -8,12 +8,15 @@
     - Linux (arm64, x64) support for GL ES3.0 (openGL)
 - Screen: Any screen works
 
+>  Please make sure the app is working in offline mode before purchasing any licenses!
+
 ## Touchscreen
 
 Multitouch is supported on Windows 10/11 as well as macOS.
-For macOS, you need the TouchBase driver `7.1.108` or newer.
+For macOS, you need the TouchBase driver `7.1.108` or newer and the following configuration:
 
-Please make sure the app is working in offline mode before purchasing any licenses!
+![Touch Base driver](touchbase.png)
+
 
 ## Settings locations
 
@@ -81,10 +84,6 @@ mixing-station.exe "-appSeries=X AIR" -ip=192.168.1.1 -mixTarget=-1
 | `0`   | Bus 1 / Mix 1   |
 | `1`   | Bus 2 / Mix 2   |
 | ...   | ...             |
-
-### Auto connect
-
-Since V0.0.8 you can configure Mixing Station to automatically connect to a mixer on startup. See the example above.
 
 ## Known issues
 
