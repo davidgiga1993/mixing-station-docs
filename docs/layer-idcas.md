@@ -1,15 +1,16 @@
 # Unlimited DCAs
 
-Mixing Station can created an unlimited number of DCAs, called "IDCA" channels.
+Mixing Station can create an unlimited number of DCAs, called "IDCA" channels.
 
-It is also possible to create an IDCA which changes the send level of multiple channels instead of the LR mix.
+It is also possible to select a specific mix the IDCA should affect instead of the main mix.
 
 ## New IDCA
 
-To add a new {{ abbr('IDCA') }} to a layer, open the `Layer Setup` view.
-Press the `+` symbol in the menu and select `IDCA` to open the `IDCA Setup` view as shown below.
+You can create new {{ abbr('IDCA') }}s in the layer editor via the top menu (`+` symbol).
 
-![New IDCA](gif/new-idca.gif)
+IDCAs are globally available, meaning once created, you can add them to multiple layers at the same time.
+
+![type:video](gif/new-idca.webm)
 
 ## IDCA Setup
 
@@ -26,7 +27,17 @@ By changing the IDCA fader, all assigned channel levels will be adjusted accordi
 
 The red line behind the fader knob of an IDCA shows the minimum/maximum levels of the assigned channels.
 
-## How to remove
+### Fader mode
 
-To remove an IDCA, long press it in the ordering row at the
-bottom of the `Layer Setup` view and select the `Delete` option.
+The IDCA can be configured with different fader modes:
+
+| Mode                 | Explanation                                                                      |
+|----------------------|----------------------------------------------------------------------------------|
+| Default              | All member channel faders are moved, keeping their ratio                         |
+| Ignore -oo           | Member channels having their fader at the -Inf. position are ignored             |
+| Ignore -oo for sends | In SoF mode: Member channels having their send at the -Inf. position are ignored |
+
+## Removing
+
+To remove the IDCA from a layer just drag n drop the item onto the `Remove` field.
+If you want to delete the IDCA entirely you can drag and drop the item onto the `Delete` field.
