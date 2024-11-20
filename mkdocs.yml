@@ -85,7 +85,6 @@ nav:
   - Licenses: license/overview.md
   - Privacy policy: https://dev-core.org/dsgvo
 
-
 markdown_extensions:
   - attr_list
   - pymdownx.superfences
