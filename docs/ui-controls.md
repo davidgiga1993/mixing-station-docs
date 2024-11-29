@@ -85,7 +85,8 @@ Contains two **scrollable** bars for layers and access to [sends on faders](send
 
 ### Fine mode
 
-When enabled faders will be more less sensitive and you can make smaller adjustments.
+When enabled, faders will be less sensitive, allowing for smaller and more precise adjustments.
+
 
 ### Mute enable
 
