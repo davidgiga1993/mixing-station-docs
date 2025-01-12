@@ -51,9 +51,11 @@ I'm very thankful for all the feedback I can get for those mixers.
 
 This section will get updated based on the feedback I receive.
 
-## iLive
+## QSC TouchMix
 
-The iLive beta is available since `2.0.10`, use the `ilive` code for the secret mode dialog (see below).
+The QSC TouchMix beta is available since Mixing Station `2.2.2`, use the `qsc` code for the secret mode dialog (see below).
+
+Please read through the dedicated [qsc](qsc/general.md) page.
 
 ## Secret Mode / Pre-release
 
