@@ -24,11 +24,7 @@ nav:
   - Home: index.md
   - FAQ: faq.md
   - Versions & Features: feature-list.md
-  - Platforms:
-      - Android: platforms/android.md
-      - Desktop: platforms/desktop.md
-      - RPi: platforms/rpi.md
-      - iOS: platforms/ios.md
+
   - Getting started:
       - General: getting-started.md
       - UI controls: ui-controls.md
@@ -54,6 +50,11 @@ nav:
       - Mix presets: mix-presets.md
       - Re-Gain: re-gain.md
       - Surround Panning: surround.md
+  - Platforms:
+      - Android: platforms/android.md
+      - Desktop: platforms/desktop.md
+      - RPi: platforms/rpi.md
+      - iOS: platforms/ios.md
   - Beta program: beta.md
   - APIs: integrations/apis.md
   - Mixer specifics:

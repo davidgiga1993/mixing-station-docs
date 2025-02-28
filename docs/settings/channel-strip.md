@@ -1,9 +1,8 @@
 # Channel strip settings
 
-![Channel strip settings](../img/settings/channel-strip.webp)
+![Channel strip settings](../img/settings/channel-strip.png)
 
-These settings are related to the channel strips in the mixer and belong to the **user settings** (i.e., they apply to
-all mixers).
+The channel strips can be fully configured to your liking. The configuration is stored globally for your device.
 
 For more advanced configuration options take a look at the [custom layouts](../custom-layouts.md) page.
 

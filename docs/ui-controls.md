@@ -2,8 +2,7 @@
 
 This page describes the most common UI controls and how to use them.
 
-Note that if you are using a mouse, **right click** - in the following instructions - is equivalent to **press and hold
-**.
+Note: When using a mouse, use can also **right-click** instead of **press and hold**.
 
 ## Buttons
 
@@ -64,7 +63,7 @@ The white line indicates the default value for this parameter.
 
 ![Input button](img/text-input.png)
 
-Dark buttons indicate a text input. Some fields may allow multiline text input. In iOS you can use the `$` character to
+Dark buttons indicate a text input. Some fields may allow multiline text input. On iOS you can use the `$` character to
 indicate a line break.
 
 ## Channel buttons
@@ -86,7 +85,6 @@ Contains two **scrollable** bars for layers and access to [sends on faders](send
 ### Fine mode
 
 When enabled, faders will be less sensitive, allowing for smaller and more precise adjustments.
-
 
 ### Mute enable
 

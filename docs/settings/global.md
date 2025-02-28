@@ -47,6 +47,10 @@ Allows you to invert the mouse / touchpad scroll direction or disable it entirel
 
 When enabled, a user with restricted access to a single bus is allowed to access the processing of that bus.
 
+### Access bus fader
+
+When enabled, a user with restricted access will see the main bus fader on the right side of the screen.
+
 ### Autostart
 
 Autostart allows you to configure which mixer the app should connect to when starting.
