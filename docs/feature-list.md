@@ -35,6 +35,7 @@ Please make sure your mixer has the latest compatible firmware.
 | StudioLive III | PreSonus StudioLive Series 3                     | V2.7.2 or newer         | See [SL3](presonus/sl3.md)                               |
 | DL             | Mackie DL32S(E)/DL16S(E)/DL32R/DL1608            | MFV V5.2 (Mandolin 1.6) |                                                          |
 | DM3            | Yamaha DM3/DM3S                                  | V1.10 or newer          | See [DM](yamaha/dm.md)                                   |
+| DM7 (beta)     | Yamaha DM7/DM7 Compact                           | V1.70 or newer          |                                                          |
 | TF             | Yamaha TF                                        | V4.50 or newer          | See [TF](yamaha/tf.md)                                   |
 
 See [incompatible mixers](incompatible-mixers.md) for a list of mixers
