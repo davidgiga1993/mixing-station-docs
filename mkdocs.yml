@@ -40,6 +40,7 @@ nav:
       - Actions: custom-actions.md
       - App-Link: app-link.md
       - Auto EQ: auto-eq.md
+      - Batch edit: batch-edit.md
       - Channel Links: channel-links.md
       - Custom layouts: custom-layouts.md
       - Feedback detection: feedback-detection.md
@@ -109,4 +110,3 @@ plugins:
         'platforms/pc.md': 'platforms/desktop.md'
   # Must be last plugin
   - print-site
-
