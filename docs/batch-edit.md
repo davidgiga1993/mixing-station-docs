@@ -1,6 +1,6 @@
 # Batch edit
 
-Depending on your mixer, various parameters can be viewed and edited in bulk across channels. This applies to most settings accessible in the channel view and the channel strip.
+Various mixer parameters can be viewed and edited in bulk across channels. This applies to most settings accessible in the channel view and the channel strip.
 
 Some example use cases:
 - Toggling insert activation for a range of channels
