@@ -5,7 +5,7 @@ This page describes the Layer and Sends on Fader configuration.
 ## What is a layer?
 
 A layer defines what channels should be shown in the mixer.
-You can create an unlimited number of layers and each layer can contain up to 32 channels.
+You can create an unlimited number of layers and each layer can contain up to 40 channels.
 
 ## Layer settings
 
