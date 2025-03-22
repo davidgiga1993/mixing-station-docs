@@ -37,7 +37,7 @@ The beta testers are limited to 750 accounts so if there are no slots left you c
 ## Desktop
 
 1. Open the app
-2. Click the gear icon
+2. Click the gear icon -> `Global`
 3. Select `Beta` as update branch
 4. Restart the app
 
