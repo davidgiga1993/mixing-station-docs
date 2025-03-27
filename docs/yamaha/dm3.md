@@ -1,4 +1,4 @@
-# Yamaha DM
+# Yamaha DM3
 
 Mixing Station supports all models of the DM3 mixer series, but there are some limitations:
 

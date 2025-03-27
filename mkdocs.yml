@@ -63,12 +63,14 @@ nav:
           - General: ah/general.md
       - Mackie:
           - General: mackie/general.md
-      - PreSonous:
+      - PreSonus:
           - SL3: presonus/sl3.md
       - Soundcraft:
           - Si: soundcraft/si-performer.md
           - Vi: soundcraft/vi.md
           - HiQNet: soundcraft/hiqnet.md
+      - QSC:
+          - General: qsc/general.md
       - WING:
           - General: wing/general.md
       - XAir:
@@ -79,7 +81,7 @@ nav:
           - X32-Mix lag: xm32/network-compare.md
           - Samsung & Android 6: xm32/samsung-android6.md
       - Yamaha:
-          - DM: yamaha/dm.md
+          - DM3: yamaha/dm3.md
           - TF: yamaha/tf.md
       - Incompatible: incompatible-mixers.md
 
