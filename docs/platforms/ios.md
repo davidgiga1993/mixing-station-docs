@@ -17,4 +17,6 @@ Mixing Station.
 ## MDM
 For mass license or MDM managed devices, please contact support and include your Apple Business/School manager Name and ID.
 
-Also make sure to enable `Custom Apps` in Apple School Manager Organisation Settings!
+Also make sure to enable `Custom Apps` in Apple School Manager Organisation Settings.
+Take a look at the [apple documentation](https://support.apple.com/guide/apple-school-manager/learn-about-custom-apps-axm58ba3112a/web) for
+more details.
