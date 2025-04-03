@@ -48,6 +48,12 @@ If you're using an XAir mixer make sure to change the EQ type to `GEQ`, see scre
 In case the left sidebar is missing, press the top `fullscreen` button.
 ![xair geq](img/faq/xair-geq.png)
 
+## Where are the peq controls gone?
+
+The PEQ controls (gain, Q, freq) are hidden in fullscreen mode. Press the arrow
+button to disable it:
+![fullscreen button](img/fullscreen-button.png)
+
 ## My faders in the channel view disappeared!
 
 You're very likely in `fullscreen mode` which can be toggled via the top menu:

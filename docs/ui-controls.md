@@ -15,7 +15,7 @@ Note: When using a mouse, use can also **right-click** instead of **press and ho
 ![Button long click](img/generated/button-long-click-screenshot.png)
 
 Buttons with an indicator (`...`) in the top right have a long-click action.
-You can press and hold or right-click the button.
+This will usually open additional details about the parameter.
 
 ## Knobs
 
@@ -69,6 +69,7 @@ indicate a line break.
 ## Channel buttons
 
 The behaviour of these button can be configured in [app settings](settings/app.md).
+
 Default behaviour is as follows:
 
 - **Tap** Open channel details
@@ -80,7 +81,7 @@ Default behaviour is as follows:
 
 ![Sidebar](img/generated/sidebar-soflist-screenshot.png)
 
-Contains two **scrollable** bars for layers and access to [sends on faders](sends-on-faders.md)
+Contains two **scrollable** bars for access to [sends on faders](sends-on-faders.md) and [layers](layers.md)
 
 ### Fine mode
 
@@ -116,7 +117,7 @@ The current view and additional information are display on the left.
 The menu items are shown in a fixed order. If there are too many items, some will be hidden and accessible using
 the  `...` item.
 
-## Quick access
+## Built-in gestures
 
 ### Mute groups
 

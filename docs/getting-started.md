@@ -2,17 +2,17 @@
 
 When opening the app you'll see the mixer selection screen:
 
-![Mixer selection](../img/mixer-selection.png)
+![Mixer selection](img/mixer-selection.png)
 
 On this screen you can select to which mixer you want to connect to.
 
 By pressing the `Add Mixer` button you can add a new entry.
 
-## Mixer entry
+## Connection profiles
 
-When adding a new mixer (or when pressing the gear icon on an existing entry) you see the connection settings entry:
+When adding a new mixer (or when pressing the gear icon on an existing entry) you see the connection profile entry:
 
-![settings](../img/mixer-connection-settings.png)
+![settings](img/mixer-connection-settings.png)
 
 This dialogue allows you to configure the access mode and connection settings
 
@@ -55,7 +55,8 @@ needing to connect to a mixer. However, some features that will not work in offl
 ![Favorite mixer](img/favorite-mixer.png)
 </div>
 
-You can pin connections by pressing the `star` or `mixer icon`:
+You can pin connection profiles by pressing the `star` or `mixer icon`:
 Pinned entries will always appear at the top of the list
 and won't get removed over time.
 <div style="clear: both;"></div>
+

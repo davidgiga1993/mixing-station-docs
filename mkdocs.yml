@@ -28,6 +28,7 @@ nav:
   - Getting started:
       - General: getting-started.md
       - UI controls: ui-controls.md
+      - Mixing: mixing.md
       - Sends on faders: sends-on-faders.md
       - Settings:
           - Overview: settings/overview.md
