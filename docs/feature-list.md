@@ -34,9 +34,10 @@ Please make sure your mixer has the latest compatible firmware.
 | Wing           | Behringer Wing (Full, Compact, Rack)             | Any                     |                                                          |
 | StudioLive III | PreSonus StudioLive Series 3                     | V2.7.2 or newer         | See [SL3](presonus/sl3.md)                               |
 | DL             | Mackie DL32S(E)/DL16S(E)/DL32R/DL1608            | MFV V5.2 (Mandolin 1.6) |                                                          |
-| DM3            | Yamaha DM3/DM3S                                  | V1.10 or newer          | See [DM](yamaha/dm3)                                   |
-| DM7 (beta)     | Yamaha DM7/DM7 Compact                           | V1.70 or newer          |                                                          |
+| DM3            | Yamaha DM3/DM3S                                  | V1.10 or newer          | See [DM](yamaha/dm3)                                     |
+| DM7            | Yamaha DM7/DM7 Compact                           | V1.70 or newer          |                                                          |
 | TF             | Yamaha TF                                        | V4.50 or newer          | See [TF](yamaha/tf.md)                                   |
+| QSC            | QSC TouchMix 8/16/30                             | Latest                  | See [Limitations](qsc/general)                           |
 
 See [incompatible mixers](incompatible-mixers.md) for a list of mixers
 which will never be supported in mixing station.
