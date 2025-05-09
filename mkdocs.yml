@@ -67,21 +67,24 @@ nav:
   - Mixer specifics:
       - Allen & Heath:
           - General: ah/general.md
+      - Incompatible: incompatible-mixers.md
+
       - Mackie:
           - General: mackie/general.md
       - PreSonus:
           - SL3: presonus/sl3.md
+      - QSC:
+          - General: qsc/general.md
       - Soundcraft:
           - Si: soundcraft/si-performer.md
           - Vi: soundcraft/vi.md
           - HiQNet: soundcraft/hiqnet.md
-      - QSC:
-          - General: qsc/general.md
       - WING:
           - General: wing/general.md
       - XAir:
           - Bus password: xair/bus-password.md
       - XM32:
+          - General: xm32/general.md
           - Channel move: xm32/channel-move.md
           - Bus password: xm32/bus-password.md
           - X32-Mix lag: xm32/network-compare.md
@@ -89,8 +92,6 @@ nav:
       - Yamaha:
           - DM3: yamaha/dm3.md
           - TF: yamaha/tf.md
-      - Incompatible: incompatible-mixers.md
-
   - Licenses: license/overview.md
   - Privacy policy: https://dev-core.org/dsgvo
 

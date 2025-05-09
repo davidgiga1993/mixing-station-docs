@@ -11,8 +11,17 @@ def get_nav_item(root_nav, name: str) -> CommentedMap:
 
 
 def sort_nav_items(nav: CommentedMap):
+    # The first item might be a plain string (section index)
+    # in which case we simply remove and insert it back again
     items: CommentedSeq = next(iter(nav.values()))
+    if len(items) == 0:
+        return items
+    section_index = None
+    if isinstance(items[0], str):
+        section_index = items.pop(0)
     items.sort(key=lambda x: next(iter(x.keys())))
+    if section_index is not None:
+        items.insert(0, section_index)
     return items
 
 
