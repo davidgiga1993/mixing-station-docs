@@ -1,16 +1,45 @@
 # Licenses
 
-Due to the different app store policies each platform (iOS, Desktop, Android) has it's own licensing system.
-Therefore, you **can't** use one license on another platform (e.g. an iOS license on Android).
+## Licensing models
 
-It is possible to use one license on multiple devices of the same platform (e.g. multiple Android tablets).
+Mixing Station has two licensing models:
 
-## Mixing Station account (Desktop, Android)
+| Type              | Single mixer | All mixers | Any platform | Can expire | 
+|-------------------|--------------|------------|--------------|------------|
+| One-Time Purchase | ✅            | ❌          | ❌            | No         |          
+| Subscription      | ❌            | ✅          | ✅            | Yes        | 
 
-All licenses can be managed using your [Mixing Station account](https://mixingstation.app/profile/licenses). If you
-don't have an account yet, you can [register here](https://mixingstation.app/profile/create).
+They are explained below in more detail.
+
+### One-Time Purchase
+
+A single license unlocks a single mixer series on a single platform (iOS, Android, Desktop).
+
+Therefore, you **can't** use one-time Purchase licenses on another platform (e.g. an iOS license on Android).
+
+One license can be activated on up to 4 devices of the same platform (e.g. multiple Android tablets).
+If you need more active devices you can purchase additional licenses
+from [the  mixing station website](https://mixingstation.app).
+
+#### iOS
+
+iOS is special as the licenses are **not** bound to any Mixing Station account, just to your Apple ID.
+Thus, they can be used on any number of iOS device as long as it's using the same Apple ID.
+Note that because of that moving iOS licenses is not possible.
+
+### Subscription
+
+A subscription will unlock all supported mixers in the app.
+The subscription can be imported on up to 4 devices (of any platform).
+
+## Mixing Station account
+
+Licenses can be managed[^1] using your [Mixing Station account](https://mixingstation.app/profile/licenses).
+If you don't have an account yet, you can [register here](https://mixingstation.app/profile/create).
 
 > Make sure to use the same email address as used for purchasing otherwise we can't link the license to your account!
+
+[^1]: One-Time Purchase licenses on iOS are only bound to your Apple ID and won't appear in your account. 
 
 ![License-page](../img/license/profile.png)
 
@@ -19,26 +48,24 @@ don't have an account yet, you can [register here](https://mixingstation.app/pro
 Once you've selected a license in your mixing station account, you'll be able to see all
 activations for this license.
 
-If you switched devices, or re-installed the app multiple times you may need to disable old activations,
-in order to activate the app again on your new device.
-This can be done by unchecking the checkboxes in the `Active` column:
-![img.png](../img/license/activations.png)
+If you switched devices, or re-installed the app multiple times you may need to disable old activations.
+You can do this by either:
 
-## Activation
+a) Pressing the "Deactivate" button in your mixing station account:
+![Activations](activations.png)
 
-Each license can be activated on 4 different devices at the same time.
-Once the limit has been reached you can either deactivate devices you don't use anymore (
-see [manage activations](#manage-activations)) or
-purchase another license.
+b) Pressing the "Deactivate" button on the device you want to deactivate:
+![Deactivate in app](in-app-deactivate.png)
 
 ## Move license
+
 You can move licenses from one email to another using the `Move license` button.
 ![move-button](move-button.png)
 
-Just enter the source email, from which you want to move the licenses and confirm.
-An email confirmation will be sent to the email which you'll need to confirm.
+Enter the source email, from which you want to move the licenses and confirm.
+An email will be sent to the source email which you'll need to confirm.
 
-Afterward, all licenses previously associated with the entered email will be moved
+Afterward, all licenses previously associated with the entered source email will be moved
 to your account.
 
 ## Restore licenses
@@ -51,7 +78,7 @@ The following describes how to restore / import the license on another device:
 
 Make sure you're logged in with the same Apple ID as used for the initial purchase.
 
-![iOS-Import](../img/license/licenses-overview.png)
+![iOS-Import](restore-button.png)
 
 In case nothing happens when using the `Restore purchases` button, and you are 100% sure you're using the correct Apple
 ID,
@@ -59,17 +86,17 @@ you can try pressing the `Buy` button again as it's not possible to purchase the
 This might be required when switching to a new iOS device since Apple doesn't load all in app payments correctly all the
 time.
 
-### Desktop
-
-You can restore access your licenses using your Mixing Station account or the `.lic` file.
-![Desktop-Import](../img/license/licenses-overview.png)
-
 ### Android
 
 You can restore your licenses from your Mixing Station account or the app store used for the
 purchase (`Google Play`, `Amazon`, ect)
 
-> Important: When you previously migrated your license it can only be 
+> Important: When you previously migrated your license it can only be
 > restored using your Mixing Station account!
 
-![Android-Import](../img/license/licenses-overview.png)
+![Android-Import](restore-button.png)
+
+### Desktop
+
+You can restore access your licenses using your Mixing Station account or the `.lic` file.
+![Desktop-Import](restore-button.png)

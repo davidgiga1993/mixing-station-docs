@@ -93,12 +93,12 @@ nav:
           - DM3: yamaha/dm3.md
           - TF: yamaha/tf.md
   - Licenses: license/overview.md
-  - Privacy policy: https://dev-core.org/dsgvo
-
+  - Support: support/index.md
 markdown_extensions:
   - attr_list
   - pymdownx.superfences
   - md_in_html
+  - footnotes
 
 plugins:
   - search
