@@ -20,3 +20,11 @@ For mass license or MDM managed devices, please contact support and include your
 Also make sure to enable `Custom Apps` in Apple School Manager Organisation Settings.
 Take a look at the [apple documentation](https://support.apple.com/guide/apple-school-manager/learn-about-custom-apps-axm58ba3112a/web) for
 more details.
+
+
+## Known limitations
+
+When turning the screen off iOS will terminate any network connections. Therefore, the app will lose any connections and
+you must reconnect.
+It's recommended to keep the screen on. By default, Mixing Station keeps the screen on, so it will not turn off
+automatically.

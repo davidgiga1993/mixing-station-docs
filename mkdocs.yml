@@ -4,8 +4,10 @@ theme:
   logo: assets/ms.png
   custom_dir: docs/overrides
   features:
+    - navigation.tabs
     - navigation.instant
     - navigation.sections
+    - navigation.indexes
     - header.autohide
     - announce.dismiss
   palette:
@@ -22,9 +24,6 @@ theme:
 
 nav:
   - Home: index.md
-  - FAQ: faq.md
-  - Versions & Features: feature-list.md
-
   - Getting started:
       - General: getting-started.md
       - UI controls: ui-controls.md
@@ -38,6 +37,7 @@ nav:
       - Layers / SoF: layers.md
       - Channel strip: settings/channel-strip.md
   - Features:
+      - feature-list.md
       - Actions: custom-actions.md
       - App-Link: app-link.md
       - Auto EQ: auto-eq.md
@@ -57,8 +57,13 @@ nav:
       - Desktop: platforms/desktop.md
       - RPi: platforms/rpi.md
       - iOS: platforms/ios.md
+  - Use Cases:
+      - use-cases/index.md
+      - APIs: use-cases/apis.md
+      - Fixed install: use-cases/fixed-installation.md
+      - Personal monitoring: use-cases/personal-monitoring.md
   - Beta program: beta.md
-  - APIs: integrations/apis.md
+  - FAQ: faq.md
   - Mixer specifics:
       - Allen & Heath:
           - General: ah/general.md
@@ -86,7 +91,6 @@ nav:
           - TF: yamaha/tf.md
       - Incompatible: incompatible-mixers.md
 
-  - Known issues: known-issues.md
   - Licenses: license/overview.md
   - Privacy policy: https://dev-core.org/dsgvo
 

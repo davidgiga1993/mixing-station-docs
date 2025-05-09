@@ -67,8 +67,8 @@ You can provide the following additional command-line arguments to Mixing Statio
 | `-appSeries` | Which mixer series to use. Same value as the button text in the app      | Auto connect                   |
 | `-ip`        | IP address of the mixer. Remove if you want to start the search instead. | Auto connect                   |
 | `-mixTarget` | Target mix for the access restrictions. See table below                  | Auto connect                   |
-| `-web`       | Port of the webserver (disabled by default)                              | [API](../integrations/apis.md) |
-| `-osc`       | Port of the OSC server (disabled by default)                             | [API](../integrations/apis.md) |
+| `-web`       | Port of the webserver (disabled by default)                              | [API](../use-cases/apis.md)    |
+| `-osc`       | Port of the OSC server (disabled by default)                             | [API](../use-cases/apis.md) |
 
 Example
 
