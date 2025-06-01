@@ -31,8 +31,8 @@ inside the app.
 3. Adjust the scope settings to your liking
 4. Press `Enable` (You can also use an action to enable/disable Re-Gain)
 
-
-It is possible to put a single channels into `temporary usage` mode again by following the steps below.
+Now regain is enabled for all channels. You can exclude channels from regain 
+by opening the gain popup for a and disable regain (see `Temporary usage` below)
 
 
 ### Temporary usage
@@ -43,7 +43,8 @@ This section describes how to use Re-Gain temporarily for a single channel.
 2. Press and hold the gain knob (or right-click)
 3. Enable "Re Gain" from the top menu
 4. Adjust the gain
-5. As soon as you close the popup Re-Gain will be disabled again
+5. As soon as you close the popup Re-Gain will be disabled again (except when global regain is enabled, in which
+   case the last state will be kept)
 
 ![Re-Gain popup](img/regain/overview.png)
 
