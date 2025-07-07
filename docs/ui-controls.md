@@ -86,6 +86,7 @@ Contains two **scrollable** bars for access to [sends on faders](sends-on-faders
 ### Fine mode
 
 When enabled, faders will be less sensitive, allowing for smaller and more precise adjustments.
+The sensitivity can be changed in the [channel strip settings](settings/channel-strip.md).
 
 ### Mute enable
 

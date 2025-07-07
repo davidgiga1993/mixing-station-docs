@@ -16,7 +16,7 @@ in the [global settings](../settings/global.md) is enabled.
 
 ## Hide bus fader
 
-By default you'll see your bus master fader on the right side:
+By default, you'll see your bus master fader on the right side:
 ![Bus master](bus-master.png)
 
 if you don't want that you can hide it in the [global settings](../settings/global.md).
