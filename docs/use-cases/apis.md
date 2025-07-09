@@ -241,7 +241,7 @@ for this requested meter.
 | Type | Description                                                                                          |
 |------|------------------------------------------------------------------------------------------------------|
 | 0    | Channel mixer meters. This will be the input/output levels, as shown by mixing station in the mixer. | 
-| 1    | Same as 1 but with 4 additional meters for Gate/Dyn SC Input and GR                                  |
+| 1    | <br/>Same as 0 but with 4 additional meters for Gate/Dyn SC Input and GR                            |
 | 10   | RTA                                                                                                  |
 
 The data will be sent via websocket to the path `/console/metering2/{id}`
