@@ -1,4 +1,4 @@
-# Tascam SonicView
+# TASCAM Sonicview.
 
 ## Limitations / Known issues
 

@@ -39,7 +39,7 @@ Please make sure your mixer has the latest compatible firmware.
 | Yamaha DM7/DM7 Compact                           | V1.70 or newer          |                                                          |
 | Yamaha TF                                        | V4.50 or newer          | See [TF](yamaha/tf.md)                                   |
 | QSC TouchMix 8/16                                | Latest                  | See [Limitations](qsc/general)                           |
-| Tascam TouchMix                                  | Latest                  | See [Limitations](tascam/sonicview.md)                   |
+| TASCAM Sonicview                                 | Latest                  | See [Limitations](tascam/sonicview.md)                   |
 
 See [incompatible mixers](incompatible-mixers.md) for a list of mixers
 which will never be supported in mixing station.
