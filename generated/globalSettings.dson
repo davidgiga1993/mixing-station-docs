@@ -1,0 +1,275 @@
+{
+	"scrollMode": 0,
+	"launchCounter": 0,
+	"busProcessing": false,
+	"skipConsoleSync": false,
+	"apiOscPort": 3000,
+	"updateBranch": 0,
+	"modelVersion": 1,
+	"busFader": true,
+	"autoRecon": true,
+	"autostartConsoleId": -1,
+	"closeConfirm": true,
+	"apiOscEnable": false,
+	"userAppSettings": {
+		"chSpill": {
+			"includeMain": false,
+			"placement": 0,
+			"enabled": false
+		},
+		"chColorFaderSlot": false,
+		"muteForSends": false,
+		"ffE": true,
+		"showSoFMixList": false,
+		"modelVersion": 6,
+		"useLayersForMeterBridge": false,
+		"fxTapPopup": false,
+		"appLink": {
+			"sendSof": false,
+			"sendChSelect": false,
+			"enable": false,
+			"name": "unnamed",
+			"group": "default"
+		},
+		"sofFaderSlot": false,
+		"ffR": 0,
+		"defaultChannelsPerLayer": 16,
+		"channelStrip": {
+			"slider": {
+				"knobDoubleClick": 1,
+				"knobLongClick": 1,
+				"knobRatios": 4,
+				"knobClick": 0
+			},
+			"chBtn": {
+				"c": 1,
+				"lc": 2
+			},
+			"fader": {
+				"faderDoubleTap": 0,
+				"faderTouch": 1
+			},
+			"items": [{
+				"heightP": 0.0,
+				"extra": {
+
+				},
+				"disableFill": false,
+				"id": "inSrc",
+				"height": 30.0
+			},{
+				"heightP": 0.0,
+				"extra": {
+					"c": -1,
+					"lc": -1
+				},
+				"disableFill": false,
+				"id": "chBtn",
+				"height": 57.0
+			},{
+				"heightP": 0.0,
+				"extra": {
+					"knobDoubleClick": -1,
+					"knobLongClick": -1,
+					"knobRatios": -1,
+					"knobClick": -1
+				},
+				"disableFill": false,
+				"id": "pan",
+				"height": 30.0
+			},{
+				"heightP": 0.0,
+				"extra": {
+
+				},
+				"disableFill": false,
+				"id": "peq",
+				"height": 60.0
+			},{
+				"heightP": 0.0,
+				"extra": {
+
+				},
+				"disableFill": false,
+				"id": "dynDiag",
+				"height": 78.0
+			},{
+				"heightP": 0.0,
+				"extra": {
+
+				},
+				"disableFill": false,
+				"id": "mute",
+				"height": 40.0
+			},{
+				"heightP": 0.3,
+				"extra": {
+					"faderDoubleTap": -1,
+					"faderTouch": -1,
+					"grp": false,
+					"mPos": 0,
+					"grD": true,
+					"grG": true
+				},
+				"disableFill": false,
+				"id": "fader",
+				"height": 0.0
+			}],
+			"autoResizeHiddenItems": false
+		},
+		"knobSettings": {
+			"knobDoubleClick": 1,
+			"knobLongClick": 1,
+			"knobRatios": 4,
+			"knobClick": 0
+		},
+		"showFdrMeterbridge": true,
+		"sofFaderKnob": false,
+		"useLayersForChannelSwitching": false,
+		"processingSize": {
+			"fullscreen": [false,false]
+		},
+		"soFmixMute": true,
+		"chColorFaderKnob": false,
+		"peakHoldMs": 2000,
+		"fxOrient": 0,
+		"onAsMute": false,
+		"peqPinchRatios": 4,
+		"showDynamicsTimeline": true,
+		"2fdtAction": true,
+		"lockOrientation": 0,
+		"sofBg": false,
+		"panStyle": 0,
+		"meterDecay": 60,
+		"reGain": {
+			"adjustAuxMain": true,
+			"adjustMain": true,
+			"adjustComp": true,
+			"sendFilter": 1,
+			"adjustGate": true
+		},
+		"hlSelCh": true,
+		"meteringStyle": 1,
+		"autosaveLayer": true,
+		"themeName": "int-default.css",
+		"meteringType": 0,
+		"rtaStyle": 0,
+		"showMeterbridge": false,
+		"mE": true,
+		"flashingSendsOnFader": false,
+		"usbMidi": 1,
+		"didRunSetupWizard": true,
+		"showPeqInfoDialog": false,
+		"efLvl": true
+	},
+	"uiScale": 1.0,
+	"autostartIp": "",
+	"apiRestEnable": true,
+	"windowSettings": {
+		"channelProcessingWindow": false,
+		"meteringWindow": false,
+		"windows": {
+			"main": {
+				"activityId": 6,
+				"fullscreen": false,
+				"activityState": {
+
+				},
+				"maximized": false,
+				"x": 0,
+				"width": 1280,
+				"y": 0,
+				"opened": true,
+				"height": 720
+			}
+		}
+	},
+	"mixerHistory": {
+		"mixers": [{
+			"consoleId": 5,
+			"hostname": "192.168.1.8",
+			"search": true,
+			"mixAccess": [-1],
+			"name": "",
+			"fav": false,
+			"connection": {
+				"sqConType": 0
+			}
+		},{
+			"consoleId": 10,
+			"hostname": "localhost",
+			"search": false,
+			"mixAccess": [-1],
+			"name": "",
+			"fav": false,
+			"connection": {
+
+			}
+		},{
+			"consoleId": 6,
+			"hostname": "192.168.1.8",
+			"search": true,
+			"mixAccess": [-1],
+			"name": "",
+			"fav": false,
+			"connection": {
+
+			}
+		},{
+			"consoleId": 8,
+			"hostname": "192.168.1.8",
+			"search": true,
+			"mixAccess": [-1],
+			"name": "",
+			"fav": false,
+			"connection": {
+				"hiqnetAddr": 1337
+			}
+		},{
+			"consoleId": 2,
+			"hostname": "192.168.1.8",
+			"search": true,
+			"mixAccess": [-1],
+			"name": "",
+			"fav": false,
+			"connection": {
+
+			}
+		},{
+			"consoleId": 11,
+			"hostname": "localhost",
+			"search": true,
+			"mixAccess": [-1],
+			"name": "",
+			"fav": false,
+			"connection": {
+
+			}
+		},{
+			"consoleId": 0,
+			"hostname": "192.168.1.8",
+			"search": true,
+			"mixAccess": [-1],
+			"name": "",
+			"fav": false,
+			"connection": {
+
+			}
+		},{
+			"consoleId": 20,
+			"hostname": "192.168.1.8",
+			"search": true,
+			"mixAccess": [-1],
+			"name": "",
+			"fav": false,
+			"connection": {
+
+			}
+		}]
+	},
+	"dev-core": {
+	},
+	"powerSavingMode": 1,
+	"apiRestPort": 8888,
+	"allowDifferentSubnet": false
+}

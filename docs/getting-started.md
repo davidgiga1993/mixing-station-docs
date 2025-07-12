@@ -2,7 +2,7 @@
 
 When opening the app you'll see the mixer selection screen:
 
-![Mixer selection](img/mixer-selection.png)
+![Mixer selection](img/generated/start-screenshot.png)
 
 On this screen you can select to which mixer you want to connect to.
 

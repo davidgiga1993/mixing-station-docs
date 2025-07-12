@@ -1,7 +1,7 @@
 {
-    "width": 800,
-    "height": 500,
-    "targetDensity": 1.1,
+    "width": 1280,
+    "height": 720,
+    "targetDensity": 1,
     "screenshots":
     [
         {
@@ -20,6 +20,42 @@
             "name": "settings-manager",
             "mixer": "Avantis",
             "activity": "APP_SETTINGS_MANAGER"
+        },
+        {
+            "name": "mixer",
+            "mixer": "SQ-5",
+            "activity": "MIXER"
+        },
+        {
+            "name": "ch-buttons",
+            "mixer": "SQ-5",
+            "activity": "MIXER",
+            "uiArea":
+            [
+                {
+                    "type": "button",
+                    "byName": "CH 1"
+                },
+                {
+                    "type": "button",
+                    "byName": "CH 3"
+                }
+            ]
+        },
+        {
+            "name": "ch-view",
+            "mixer": "SQ-5",
+            "activity": "CHANNEL_OVERVIEW"
+        },
+        {
+            "name": "ch-sends",
+            "mixer": "SQ-5",
+            "activity": "CHANNEL_SENDS"
+        },
+        {
+            "name": "metering",
+            "mixer": "SQ-5",
+            "activity": "METER_CHANNELS"
         },
         {
             "name": "button-long-click",
@@ -105,7 +141,7 @@
                 },
                 {
                     "type": "button",
-                    "byName": "Mix 1-8"
+                    "byName": "Mix"
                 }
             ]
         },
@@ -128,7 +164,7 @@
                 },
                 {
                     "type": "button",
-                    "byName": "Mix 1-8"
+                    "byName": "Mix"
                 }
             ]
         }

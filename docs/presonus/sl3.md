@@ -1,5 +1,20 @@
 # PreSonus StudioLive Series 3
 
+## Metering
+
+When comparing the metering scale of mixing station with the UC app, you'll notice that
+the metering in Mixing Station is usually higher. This is for multiple reasons:
+
+- As with every mixer Mixing Station uses the start of yellow as +4dBU reference point, the StudioLive mixers
+  have less headroom at the reference point compared to other mixer.
+- In UC the scale places +4dbU at the lower half. So everything above the lower half in UC control is already above the
+  reference level.
+- Mixing Station shows the metering quicker than Universal Control does. Thus, you may not see the clipping in
+  UC, but in mixing station. Here is some comparison video:
+
+![type:video](metering.webm)
+
+
 ## Limitations
 
 ### Networking

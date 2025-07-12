@@ -48,16 +48,27 @@ Additionally, you can tap the areas highlighted in red above to nudge the fader 
 
 ## Sliders
 
+![Sliders](img/sliders.png)
+
 The behaviour of the sliders can be configured in the [app settings](settings/app.md).
 Default behaviour:
 
 - **Double tap** to reset the value to the default
 - **Drag** to change the value
 
-Sliders are used in some {{ abbr('FX') }} views and in the knob popup described above.
-The white line indicates the default value for this parameter.
+## Slide popup
+
+This popup appears when long-pressing a knob and provides more precise control
+as well as additional parameter-related functionality.
 
 ![Slider popup](img/slider-popup.png)
+
+The menu buttons in order:
+
+1) Pin popup: Allows you to pin the value to the screen
+2) Batch edit: See [batch edit page](batch-edit.md)
+3) Text input: Allows you to type in the value
+4) Reset value: Resets the value to default (white line)
 
 ## Text input
 
@@ -75,7 +86,7 @@ Default behaviour is as follows:
 - **Tap** Open channel details
 - **Press and hold** Open scribble strip
 
-![Channel buttons](img/channel-buttons.png)
+![Channel buttons](img/generated/ch-buttons-screenshot.png)
 
 ## Mixer sidebar
 
