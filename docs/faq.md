@@ -17,22 +17,33 @@ accordingly.
 
 Because of that, either a good emulator or access to the actual hardware is required.
 
-## License activated too many times, what should I do?
+## Licensing
+
+Everything related to license questions
+
+### My license doesn't appear, what can I do?
+
+If you've purchased a license in the app using Google Play or Apple ID, and it doesn't appear
+after payment, please follow the [restore license](license/overview.md#restore-licenses) steps,
+and select `Google Play` / `Apple ID`.
+
+### License activated too many times, what should I do?
 
 Login to your mixing station account and deactivate old, unused devices.
 See [manage activations](license/overview.md#manage-activations) for more details.
 
-## I changed devices, how to I restore my license?
+### I changed devices, how to I restore my license?
 
 The license restore process is described on [the license page](license/overview.md).
 
 Note for Android users: If you migrated your license from the old app the only way to import it again is to import it
 using your Mixing Station account. You won't be able to restore it using the `Google Play` option.
 
-## I see no licenses in my account, what can I do?
+### I see no licenses in my account, what can I do?
+
 Licenses are associated based on the email address provided during the purchase.
-On Google Play this is by default your gmail address, on purchases made via fastspring 
-this is the email you've provided during checkout.
+On Google Play this defaults to your gmail address. Purchases made via fastspring uses the email you provided during
+checkout.
 
 If this email is different from the email used in your Mixing Station account you can request a license move.
 To do that, please follow the "[move license](license/overview.md#move-license)" section in the manual.
@@ -52,9 +63,11 @@ In case the left sidebar is missing, press the top `fullscreen` button.
 
 The PEQ controls (gain, Q, freq) are hidden in fullscreen mode. Press the arrow
 button to disable it:
+
 ![fullscreen button](img/fullscreen-button.png)
 
 ## My faders in the channel view disappeared!
 
 You're very likely in `fullscreen mode` which can be toggled via the top menu:
-![fullscreen icon](img/faq/fullscreen-mode.png)
+
+![fullscreen button](img/fullscreen-button.png)
