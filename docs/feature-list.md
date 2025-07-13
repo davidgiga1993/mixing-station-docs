@@ -14,32 +14,18 @@ For licensing information, please refer to the [licensing page](license/overview
 
 ## Compatible mixers
 
-Please make sure your mixer has the latest compatible firmware.
+The following table lists all compatible mixer models, and their supported firmware versions.
 
-| Mixers                                           | Supported firmware      | Notes                                                    | 
-|--------------------------------------------------|-------------------------|----------------------------------------------------------|
-| Behringer X32/M32(R)                             | V1.15 or newer          |                                                          |
-| Behringer XAir or Midas MR                       | V1.12 or newer          |                                                          |
-| Midas HD series                                  | V1.24.0 or newer        |                                                          |
-| A&H dLive                                        | V1.93 - V2.09           |                                                          | 
-| A&H Avantis                                      | V1.12 - V1.35           |                                                          | 
-| A&H GLD                                          | V1.61                   |                                                          |
-| A&H iLive                                        | V1.94                   | Secondary mixracks and surface routing are not supported |
-| A&H SQ                                           | V1.4.1 - V1.6           |                                                          |
-| A&H Qu (legacy)                                  | V1.90 or newer          |                                                          |
-| A&H Qu 5/6/7                                     | V1.1                    |                                                          |
-| A&H CQ                                           | V1.2                    |                                                          |
-| Soundcraft Si                                    | V1.8 / V1.8 / V1-2      | See [HiQNet guide / limitations](soundcraft/hiqnet.md)   |
-| Soundcraft Vi ([view details](soundcraft/vi.md)) | Latest                  | See [HiQNet guide / limitations](soundcraft/hiqnet.md)   |
-| Soundcraft Ui                                    | Latest                  |                                                          |
-| Behringer Wing (Full, Compact, Rack)             | V1.6 - V3               |                                                          |
-| PreSonus StudioLive Series 3                     | V2.7.2 or newer         | See [SL3](presonus/sl3.md)                               |
-| Mackie DL32S(E)/DL16S(E)/DL32R/DL1608            | MFV V5.2 (Mandolin 1.6) |                                                          |
-| Yamaha DM3/DM3S                                  | V1.10 or newer          | See [DM](yamaha/dm3)                                     |
-| Yamaha DM7/DM7 Compact                           | V1.70 or newer          |                                                          |
-| Yamaha TF                                        | V4.50 or newer          | See [TF](yamaha/tf.md)                                   |
-| QSC TouchMix 8/16                                | Latest                  | See [Limitations](qsc/general)                           |
-| TASCAM Sonicview                                 | Latest                  | See [Limitations](tascam/sonicview.md)                   |
+{notes:17:iLive}Secondary mixracks and surface routing are not supported
+{notes:3:Si}See [HiQNet guide / limitations](soundcraft/hiqnet.md)
+{notes:8:Vi}See [HiQNet guide / limitations](soundcraft/hiqnet.md) and [VI details](soundcraft/vi.md)
+{notes:19:SL3} See [SL3](presonus/sl3.md)
+{notes:14:DM3} See [DM3](yamaha/dm3)
+{notes:15:TF} See [TF](yamaha/tf.md)
+{notes:19:TF} See [Limitations](qsc/general)
+{notes:23:TF} See [Limitations](tascam/sonicview.md)
+
+{mixer_table:0}
 
 See [incompatible mixers](incompatible-mixers.md) for a list of mixers
 which will never be supported in mixing station.

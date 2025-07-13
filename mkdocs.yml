@@ -101,6 +101,9 @@ markdown_extensions:
   - md_in_html
   - footnotes
 
+hooks:
+  - plugins/MixerGenerator.py
+
 plugins:
   - search
   - macros:
