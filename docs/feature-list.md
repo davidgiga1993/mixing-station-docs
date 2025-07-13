@@ -16,23 +16,23 @@ For licensing information, please refer to the [licensing page](license/overview
 
 Please make sure your mixer has the latest compatible firmware.
 
-| Mixers                                           | Required firmware       | Notes                                                    | 
+| Mixers                                           | Supported firmware      | Notes                                                    | 
 |--------------------------------------------------|-------------------------|----------------------------------------------------------|
 | Behringer X32/M32(R)                             | V1.15 or newer          |                                                          |
 | Behringer XAir or Midas MR                       | V1.12 or newer          |                                                          |
 | Midas HD series                                  | V1.24.0 or newer        |                                                          |
-| A&H dLive                                        | V1.93 or newer          |                                                          | 
-| A&H Avantis                                      | V1.12 or newer          |                                                          | 
+| A&H dLive                                        | V1.93 - V2.09           |                                                          | 
+| A&H Avantis                                      | V1.12 - V1.35           |                                                          | 
 | A&H GLD                                          | V1.61                   |                                                          |
 | A&H iLive                                        | V1.94                   | Secondary mixracks and surface routing are not supported |
-| A&H SQ                                           | V1.4.1 or newer         |                                                          |
+| A&H SQ                                           | V1.4.1 - V1.6           |                                                          |
 | A&H Qu (legacy)                                  | V1.90 or newer          |                                                          |
-| A&H Qu 5/6/7                                     | V1.1 or newer           |                                                          |
-| A&H CQ                                           | V1.1 or newer           |                                                          |
+| A&H Qu 5/6/7                                     | V1.1                    |                                                          |
+| A&H CQ                                           | V1.2                    |                                                          |
 | Soundcraft Si                                    | V1.8 / V1.8 / V1-2      | See [HiQNet guide / limitations](soundcraft/hiqnet.md)   |
 | Soundcraft Vi ([view details](soundcraft/vi.md)) | Latest                  | See [HiQNet guide / limitations](soundcraft/hiqnet.md)   |
 | Soundcraft Ui                                    | Latest                  |                                                          |
-| Behringer Wing (Full, Compact, Rack)             | Any                     |                                                          |
+| Behringer Wing (Full, Compact, Rack)             | V1.6 - V3               |                                                          |
 | PreSonus StudioLive Series 3                     | V2.7.2 or newer         | See [SL3](presonus/sl3.md)                               |
 | Mackie DL32S(E)/DL16S(E)/DL32R/DL1608            | MFV V5.2 (Mandolin 1.6) |                                                          |
 | Yamaha DM3/DM3S                                  | V1.10 or newer          | See [DM](yamaha/dm3)                                     |
