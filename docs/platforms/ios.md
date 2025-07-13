@@ -41,3 +41,6 @@ If you've updated to 2.3.3 the app may have lost your license. To resolve this i
 5) Select `Apple ID`
 
 This should now fully restore all licenses. The licenses will be available without internet, indefinitely.
+
+There might still be a `Loading licenses...` message, you can however ignore it for now.
+This message will be fixed in 2.4.0
