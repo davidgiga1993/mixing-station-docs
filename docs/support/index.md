@@ -8,7 +8,7 @@ on [https://mixingstation.app/](https://mixingstation.app/)).
 
 We're a pretty big community by now and many people are happy to help.
 
-In case you're having issues with licenses or your account, please contact david[at]dev-core.org directly.
+In case you're having issues with licenses or your account, please contact support@mixingstation.app directly.
 
 
 If you found a bug in the app, please report it [on the help page](https://mixingstation.app/help). 
