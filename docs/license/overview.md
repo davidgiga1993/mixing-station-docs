@@ -23,14 +23,19 @@ from [the  mixing station website](https://mixingstation.app).
 
 #### iOS
 
-iOS is special as the licenses are **not** bound to any Mixing Station account, just to your Apple ID.
-Thus, they can be used on any number of iOS device as long as it's using the same Apple ID.
-Note that because of that moving iOS licenses is not possible.
+iOS one-time purchases are special as the licenses are **not** bound to any Mixing Station account, just to your Apple
+ID.
+Thus, they can be used on any number of iOS device as long as it's using the same Apple ID. Because of that moving iOS
+licenses is not possible.
+
+No limitations apply to subscriptions.
 
 ### Subscription
 
 A subscription will unlock all supported mixers in the app.
 The subscription can be imported on up to 4 devices (of any platform).
+
+Details can be found on the dedicated [Subscription](subscription.md) page.
 
 ## Mixing Station account
 
@@ -39,7 +44,7 @@ If you don't have an account yet, you can [register here](https://mixingstation.
 
 > Make sure to use the same email address as used for purchasing otherwise we can't link the license to your account!
 
-[^1]: One-Time Purchase licenses on iOS are only bound to your Apple ID and won't appear in your account. 
+[^1]: One-Time Purchase licenses on iOS are only bound to your Apple ID and won't appear in your account.
 
 ![License-page](../img/license/profile.png)
 
