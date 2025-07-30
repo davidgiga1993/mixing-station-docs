@@ -1,6 +1,4 @@
-# QSC
-
-## TouchMix
+# TouchMix Series
 
 There are some limitations for the TouchMix series mixers when using Mixing Station:
 

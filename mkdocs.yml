@@ -67,33 +67,37 @@ nav:
   - FAQ: faq.md
   - Mixer specifics:
       - Allen & Heath:
-          - General: ah/general.md
-      - Incompatible: incompatible-mixers.md
+          - dLive: mixers/ah/dlive.md
+          - SQ: mixers/ah/sq.md
+          - Qu: mixers/ah/qu.md
+      - DiGiCo:
+          - SQ/Quantum: mixers/digico/sd.md
+      - Behringer:
+          - Wing: mixers/behringer/wing.md
+          - XAir: mixers/behringer/xair.md
+          - X32/M32: mixers/behringer/x32.md
 
       - Mackie:
-          - General: mackie/general.md
+          - DL: mixers/mackie/dl.md
       - PreSonus:
-          - SL3: presonus/sl3.md
+          - SL3: mixers/presonus/sl3.md
       - QSC:
-          - General: qsc/general.md
+          - General: mixers/qsc/touchmix.md
       - Soundcraft:
-          - Si: soundcraft/si-performer.md
-          - Vi: soundcraft/vi.md
-          - HiQNet: soundcraft/hiqnet.md
-      - WING:
-          - General: wing/general.md
-      - XAir:
-          - Bus password: xair/bus-password.md
-      - XM32:
-          - General: xm32/general.md
-          - Channel move: xm32/channel-move.md
-          - Bus password: xm32/bus-password.md
-          - X32-Mix lag: xm32/network-compare.md
-          - Samsung & Android 6: xm32/samsung-android6.md
+          - Si:  mixers/soundcraft/si-performer.md
+          - Vi:  mixers/soundcraft/vi.md
+          - HiQNet:  mixers/soundcraft/hiqnet.md
+
       - Yamaha:
-          - DM3: yamaha/dm3.md
-          - TF: yamaha/tf.md
-  - Licenses: license/overview.md
+          - DM3: mixers/yamaha/dm3.md
+          - TF: mixers/yamaha/tf.md
+      - TASCAM:
+          - Sonicview: mixers/tascam/sonicview.md
+
+      - Incompatible: incompatible-mixers.md
+  - Licenses:
+      - Overview:  license/overview.md
+      - Subscription: license/subscription.md
   - Support: support/index.md
 markdown_extensions:
   - attr_list
@@ -120,5 +124,21 @@ plugins:
   - redirects:
       redirect_maps:
         'platforms/pc.md': 'platforms/desktop.md'
+        'ah/general.md': 'mixers/ah/qu.md'
+        'qsc/general.md': 'mixers/qsc/touchmix.md'
+        'wing/general.md': 'mixers/behringer/wing.md'
+        'xair/bus-password.md': 'mixers/behringer/xair.md'
+        'xm32/general.md': 'mixers/behringer/x32.md'
+        'xm32/channel-move.md': 'mixers/behringer/x32.md'
+        'xm32/bus-password.md': 'mixers/behringer/x32.md'
+        'xm32/network-compare.md': 'mixers/behringer/x32.md'
+        'yamaha/dm3.md': 'mixers/yamaha/dm3.md'
+        'yamaha/tf.md': 'mixers/yamaha/tf.md'
+        'presonus/sl3.md': 'mixers/presonus/sl3.md'
+        'soundcraft/si-performer.md': 'mixers/soundcraft/si-performer.md'
+        'soundcraft/vi.md': 'mixers/soundcraft/vi.md'
+        'soundcraft/hiqnet.md': 'mixers/soundcraft/hiqnet.md'
+        'mackie/general.md': 'mixers/mackie/dl.md'
+        'digico/index.md': 'mixers/digico/sd.md'
   # Must be last plugin
   - print-site

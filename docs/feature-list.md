@@ -17,13 +17,13 @@ For licensing information, please refer to the [licensing page](license/overview
 The following table lists all compatible mixer models, and their supported firmware versions.
 
 {notes:17:iLive}Secondary mixracks and surface routing are not supported
-{notes:3:Si}See [HiQNet guide / limitations](soundcraft/hiqnet.md)
-{notes:8:Vi}See [HiQNet guide / limitations](soundcraft/hiqnet.md) and [VI details](soundcraft/vi.md)
-{notes:19:SL3} See [SL3](presonus/sl3.md)
-{notes:14:DM3} See [DM3](yamaha/dm3)
-{notes:15:TF} See [TF](yamaha/tf.md)
-{notes:19:TF} See [Limitations](qsc/general)
-{notes:23:TF} See [Limitations](tascam/sonicview.md)
+{notes:3:Si}See [HiQNet guide / limitations](mixers/soundcraft/hiqnet.md)
+{notes:8:Vi}See [HiQNet guide / limitations](mixers/soundcraft/hiqnet.md) and [VI details](mixers/soundcraft/vi.md)
+{notes:19:SL3} See [SL3](mixers/presonus/sl3.md)
+{notes:14:DM3} See [DM3](mixers/yamaha/dm3.md)
+{notes:15:TF} See [TF](mixers/yamaha/tf.md)
+{notes:19:TF} See [Limitations](mixers/qsc/touchmix.md)
+{notes:23:TF} See [Limitations](mixers/tascam/sonicview.md)
 
 {mixer_table:0}
 
@@ -50,7 +50,7 @@ This page lists all features and the version in which they are available in.
 | FX Presets                                              | X   |      | Any   | Any      |
 | Cross mixer channel presets                             | X   |      | Any   | Any      |
 | [Target Mix in layer](layers.md)                        | X   |      | Any   | Any      |
-| [Channel/DCA Spill](settings/app.md#dca-spill)          | X   |      | Any   | Any      |
+| [Channel/DCA Spill](settings/app.md)                    | X   |      | Any   | Any      |
 | [Gain/trim on fader](sends-on-faders.md#gain-on-faders) | X   |      | Any   | Any      |
 | Different color schemes                                 | X   |      | Any   | Any      |
 | Configurable peak hold an decay time                    | X   |      | Any   | Any      |

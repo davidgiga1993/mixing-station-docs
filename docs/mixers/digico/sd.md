@@ -17,6 +17,7 @@ due to the incomplete OSC API of the mixer.
 
 
 ## Limitations
+- Only 1 client per mixer
 - No metering
 - No routing
 - No headamp control depending on the input

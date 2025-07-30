@@ -23,8 +23,10 @@ Menu -> Setup (gear icon) ->  Folder icon
 
 From here you can manually save/load and export the user settings.
 
-Use the scope buttons to select which settings should be saved or loaded.
+To save the current configuration, press the `+` symbol in the top menu.
+This will save all the items selected in the `Scope` section of the screen.
 
+The `Scope` is also used to filter which settings will be loaded.
 
 ### Export / Import settings
 

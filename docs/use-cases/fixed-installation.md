@@ -1,6 +1,6 @@
 # Fixed Installation
 
-Mixing Station is perfect for fixed-installation tablets to control conference rooms or similar.
+Mixing Station is perfect for fixed-installation tablets to control bars, conference rooms or similar.
 
 This guide explains what settings should be set to ensure a smooth client experience, and prevent 
 changes by the client.

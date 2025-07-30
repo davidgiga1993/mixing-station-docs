@@ -15,7 +15,7 @@ Mixing Station currently implements nearly all parameters which can be remote co
 
 ## Setup
 
-For the basic setup guide see the [getting started page](../getting-started.md).
+For the basic setup guide see the [getting started page](../../getting-started.md).
 Additional configuration for the hiqnet addresses (this is a sample configuration and can be adjusted if required.)
 
 | Device      | HiQNet address      | Misc                                                                                                   | 
