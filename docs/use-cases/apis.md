@@ -53,7 +53,7 @@ It also provides some sample UI which uses websockets to interact with Mixing St
 
 ### Websockets
 
-Websocket requests use the following json scheme:
+Websocket requests use the following json schema:
 
 ```json
 {
@@ -323,3 +323,18 @@ The app will update the state messages to reflect the progress (via websockets):
 
 Once the recall has been completed (state changes back to something else) you can verify if there have been any
 recall errors using the `lastError` endpoint.
+
+
+## App State
+
+The app state parameter indicates in which state Mixing Station currently is.
+This is important to know in case for example the connection to the mixer has been lost.
+
+When using websockets the app will automatically report its current state at the `/app/state`
+
+The app state has 2 levels: A top and a bottom state. The top state is a high level indicator
+of the current state, while the lower state provides more details.
+
+Additional payload may be provided for each state, for example `progress`.
+
+Take a look at the [app states](app-states.md) page for more details.
