@@ -13,9 +13,7 @@ Feel free to join us!
 If you want to join the program just follow the
 link: [Mixing Station beta](https://play.google.com/apps/testing/org.devcore.mixingstation )
 
-You will receive the beta version as a regular update from the Google Play store.
-
-If you're still using the old Android app, make sure to read the [migration guide](../platforms/android/#migration).
+You will receive the beta version as a regular update from the Google Play Store.
 
 To leave the beta group, just delete and reinstall the app from your device.
 

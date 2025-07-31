@@ -29,7 +29,7 @@ You can configure the sensitivity of the sliders, and what should happen if they
 This section configures the behaviour of the channel strip.
 
 - `Highlight channel`: If enabled, the currently selected channel is highlighted.
-- `Fine fader ratio`: Changes the sensitivity of the fader when [fine mode](/ui-controls/#fine-mode) is enabled.
+- `Fine fader ratio`: Changes the sensitivity of the fader when [fine mode](../ui-controls.md/#fine-mode) is enabled.
 - `Channel click`: Changes the behaviour when taping a channel button.
 - `Channel long click`: Changes the behaviour when long pressing a channel button.
 - `Sends click`: Defines what happens when a sends slider inside the channel strip is clicked.

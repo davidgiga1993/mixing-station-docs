@@ -2,7 +2,7 @@
 
 Mixing Station allows you to mix your own monitor mix, without affecting other mixes by accident.
 
-To use the personal monitoring feature, open the [connection profile](../getting-started#connection-profiles)
+To use the personal monitoring feature, open the [connection profile](../getting-started.md#connection-profiles)
 and select `Personal Monitoring`:
 
 ![Monitor mode](personal.png)
