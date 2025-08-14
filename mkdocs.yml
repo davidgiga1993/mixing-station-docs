@@ -53,6 +53,7 @@ nav:
       - Mix presets: mix-presets.md
       - Re-Gain: re-gain.md
       - Surround Panning: surround.md
+      - RF Integration: rf/setup.md
   - Platforms:
       - Android: platforms/android.md
       - Desktop: platforms/desktop.md
