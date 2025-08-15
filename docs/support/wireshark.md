@@ -7,14 +7,14 @@ instructed by the support to do so.
 
 This section describes how to capture packes using the built-in capture feature.
 
-1) You need Mixing Station 2.5.0 or newer
-2) Open the app -> Gear icon -> `Global`
-3) Scroll down to the `Development` section and enable `Packet capture`: ![Packet capture option](dev-pac.png)
-4) Go back and connect to your mixer and execute the action instructed by support
-5) Once done: Press the `...` menu button -> Disconnect
-6) Gear icon -> `Create Backup`. You can store the backup on your device or if an internet connection
+1. You need Mixing Station 2.5.0 or newer
+2. Open the app -> Gear icon -> `Global`
+3. Scroll down to the `Development` section and enable `Packet capture`: ![Packet capture option](dev-pac.png)
+4. Go back and connect to your mixer and execute the action instructed by support
+5. Once done: Press the `...` menu button -> Disconnect
+6. Gear icon -> `Create Backup`. You can store the backup on your device or if an internet connection
    is available use MS Community to upload it
-7) Once the backup has been stored disable the capture mode again (see step 1-2)
+7. Once the backup has been stored disable the capture mode again (see step 1-2)
 
 ## Wireshark
 
