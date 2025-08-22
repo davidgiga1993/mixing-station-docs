@@ -38,6 +38,17 @@ In the `Status` column you can see the battery level, RF level and audio level.
 
 If a wireless device is running low on battery, a global warning will be displayed (see top left in the screenshot).
 
+### Adding new devices
+
+Press the `+` icon in the top menu to add new devices. Depending on the device model, an automatic search is available:
+![Search](search.png)
+Otherwise, you'll have to manually enter the IP address of the device.
+
+When you add a device using the search results Mixing Station will automatically search for the device
+again when opening the app, allowing you to have the receivers on dynamic IP addresses (DHCP).
+
+When manually entering the IP address Mixing Station will only try to connect to that specific IP.
+
 ### Battery indicator
 
 The battery indicator will display additional information based on the
