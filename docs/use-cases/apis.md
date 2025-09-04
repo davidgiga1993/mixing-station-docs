@@ -275,8 +275,8 @@ Type 1: ch-meter-L, [ch-meter-R] [gate input, gate gr, comp input, comp gr]
         If a channel has no gate, nor dynamics none of the parameters will be included.
         If it only has a gate, only the gate part will be included.
         If it only has a comp, both the gate and comp part will be included (so the values can be differentiated).
-        
 Type 10: rta-band-0, rta-band-1, ...
+Type 11: rfch-audio-level(in dbfs), rfch-rf-level(in dBm)
 
 Where [...] denotes an optional value which will only be included if available.
 All values are in dB, gain reduction values are negative.
