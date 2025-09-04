@@ -80,3 +80,27 @@ It is also possible to change the order of the items.
 
 You can reset the configuration to the default using the top menu.
 ![type:video](gif/sof-config.webm)
+
+## Layer Selection Group
+
+The layer selection group allows you to select different layers, independent of each other. Think for example of the X32
+mixer
+where you can select different layers on the left and right fader bank.
+
+This is an advanced feature which is used in combination with the [layout editor](custom-layouts.md) or [midi](midi.md).
+You should be familiar with either of those features before continuing. 
+
+The selection group can be selected in various places, for example:
+
+- In the layout editor when editing the "Mixer" or "Layer buttons" UI element settings
+- When editing a midi device
+
+Here is a simple example how to utilize the selection group:
+
+1) Add a 2nd "Mixer" UI element to your layout
+2) Edit the 2nd "Mixer" UI element
+3) Change the Layer selection group from `Default` to `A`
+4) Now you have 2 mixers, and only one of them follows the default layer selection.
+5) To change the active layer of the 2nd mixer: Add a new `Layer Buttons` UI element
+6) Edit the `Layer Buttons` and change its selection group to `A`. 
+7) You now have 2 independent layer selections, each used by a different Mixer in your layout.

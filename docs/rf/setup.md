@@ -5,18 +5,20 @@
 Mixing Station allows you to connect to your wireless audio receives for battery and signal level
 information.
 
+The feature requires an active subscription (or the `RF Integration` license), but can be tested for 10min per session without a license.
+
 ## Compatible Devices
 
 | Brand      | Series        | Remarks  |
 |------------|---------------|----------|
 | Shure      | Axient        | Untested |
-| Shure      | ULX-D         | Untested |
-| Shure      | QLX-D         | Untested |
+| Shure      | ULX-D         | Tested   |
+| Shure      | QLX-D         | Tested   |
 | Shure      | SLX-D         | Untested |
 | Shure      | UHF-R         | Untested |
 | Sennheiser | EM6000        | Untested |
-| Sennheiser | ew 300-500 G4 | Untested |
-| Sennheiser | EW-DX         | Untested |
+| Sennheiser | ew 300-500 G4 | Tested   |
+| Sennheiser | EW-DX         | Tested   |
 
 Note that due to lack of hardware access most of the integrations are yet untested.
 This table will be updated once I receive more feedback.
@@ -66,12 +68,7 @@ state of the wireless device.
 
 ## Channel Strip integration
 
-You can configure the channel strip to show the battery of the connected RF device.
-For this open your channel strip configuration and add a new item:
-![Channel strip config](chs-config.png)
+By default, the channel strip will show the battery and RF level.
+![Channel strip](chstrip.png)
 
-All RF related items start with the `RF` prefix. More will be added in the future.
-
-Once that is done, you can place and resize the item in your channel strip:
-
-![Channel strip](chs.png)
+You can also add them manually in the channel strip editor in case you're not using the fader UI element.
