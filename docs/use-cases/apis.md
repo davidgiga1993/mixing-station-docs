@@ -241,8 +241,9 @@ for this requested meter.
 | Type | Description                                                                                          |
 |------|------------------------------------------------------------------------------------------------------|
 | 0    | Channel mixer meters. This will be the input/output levels, as shown by mixing station in the mixer. | 
-| 1    | <br/>Same as 0 but with 4 additional meters for Gate/Dyn SC Input and GR                            |
+| 1    | <br/>Same as 0 but with 4 additional meters for Gate/Dyn SC Input and GR                             |
 | 10   | RTA                                                                                                  |
+| 11   | RF channel meters                                                                                    |
 
 The data will be sent via websocket to the path `/console/metering2/{id}`
 
@@ -311,19 +312,18 @@ The `binary=true` response payload is defined as:
 The number of RTA bands and their frequencies can be queried using the
 console information endpoint.
 
-
 ## MS Scenes
 
 You can get the current console state in the MS Scene format using the corresponding endpoints.
 When recalling a scene the data will be applied asynchronously.
 The app will update the state messages to reflect the progress (via websockets):
+
 ```json
 { "msg": "", "progress": 0, "state": "sceneRecall", "topState": "connected" }
 ```
 
 Once the recall has been completed (state changes back to something else) you can verify if there have been any
 recall errors using the `lastError` endpoint.
-
 
 ## App State
 
