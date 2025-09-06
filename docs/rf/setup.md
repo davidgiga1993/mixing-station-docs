@@ -5,20 +5,26 @@
 Mixing Station allows you to connect to your wireless audio receives for battery and signal level
 information.
 
-The feature requires an active subscription (or the `RF Integration` license), but can be tested for 10min per session without a license.
+The feature requires an active subscription (or the `RF Integration` license), but can be tested for 10min per session
+without a license.
 
 ## Compatible Devices
 
-| Brand      | Series        | Remarks  |
-|------------|---------------|----------|
-| Shure      | Axient        | Untested |
-| Shure      | ULX-D         | Tested   |
-| Shure      | QLX-D         | Tested   |
-| Shure      | SLX-D         | Untested |
-| Shure      | UHF-R         | Untested |
-| Sennheiser | EM6000        | Untested |
-| Sennheiser | ew 300-500 G4 | Tested   |
-| Sennheiser | EW-DX         | Tested   |
+| Brand      | Series        | Firmware     | Remarks  |
+|------------|---------------|--------------|----------|
+| Shure      | AD4D-A        | \>= 1.4.15.0 | Untested |
+| Shure      | AD4Q-A        | \>= 1.4.15.0 | Tested   |
+| Shure      | ULXD4         | \>= 2.7.6    | Untested |
+| Shure      | ULXD4D        | \>= 2.7.6    | Tested   |
+| Shure      | ULXD4Q        | \>= 2.7.6    | Tested   |
+| Shure      | QLXD4         | \>= 2.7.1    | Untested |
+| Shure      | SLXD4         | \>= 1.4.4    | Untested |
+| Shure      | SLXD4D        | \>= 1.4.4    | Untested |
+| Shure      | SLXD4Q+       | \>= 1.4.4    | Untested |
+| Shure      | UHF-R         |              | Untested |
+| Sennheiser | EM6000        | \>= 3.2.1    | Untested |
+| Sennheiser | ew 300-500 G4 | \>= 1.2.0    | Tested   |
+| Sennheiser | EW-DX         | \>= 4.0.0    | Tested   |
 
 Note that due to lack of hardware access most of the integrations are yet untested.
 This table will be updated once I receive more feedback.
