@@ -21,7 +21,7 @@ without a license.
 | Shure      | SLXD4         | \>= 1.4.4    | Untested |
 | Shure      | SLXD4D        | \>= 1.4.4    | Untested |
 | Shure      | SLXD4Q+       | \>= 1.4.4    | Untested |
-| Shure      | UHF-R         |              | Untested |
+| Shure      | UR4D          |              | Tested   |
 | Sennheiser | EM6000        | \>= 3.2.1    | Untested |
 | Sennheiser | ew 300-500 G4 | \>= 1.2.0    | Tested   |
 | Sennheiser | EW-DX         | \>= 4.0.0    | Tested   |
