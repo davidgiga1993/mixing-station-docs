@@ -12,7 +12,7 @@ without a license.
 
 | Brand      | Series        | Firmware     | Remarks  |
 |------------|---------------|--------------|----------|
-| Shure      | AD4D-A        | \>= 1.4.15.0 | Untested |
+| Shure      | AD4D-A        | \>= 1.4.15.0 | Tested   |
 | Shure      | AD4Q-A        | \>= 1.4.15.0 | Tested   |
 | Shure      | ULXD4         | \>= 2.7.6    | Untested |
 | Shure      | ULXD4D        | \>= 2.7.6    | Tested   |
@@ -23,11 +23,15 @@ without a license.
 | Shure      | SLXD4Q+       | \>= 1.4.4    | Untested |
 | Shure      | UR4D          |              | Tested   |
 | Sennheiser | EM6000        | \>= 3.2.1    | Untested |
-| Sennheiser | ew 300-500 G4 | \>= 1.2.0    | Tested   |
+| Sennheiser | EM 300-500 G4 | \>= 1.2.0    | Tested   |
+| Sennheiser | EM 300-500 G3 |              | Tested   |
+| Sennheiser | EM 2000-2050  |              | Untested |
 | Sennheiser | EW-DX         | \>= 4.0.0    | Tested   |
 
 Note that due to lack of hardware access most of the integrations are yet untested.
 This table will be updated once I receive more feedback.
+
+IEM transmitters are currently **not** supported.
 
 ## Usage
 
