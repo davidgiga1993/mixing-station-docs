@@ -25,7 +25,7 @@ without a license.
 | Sennheiser | EM6000        | \>= 3.2.1    | Untested |
 | Sennheiser | EM 300-500 G4 | \>= 1.2.0    | Tested   |
 | Sennheiser | EM 300-500 G3 |              | Tested   |
-| Sennheiser | EM 2000-2050  |              | Untested |
+| Sennheiser | EM 2000-2050  |              | Tested   |
 | Sennheiser | EW-DX         | \>= 4.0.0    | Tested   |
 
 Note that due to lack of hardware access most of the integrations are yet untested.
