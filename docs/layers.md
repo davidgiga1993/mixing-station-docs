@@ -28,8 +28,6 @@ channel becomes.
 When you change this number the app can automatically resize each layer to contain the selected number of channels.
 It will automatically take different channel types into account so you always end up with a logical layer setup.
 
-#### Auto
-
 If you select `Auto` instead of a number, the app will always show all channels assigned to a layer. If required the
 channel strips will be resized so they fit on the screen.
 
@@ -88,7 +86,7 @@ mixer
 where you can select different layers on the left and right fader bank.
 
 This is an advanced feature which is used in combination with the [layout editor](custom-layouts.md) or [midi](midi.md).
-You should be familiar with either of those features before continuing. 
+You should be familiar with either of those features before continuing.
 
 The selection group can be selected in various places, for example:
 
@@ -102,5 +100,5 @@ Here is a simple example how to utilize the selection group:
 3) Change the Layer selection group from `Default` to `A`
 4) Now you have 2 mixers, and only one of them follows the default layer selection.
 5) To change the active layer of the 2nd mixer: Add a new `Layer Buttons` UI element
-6) Edit the `Layer Buttons` and change its selection group to `A`. 
+6) Edit the `Layer Buttons` and change its selection group to `A`.
 7) You now have 2 independent layer selections, each used by a different Mixer in your layout.
