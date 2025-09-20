@@ -88,3 +88,16 @@ mixing-station.exe "-appSeries=X AIR" -ip=192.168.1.1 -mixTarget=-1
 ## Known issues
 
 - Intel HD Graphics 620, Driver 26.20.100.6859 - please downgrade to 22.20.16.4836
+
+
+### Windows: Corrupt installation
+
+Some 3rd party "cleanup" software may corrupt the MSI cache, causing the Mixing Station uninstallation/update to fail.
+
+To fix this you need to manually cleanup mixing station from the registry, and re-install the software.
+
+You can use the following powershell script to clean up the broken installation: [cleanup.ps1](cleanup.ps1).
+Use the script at your own risk!
+
+Make sure to run the script using admin privileges.
+
