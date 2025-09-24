@@ -23,10 +23,16 @@ without a license.
 | Shure      | SLXD4Q+       | \>= 1.4.4    | Untested |
 | Shure      | UR4D          |              | Tested   |
 | Sennheiser | EM6000        | \>= 3.2.1    | Untested |
-| Sennheiser | EM 300-500 G4 | \>= 1.2.0 \< 4.0    | Tested   |
+| Sennheiser | EM 300-500 G4 | \>= 1.2.0    | Tested   |
 | Sennheiser | EM 300-500 G3 |              | Tested   |
 | Sennheiser | EM 2000-2050  |              | Tested   |
-| Sennheiser | EW-DX         | \< 4.0    | Tested   |
+| Sennheiser | EW-DX         |              | Tested   |
+
+### Sennheiser
+EW-DX and G4 using firmware >= 4.0 requires the "legacy mode / SSCV1" to be enabled in WSM.
+
+### Shure
+Make sure to enable 3rd party control
 
 Note that due to lack of hardware access most of the integrations are yet untested.
 This table will be updated once I receive more feedback.
