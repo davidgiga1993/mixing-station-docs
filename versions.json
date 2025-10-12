@@ -55,7 +55,7 @@
 			"consoleId": 13,
 			"name": "HD",
 			"consoles": [{
-				"models": ["HD96"],
+				"models": ["HD96-24"],
 				"oldest": "1.24",
 				"newest": "1.24"
 			}]
@@ -136,7 +136,7 @@
 			}]
 		},{
 			"consoleId": 1,
-			"name": "Qu (legacy)",
+			"name": "Qu (old)",
 			"consoles": [{
 				"models": ["Qu16"],
 				"oldest": "1.82",
@@ -337,11 +337,11 @@
 			"consoles": [{
 				"models": ["DM7"],
 				"oldest": "1.70",
-				"newest": "1.72"
+				"newest": "1.73"
 			},{
 				"models": ["DM7C"],
 				"oldest": "1.70",
-				"newest": "1.72"
+				"newest": "1.73"
 			}]
 		},{
 			"consoleId": 15,
@@ -349,19 +349,19 @@
 			"consoles": [{
 				"models": ["TF1"],
 				"oldest": "4.50",
-				"newest": "4.55"
+				"newest": "4.57"
 			},{
 				"models": ["TF3"],
 				"oldest": "4.50",
-				"newest": "4.55"
+				"newest": "4.57"
 			},{
 				"models": ["TF5"],
 				"oldest": "4.50",
-				"newest": "4.55"
+				"newest": "4.57"
 			},{
 				"models": ["TF-RACK"],
 				"oldest": "4.50",
-				"newest": "4.55"
+				"newest": "4.57"
 			}]
 		}],
 		"name": "Yamaha"
@@ -372,43 +372,55 @@
 			"consoles": [{
 				"models": ["StudioLive 16"],
 				"oldest": "2.7.2",
-				"newest": "2.8.2"
+				"newest": "3.1.3"
 			},{
 				"models": ["StudioLive 24"],
 				"oldest": "2.7.2",
-				"newest": "2.8.2"
+				"newest": "3.1.3"
 			},{
 				"models": ["StudioLive 32"],
 				"oldest": "2.7.2",
-				"newest": "2.8.2"
+				"newest": "3.1.3"
+			},{
+				"models": ["StudioLive SE16"],
+				"oldest": "2.7.2",
+				"newest": "3.1.3"
+			},{
+				"models": ["StudioLive SE24"],
+				"oldest": "2.7.2",
+				"newest": "3.1.3"
+			},{
+				"models": ["StudioLive SE32"],
+				"oldest": "2.7.2",
+				"newest": "3.1.3"
 			},{
 				"models": ["StudioLive 16R"],
 				"oldest": "2.7.2",
-				"newest": "2.8.2"
+				"newest": "3.1.3"
 			},{
 				"models": ["StudioLive 24R"],
 				"oldest": "2.7.2",
-				"newest": "2.8.2"
+				"newest": "3.1.3"
 			},{
 				"models": ["StudioLive 32R"],
 				"oldest": "2.7.2",
-				"newest": "2.8.2"
+				"newest": "3.1.3"
 			},{
 				"models": ["StudioLive 64S"],
 				"oldest": "2.7.2",
-				"newest": "2.8.2"
+				"newest": "3.1.3"
 			},{
 				"models": ["StudioLive 32S"],
 				"oldest": "2.7.2",
-				"newest": "2.8.2"
+				"newest": "3.1.3"
 			},{
 				"models": ["StudioLive 32SX"],
 				"oldest": "2.7.2",
-				"newest": "2.8.2"
+				"newest": "3.1.3"
 			},{
 				"models": ["StudioLive 32SC"],
 				"oldest": "2.7.2",
-				"newest": "2.8.2"
+				"newest": "3.1.3"
 			}]
 		}],
 		"name": "Presonus"
@@ -434,13 +446,13 @@
 	},{
 		"series": [{
 			"consoleId": 23,
-			"name": "SonicView",
+			"name": "Sonicview",
 			"consoles": [{
-				"models": ["SonicView 16"],
+				"models": ["Sonicview 16"],
 				"oldest": "2.2",
 				"newest": "2.2"
 			},{
-				"models": ["SonicView 24"],
+				"models": ["Sonicview 24"],
 				"oldest": "2.2",
 				"newest": "2.2"
 			}]
