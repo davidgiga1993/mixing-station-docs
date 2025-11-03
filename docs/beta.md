@@ -49,10 +49,6 @@ I'm very thankful for all the feedback I can get for those mixers.
 
 This section will get updated based on the feedback I receive.
 
-## Yamaha DM7
-
-The Yamaha DM7 beta is available since Mixing Station `2.2.6`, use the `dm7` code for the secret mode dialog (see below).
-
 ## Secret Mode / Pre-release
 
 The secret mode allows you to access unreleased features of the app.

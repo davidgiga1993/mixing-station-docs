@@ -1,7 +1,14 @@
 # DiGiCo
 
-Support for DiGiCo mixers is currently in private beta as it has some serious limitations
+Support for DiGiCo mixers is currently private as it has some serious limitations
 due to the incomplete OSC API of the mixer.
+
+If you want to have more features / use Mixing Station properly, please let DiGiCo know about it!
+
+## Access
+
+1. Enter [secret mode](../../beta.md#secret-mode-pre-release)
+2. Enter `sd` and confirm 
 
 ## Configuration
  
