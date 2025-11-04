@@ -22,7 +22,6 @@ If you want to have more features / use Mixing Station properly, please let DiGi
 ![digico-config.png](digico-config.png)
 
 
-
 ## Limitations
 - Only 1 client per mixer
 - No metering
