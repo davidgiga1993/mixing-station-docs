@@ -51,9 +51,9 @@ nav:
       - Midi: midi.md
       - Mix copy: mix-copy.md
       - Mix presets: mix-presets.md
+      - RF Integration: rf/setup.md
       - Re-Gain: re-gain.md
       - Surround Panning: surround.md
-      - RF Integration: rf/setup.md
   - Platforms:
       - Android: platforms/android.md
       - Desktop: platforms/desktop.md
@@ -71,13 +71,14 @@ nav:
           - dLive: mixers/ah/dlive.md
           - SQ: mixers/ah/sq.md
           - Qu: mixers/ah/qu.md
-      - DiGiCo:
-          - SQ/Quantum: mixers/digico/sd.md
       - Behringer:
           - Wing: mixers/behringer/wing.md
           - XAir: mixers/behringer/xair.md
           - X32/M32: mixers/behringer/x32.md
 
+      - DiGiCo:
+          - SQ/Quantum: mixers/digico/sd.md
+      - Incompatible: incompatible-mixers.md
       - Mackie:
           - DL: mixers/mackie/dl.md
       - PreSonus:
@@ -85,19 +86,18 @@ nav:
       - QSC:
           - General: mixers/qsc/touchmix.md
       - Soundcraft:
-          - Si:  mixers/soundcraft/si-performer.md
-          - Vi:  mixers/soundcraft/vi.md
-          - HiQNet:  mixers/soundcraft/hiqnet.md
+          - Si: mixers/soundcraft/si-performer.md
+          - Vi: mixers/soundcraft/vi.md
+          - HiQNet: mixers/soundcraft/hiqnet.md
+
+      - TASCAM:
+          - Sonicview: mixers/tascam/sonicview.md
 
       - Yamaha:
           - DM3: mixers/yamaha/dm3.md
           - TF: mixers/yamaha/tf.md
-      - TASCAM:
-          - Sonicview: mixers/tascam/sonicview.md
-
-      - Incompatible: incompatible-mixers.md
   - Licenses:
-      - Overview:  license/overview.md
+      - Overview: license/overview.md
       - Subscription: license/subscription.md
   - Support: support/index.md
 markdown_extensions:
