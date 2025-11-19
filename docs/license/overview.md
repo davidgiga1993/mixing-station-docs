@@ -79,6 +79,9 @@ The following describes how to restore / import the license on another device:
 ![img.png](open1.png)
 ![img.png](open2.png)
 
+Note that this only works before you connect to the mixer. If you are already
+connected, the menus are not accessible.
+
 ### iOS
 
 Make sure you're logged in with the same Apple ID as used for the initial purchase.
