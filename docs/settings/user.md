@@ -6,7 +6,7 @@ The user settings store the following items:
 - [Layouts](../custom-layouts.md)
 - [Midi](../midi.md)
 
-![User settings](../img/settings/user.png)
+![User settings](../img/settings/user.jpg)
 
 When `Autosave` is enabled those settings are stored 
 automatically as an entry called `default`.
@@ -16,7 +16,7 @@ automatically as an entry called `default`.
 The user settings view can be opened via the menu from the *mixer view*
 
 ```
-Menu -> Setup (gear icon) ->  Folder icon
+Menu -> Setup (gear icon) -> Save/Load
 ```
 
 ![Settings-Manager](../img/generated/settings-manager-screenshot.png)

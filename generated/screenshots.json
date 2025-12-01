@@ -19,7 +19,7 @@
         {
             "name": "settings-manager",
             "mixer": "Avantis",
-            "activity": "APP_SETTINGS_MANAGER"
+            "activity": "USER_SETTINGS"
         },
         {
             "name": "mixer",
@@ -34,11 +34,11 @@
             [
                 {
                     "type": "button",
-                    "byName": "CH 1"
+                    "byName": "Ch 1"
                 },
                 {
                     "type": "button",
-                    "byName": "CH 3"
+                    "byName": "Ch 3"
                 }
             ]
         },
@@ -65,7 +65,7 @@
             [
                 {
                     "type": "button",
-                    "byName": "Ch 1-8"
+                    "byName": "Ch 1-16"
                 }
             ]
         },
@@ -141,7 +141,7 @@
                 },
                 {
                     "type": "button",
-                    "byName": "Mix"
+                    "byName": "DCA"
                 }
             ]
         },
@@ -164,7 +164,7 @@
                 },
                 {
                     "type": "button",
-                    "byName": "Mix"
+                    "byName": "DCA"
                 }
             ]
         }

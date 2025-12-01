@@ -1,10 +1,10 @@
 # Midi
 
-You can use any generic midi device to remote control the mixer via Mixing Station.
+Mixing Station can be controlled using any generic or MCU compatible midi device.
 
-## Supported protocols
+## Supported midi protocols
 
-- General Midi
+- Generic Midi
 - Mackie Control (MCU - recommended)
 - X-Touch (in MCU mode, with metering and LCD support)
 - X-Touch Expander (in MCU mode, with metering and LCD support)
@@ -59,25 +59,25 @@ By default, the channels are mapped to the currently active layer.
 This section describes the terms used by Mixing Station:
 
 - Midi Port: An input/output port for sending/receiving midi data.
-- Midi Device: Represents a single physical device consisting of one input and output midi port.
-- Midi Controller: A single fader/button/knob.
-- Action Slot: A collection of actions that should be executed
-- Action: A single action / value that should be bound to a Midi Controller
+- Midi Device: Represents a single physical device, using one input and output midi port.
+- Midi Control: A single fader/button/knob.
+- Action Slot: See [actions page](./custom-actions.md)
+- Action: See [actions page](./custom-actions.md)
 
 ```plantuml
 @startuml
 
 [Midi Port] <--> [Midi Device]: Input/Output
-[Midi Device] --> [Midi Controller]: has >=1
-[Midi Controller] --> [Action Slots]: has >=1
+[Midi Device] --> [Midi Control]: has >=1
+[Midi Control] --> [Action Slots]: has >=1
 [Action Slots] --> [Action(s)]: value source
 
 @enduml
 ```
 
-## Midi Controllers
+## Midi Controls
 
-There are three controller types available:
+There are three control types available:
 
 - Button: Midi device sends a value when pressed and/or released
 - Fader: Midi device sends an absolute value when fader/knob is moved (e.g. `0-127`)
@@ -92,49 +92,53 @@ Menu -> Setup -> Midi
 ```
 
 You can add / edit the midi devices form here:
-![img.png](img/midiSetup.png)
+![Midi Setup](img/midi/midi-setup.png)
 
-### Add a new device
+### Add a new midi device
+
 
 1. Press the `New device` button
 2. Select the appropriate protocol and input / output ports you want to use.
 3. Press `Apply`.
 
+![Add device](img/midi/device-setup.png)
+
 The following additional settings are available:
 
-- Sof source: By default the midi device will follow the sends on fader settings of the app.
-  You can change this to a fixed mix so the midi controller will only change that particular mix instead.
+- SoF source: By default the midi device will follow the sends on fader settings of the app.
+  You can change this to a fixed mix, meaning the midi device will only change that particular mix.
   (This only applies to actions using the `Main->On` and `Main->Fader` values).
 - Ch offset: Allows you to configure a channel offset that should be applied. For example if you're using two midi
-  devices and the 2nd one should control channel 9-16 you can set this parameter to `8`.
+  devices and the 2nd one should control channel 9-16 of the current layer you can set this parameter to `8`.
+- Layer sel. group: See [Layer selection group](./layers.md#layer-selection-group)
 
 ### Midi device overview
 
 You can select a midi device to open its overview page.
-This page shows all controllers assigned to the device (left table) as well as their
+This page shows all controls assigned to the device (left table) as well as their
 assigned actions (right side).
 
-This view allows you to add new controllers or modify existing.
+This view allows you to add new controls or modify existing.
 
-![Device overview](img/midiControllers.png)
+![Device overview](img/midi/device-overview.png)
 
-To find an existing controller simply press the `Find controller` button and then move/press any item on your physical
-midi device. Mixing Station will automatically select the controller in the table.
+To find an existing control simply press the `Find Control` button and then move/press any item on your physical
+midi device. Mixing Station will automatically select the control in the table.
 
-### Add a controller
+### Add a control
 
-1. Select the midi device you want to add a controller to (click on the row).
-2. Press the `Add Controller` button
-3. Select the type of controller you want to add (see definition above!).
+1. Select the midi device you want to add a control to (click on the row).
+2. Press the `Add Control` button
+3. Select the type of control you want to add (see definition above!).
 
-### Configure a controller
+### Configure a control
 
-The edit controller view allows you to change the properties of the controller:
-![Configure controller](img/midiControllerEdit.png)
+The edit control view allows you to change the properties of the control:
+![Configure control](img/midi/control.png)
 
-- Unique name: Name of this controller.
-- Output Mode: Defines when Mixing Station will send out new values to the midi controller (see below).
-- Midi parameters: Configures the midi parameters that are sent by the midi controller (see Mapping below).
+- Unique name: Name of this control.
+- Output Mode: Defines when Mixing Station will send out new values to the midi control (see below).
+- Midi parameters: Configures the midi parameters that are sent by the midi control (see Mapping below).
 
 #### Output Modes
 
@@ -153,15 +157,15 @@ The app will automatically detect the midi channel and parameter type.
 
 You can also configure the parameters yourself:
 
-- Event type: The event type defines what midi command the controller should react to.
+- Event type: The event type defines what midi command the control should react to.
 
-  | Event type                                        | Description                                            |
-  |---------------------------------------------------|--------------------------------------------------------| 
-  | Note On/Off                                       | Triggers the action on "Note On" and "Note Off" events |
-  | Note On |  Triggers the actions on "Note On" events              |
-  | Note Off                                          | Triggers the actions on "Note Off" events              |
-  | CC                                                | Triggers the actions on "Control Change" events        |
-  | Pitch                                             | Triggers the actions on "Pitch" events                 |
+  | Event type  | Description                                            |
+  |-------------|--------------------------------------------------------| 
+  | Note On/Off | Triggers the action on "Note On" and "Note Off" events |
+  | Note On     | Triggers the actions on "Note On" events               |
+  | Note Off    | Triggers the actions on "Note Off" events              |
+  | CC          | Triggers the actions on "Control Change" events        |
+  | Pitch       | Triggers the actions on "Pitch" events                 |
 
 - Channel: The midi channel that should be used
 - Param A/B: These two selections are for filtering the midi parameter.
@@ -175,7 +179,7 @@ You can also configure the parameters yourself:
   Note: Buttons do not require a value source because the action will be triggered as soon as a matching midi command is
   received.
 
-#### Buttons
+#### Button
 
 - Output "on" value: Sets the value that should be sent when the button is currently `on`. Some midi devices can show
   different colors depending on the midi value so this parameter can be used to change the color.

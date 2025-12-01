@@ -23,7 +23,7 @@ This will usually open additional details about the parameter.
 
 - **Drag** to change the value
 - **Press and hold** to open a popup for more precise control
-- **Double tap** to reset the value to the default
+- **Double tap** to open a popup for more precise control
 
 This behaviour can be configured in the [app settings](settings/app.md).
 
