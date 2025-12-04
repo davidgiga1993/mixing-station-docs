@@ -6,7 +6,7 @@ work with every mixer supported by Mixing Station.
 
 ## Overview
 
-Note that the *full* set of APIs is only available in the desktop version of Mixing Station.
+Note that the APIs are only available in the desktop version of Mixing Station.
 
 | API  | Protocol            | Features                                                   |
 |------|---------------------|------------------------------------------------------------|

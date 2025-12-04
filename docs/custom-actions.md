@@ -33,6 +33,11 @@ When editing an action, you'll see the following view
 In the top section you can change the action type and general config, while
 in the bottom section you configure the settings for the currently selected `Action Type`.
 
+This usually means the bottom section defines the exact parameter that will be controlled.
+
+> It's important to note that only actions and parameters compatible to the current UI/Midi control will be shown!
+> This means you can't for example assign "Mute" to a Midi Fader, or the "Fader" parameter to a button.
+
 ### "Active" Button
 
 Defines if this action is currently active. This is useful if you want to have a single button/knob to control
@@ -52,7 +57,7 @@ cases.
 
 ### Color
 
-Each action emits a color, by default this color is depending on the parameter controlled by the action. 
+Each action emits a color, by default this color is depending on the parameter controlled by the action.
 
 For example channel related actions will emit the color of the channel.
 
@@ -116,6 +121,33 @@ Depending on the mixer model, more or less parameters might be available:
 - Routing
 - Show control
 - Talkback
+
+### Modifiers
+
+Modifier actions allow you to change how a value gets updated. For example:
+
+- Set a value to a fixed number
+- Relative increment/decrement
+- Fade between values
+- Make a button flash when enabled
+
+Modifier actions can only be assigned to buttons.
+
+#### Set value
+
+The `Set value` action allows you to set an assigned value to a fixed, relative or increment/decrement value.
+
+In addition, a fade time can be set to smoothly transition between the two value points.
+
+In `Relative` and `Inc/Decrement` mode you can also use percentages as input values, for example to increment by `25%`.
+
+Some examples can be found in the [use-cases](use-cases/set-value.md) section.
+
+#### Toggle value
+
+Toggles through all possible values. This can be used to use a single button to toggle through enumerated values, for
+example
+PEQ band types or channel colors.
 
 ### Midi actions
 

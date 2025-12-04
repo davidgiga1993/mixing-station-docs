@@ -74,7 +74,7 @@ The menu buttons in order:
 
 ![Input button](img/text-input.png)
 
-Dark buttons indicate a text input. Some fields may allow multiline text input. On iOS you can use the `$` character to
+Dark buttons indicate a text input. Some fields may allow multiline text input (for example labels for Custom UI elements). On iOS, you can use the `$` character to
 indicate a line break.
 
 ## Channel buttons
