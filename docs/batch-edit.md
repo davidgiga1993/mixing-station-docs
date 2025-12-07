@@ -31,4 +31,4 @@ The batch edit window consists of two main elements:
 - On-off settings – Changes are **absolute**. If a setting differs across channels (e.g., PAD or HPF on/off), batch editing will apply a single uniform value to all selected channels.
 - Continuous parameters – Changes are **relative**. Adjusting a value (e.g., gain) affects each channel proportionally rather than setting a fixed value.
 
-![type:video](gif/batch-edit-example.webm)
+![type:video](gif/batch-edit-example.mp4)

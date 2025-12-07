@@ -53,7 +53,7 @@ The `Layer Setup` view displays all assigned channels at the bottom. You can dra
 channels.
 Use the menu's `+` button to add [IDCAs](layer-idcas.md) or blank items.
 
-![type:video](gif/layer-channel-drag.webm)
+![type:video](gif/layer-channel-drag.mp4)
 
 ### Target Mix
 
@@ -68,7 +68,7 @@ default app behaviour). Any other selection causes all channels added in that mo
 In the following example I'm adding 3x `Ch 1` but with different target mixes. As you can see in the mixer view, each
 fader now controls the send level to the selected mix.
 
-![type:video](gif/layer-target-mix.webm)
+![type:video](gif/layer-target-mix.mp4)
 
 ## Sends on Fader
 
@@ -76,7 +76,7 @@ On the right side you can select which mixes should be shown in the sends on fad
 It is also possible to change the order of the items.
 
 You can reset the configuration to the default using the top menu.
-![type:video](gif/sof-config.webm)
+![type:video](gif/sof-config.mp4)
 
 ## Layer Selection Group
 
