@@ -6,15 +6,8 @@ Any other features such as Mutegroups, {{ abbr('FX') }} or routing **cannot be i
 
 The following parameters are **not controllable** via network due to firmware limitations:
 
-- Mutegroups
 - FX
 - Routing
-
-### Mutegroups
-
-It is not possible to access the mutegroups of the mixer - therefore the mute status might be shown incorrectly in the
-app. Consider using VCAs instead of mutegroups, since the on/off status of a VCA causes associated channels to mute in
-the same way as a mutegroup, and the VCA on/off status is controllable from Mixing Station.
 
 ## Mixer not connecting
 
