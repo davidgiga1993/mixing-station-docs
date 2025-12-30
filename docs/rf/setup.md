@@ -34,10 +34,10 @@ EW-DX and G4 using firmware >= 4.0 requires the "legacy mode / SSCV1" to be enab
 
 ### Shure
 
-Make sure to enable 3rd party control
+Make sure to **Enable 3rd party control**:
 
-Note that due to lack of hardware access most of the integrations are yet untested.
-This table will be updated once I receive more feedback.
+![Shure Setup](shure.jpg)
+
 
 IEM transmitters are currently **not** supported.
 
