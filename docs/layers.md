@@ -94,10 +94,10 @@ The selection group can be selected in various places, for example:
 
 Here is a simple example how to utilize the selection group:
 
-1) Add a 2nd "Mixer" UI element to your layout
-2) Edit the 2nd "Mixer" UI element
-3) Change the Layer selection group from `Default` to `A`
-4) Now you have 2 mixers, and only one of them follows the default layer selection.
-5) To change the active layer of the 2nd mixer: Add a new `Layer Buttons` UI element
-6) Edit the `Layer Buttons` and change its selection group to `A`.
-7) You now have 2 independent layer selections, each used by a different Mixer in your layout.
+1. Add a 2nd "Mixer" UI element to your layout
+2. Edit the 2nd "Mixer" UI element
+3. Change the Layer selection group from `Default` to `A`
+4. Now you have 2 mixers, and only one of them follows the default layer selection.
+5. To change the active layer of the 2nd mixer: Add a new `Layer Buttons` UI element
+6. Edit the `Layer Buttons` and change its selection group to `A`.
+7. You now have 2 independent layer selections, each used by a different Mixer in your layout.

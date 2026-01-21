@@ -65,10 +65,10 @@ as well as additional parameter-related functionality.
 
 The menu buttons in order:
 
-1) Pin popup: Allows you to pin the value to the screen
-2) Batch edit: See [batch edit page](batch-edit.md)
-3) Text input: Allows you to type in the value
-4) Reset value: Resets the value to default (white line)
+1. Pin popup: Allows you to pin the value to the screen
+2. Batch edit: See [batch edit page](batch-edit.md)
+3. Text input: Allows you to type in the value
+4. Reset value: Resets the value to default (white line)
 
 ## Text input
 

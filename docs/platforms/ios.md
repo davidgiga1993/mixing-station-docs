@@ -34,11 +34,11 @@ automatically.
 
 If you've updated to 2.3.3 the app may have lost your license. To resolve this issue:
 
-1) Connect to the internet
-2) Make sure you're on version 2.3.4
-3) Press the gear icon -> Licenses
-4) Press `Restore` the top menu
-5) Select `Apple ID`
+1. Connect to the internet
+2. Make sure you're on version 2.3.4
+3. Press the gear icon -> Licenses
+4. Press `Restore` the top menu
+5. Select `Apple ID`
 
 This should now fully restore all licenses. The licenses will be available without internet, indefinitely.
 
