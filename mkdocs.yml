@@ -59,12 +59,14 @@ nav:
       - Desktop: platforms/desktop.md
       - RPi: platforms/rpi.md
       - iOS: platforms/ios.md
+      - Anywhere: anywhere/index.md
   - Use Cases:
       - use-cases/index.md
       - APIs: use-cases/apis.md
       - Fixed install: use-cases/fixed-installation.md
       - Set value: use-cases/set-value.md
       - Personal monitoring: use-cases/personal-monitoring.md
+      - Mix Remotely: anywhere/index.md
   - Beta program: beta.md
   - FAQ: faq.md
   - Mixer specifics:
