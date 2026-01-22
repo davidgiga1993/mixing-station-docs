@@ -6,7 +6,7 @@ As soon as you want to connect to a mixer you must buy the app for that mixer mo
 
 ## Requirements
 
-- iOS >= 11
+- iOS >= 16 (older versions may work, but I can't support them in case of issues)
 - iPhone, iPad
 
 ## URL Scheme
