@@ -31,7 +31,7 @@ class Versions:
     def get_mixer_series(self, console_id: int):
         for manu in self._data["manufacturers"]:
             for series in manu["series"]:
-                if series["consoleId"] != console_id:
+                if series["factoryId"] != console_id:
                     continue
                 return series, manu
 
@@ -63,7 +63,7 @@ class MixerGenerator:
             content = "| Mixers | Supported Firmware | Notes\n| --- | --- | --- |\n"
             for all_series, manu in self.versions.get_all_mixer_series():
                 for series in all_series:
-                    console_id = series["consoleId"]
+                    console_id = series["factoryId"]
                     content += "| " + self.get_series_content(console_id)
                     content += " | " + self.get_firmware_content(console_id);
                     content += " | " + self.notes.get(console_id, "") + " |\n"
