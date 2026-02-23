@@ -27,6 +27,15 @@ pipeline {
 				sh 'docker build -t mkdocs-pdf:1.0 .'
 			}
 		}
+		stage('Export Versions'){
+			steps {
+				script {
+					docker.image('mixing-station-pc:latest').inside {
+						sh 'java -jar /app/mixing-station-desktop.jar -expFw versions.json'
+					}
+				}
+			}
+		}
 		stage('Building') {
 			steps {
 				script {

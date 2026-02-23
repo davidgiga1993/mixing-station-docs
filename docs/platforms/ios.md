@@ -29,6 +29,21 @@ you must reconnect.
 It's recommended to keep the screen on. By default, Mixing Station keeps the screen on, so it will not turn off
 automatically.
 
+## License changes (2.8.0)
+
+In the past on iOS the license handling was done using the official Apple libraries.
+This has been changed in Mixing Station 2.8.0 due to more and more users reporting the license dissapearing when 
+the device has no internet connection for a longer period of time.
+
+This change has the following implications:
+
+- The same device limit used on Android and Desktop applies to iOS now (see [license overview](../license/overview.md)).
+- You can now import the license on any iOS devices regardless of their Apple ID.
+- You can purchase additional licenses on the [Mixing Station website](https://mixingstation.app).
+
+To migrate the licenses into your mixing station account, simply follow the "Restore" procedure described on the [license overview](../license/overview.md) page.
+
+If you were using the iOS license on more than 4 devices please migrate your license and then contact support at support@mixingstation.app
 
 ## License Lost (2.3.3)
 
