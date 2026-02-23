@@ -31,13 +31,14 @@ automatically.
 
 ## License changes (2.8.0)
 
-In the past on iOS the license handling was done using the official Apple libraries.
-This has been changed in Mixing Station 2.8.0 due to more and more users reporting the license dissapearing when 
-the device has no internet connection for a longer period of time.
+With version 2.8.0 the license handling for iOS has been changed to stop
+licenses from dissapearing when the device has no internet connection for extended periods of time.
+This change was required due to the way iOS evaluates in-app-purchases.
+The new license handling will be the same as for all other platforms.
 
 This change has the following implications:
 
-- The same device limit used on Android and Desktop applies to iOS now (see [license overview](../license/overview.md)).
+- The same device limit used on Android and Desktop applies to iOS now as well (see [license overview](../license/overview.md)).
 - You can now import the license on any iOS devices regardless of their Apple ID.
 - You can purchase additional licenses on the [Mixing Station website](https://mixingstation.app).
 
