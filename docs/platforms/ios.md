@@ -46,17 +46,15 @@ To migrate the licenses into your mixing station account, simply follow the "Res
 
 If you were using the iOS license on more than 4 devices please migrate your license and then contact support at support@mixingstation.app
 
-## License Lost (2.3.3)
+### How can I migrate my iOS licenses to my Mixing Station accont?
 
-If you've updated to 2.3.3 the app may have lost your license. To resolve this issue:
+Simply follow the [restore](../license/overview.md#restore-licenses) guide. Once the licenses are restored
+they will be in your Mixing Station account.
 
-1. Connect to the internet
-2. Make sure you're on version 2.3.4
-3. Press the gear icon -> Licenses
-4. Press `Restore` the top menu
-5. Select `Apple ID`
+### How can I verify I'm using the new license system?
 
-This should now fully restore all licenses. The licenses will be available without internet, indefinitely.
+In the license view select the `Active` tab. In this view, all licenses with a red `Deactivate` button are using the new system.
 
-There might still be a `Loading licenses...` message, you can however ignore it for now.
-This message will be fixed in 2.4.0
+Note that Apple managed licenses are still accepted, so when you deactivate a license it might stay "Active" as it's using Apples system as fallback.
+
+This fallback might be removed in a couple of years.
