@@ -59,7 +59,6 @@ nav:
       - Desktop: platforms/desktop.md
       - RPi: platforms/rpi.md
       - iOS: platforms/ios.md
-      - Anywhere: anywhere/index.md
   - Use Cases:
       - use-cases/index.md
       - APIs: use-cases/apis.md
