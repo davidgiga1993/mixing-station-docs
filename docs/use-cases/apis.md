@@ -277,12 +277,30 @@ Type 1: ch-meter-L, [ch-meter-R] [gate input, gate gr, comp input, comp gr]
         If it only has a gate, only the gate part will be included.
         If it only has a comp, both the gate and comp part will be included (so the values can be differentiated).
 Type 10: rta-band-0, rta-band-1, ...
-Type 11: rfch-audio-level(in dbfs), rfch-rf-level(in dBm)
+Type 11: rfch-audio-level(in dBfs), rfch-rf-level(in dBm), rfch-antenna-flags
 
 Where [...] denotes an optional value which will only be included if available.
 All values are in dB, gain reduction values are negative.
 
 Inactive channels (for example if a mixer merges two channels into one) will still be included in the request.
+
+
+## RF Antenna Flags
+Single int number, contains the antenna state of the receiver as bitmap.
+Each antenna uses 2 bits, big endian (so bit 0-1 is the first antenna)
+
+Flags:
+0: Antenna not used
+1: Antenna in use
+2: Interference
+
+Example:
+Flag value: 9
+As Bitmap: 00 00 10 01
+                 ^  ^
+                 A2 A1
+Antenna 1: 1 -> In use
+Antenna 2: 2 -> Interference 
 
 ```
 
