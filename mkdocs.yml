@@ -42,15 +42,17 @@ nav:
       - Actions: custom-actions.md
       - App-Link: app-link.md
       - Auto EQ: auto-eq.md
-      - Batch edit: batch-edit.md
+      - Batch-Edit: batch-edit.md
       - Channel Links: channel-links.md
-      - Custom layouts: custom-layouts.md
-      - Feedback detection: feedback-detection.md
+      - Custom Layouts: custom-layouts.md
+      - Feedback Detection: feedback-detection.md
       - IDCAs: layer-idcas.md
       - MCAs: mca.md
       - Midi: midi.md
-      - Mix copy: mix-copy.md
-      - Mix presets: mix-presets.md
+      - Mix Copy: mix-copy.md
+      - Mix Presets: mix-presets.md
+      - MS Scenes: ms-scenes.md
+      - MS Channel Presets: ms-ch-presets.md
       - RF Integration: rf/setup.md
       - Re-Gain: re-gain.md
       - Surround Panning: surround.md
