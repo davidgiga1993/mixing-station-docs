@@ -51,5 +51,23 @@ pipeline {
 				sh 'rsync -avh --no-perms --no-owner --no-group --delete site/ /var/www/ms-docs/'
 			}
 		}
+
+		stage('Flush cache'){
+			steps {
+				script {
+					withCredentials([file(credentialsId: 'app-uploader-secrets', variable: 'FILE')]) {
+						def secretRootDir = new File("${FILE}").getParentFile().getAbsolutePath()
+						def configFiles = "${FILE},config.cfg"
+
+						def dockerArgs = ' --mount src=' + secretRootDir + ',dst=' + secretRootDir + ',type=bind '
+						docker.image('dev-core:app-uploader-1.0').inside(dockerArgs) { c ->
+							dir('cicd') {
+								sh 'java -jar /app/app-uploader.jar --configs ' + configFiles+ ' --call ClearCache'
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
