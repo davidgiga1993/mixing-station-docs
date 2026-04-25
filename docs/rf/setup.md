@@ -1,7 +1,5 @@
 # Wireless Device Integration
 
-> Currently in beta test (V2.5.0)
-
 Mixing Station allows you to connect to your wireless audio receives for battery and signal level
 information.
 

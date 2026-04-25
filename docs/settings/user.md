@@ -5,6 +5,7 @@ The user settings store the following items:
 - [Layers](../layers.md)
 - [Layouts](../custom-layouts.md)
 - [Midi](../midi.md)
+- [RF](../rf/setup.md)
 
 ![User settings](../img/settings/user.jpg)
 
