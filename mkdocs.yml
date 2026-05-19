@@ -98,7 +98,7 @@ nav:
           - Sonicview: mixers/tascam/sonicview.md
 
       - Yamaha:
-          - DM3: mixers/yamaha/dm3.md
+          - DM3/7: mixers/yamaha/dm.md
           - TF: mixers/yamaha/tf.md
   - Licenses:
       - Overview: license/overview.md
@@ -141,7 +141,7 @@ plugins:
         'xm32/channel-move.md': 'mixers/behringer/x32.md'
         'xm32/bus-password.md': 'mixers/behringer/x32.md'
         'xm32/network-compare.md': 'mixers/behringer/x32.md'
-        'yamaha/dm3.md': 'mixers/yamaha/dm3.md'
+        'yamaha/dm3.md': 'mixers/yamaha/dm.md'
         'yamaha/tf.md': 'mixers/yamaha/tf.md'
         'presonus/sl3.md': 'mixers/presonus/sl3.md'
         'soundcraft/si-performer.md': 'mixers/soundcraft/si-performer.md'
