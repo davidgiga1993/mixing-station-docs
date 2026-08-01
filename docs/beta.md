@@ -49,10 +49,7 @@ I'm very thankful for all the feedback I can get for those mixers.
 
 This section will get updated based on the feedback I receive.
 
-| Code | Mixer     | MS Version | Feedback required                  | 
-|------|-----------|------------|------------------------------------| 
-| cl   | Yamaha CL | >=v2.6.0   | Metering and general functionality |
-| ql   | Yamaha QL | >=v2.6.0   | Metering and general functionality |
+> Currently, no mixer specific beta is available
 
 ## Secret Mode / Pre-release
 
