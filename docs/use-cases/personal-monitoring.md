@@ -30,3 +30,11 @@ this would affect the FoH output as well. This is how most digital mixers work a
 
 Layouts will not be accessible when using personal monitoring mode. This is by design as otherwise they
 would bypass the access restrictions.
+
+
+## Why not use custom layouts instead?
+
+Personal Monitor mode has a couple of advantages over building a custom layout for monitoring purposes:
+
+- It ensures you can't (by accident) modify the main mix
+- Depending on the mixer, a more optimized protocol is used to allow more clients to connect and/or reduce network load

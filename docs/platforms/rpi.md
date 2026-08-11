@@ -1,18 +1,18 @@
 # Raspberry PI
 
-Mixing Station can be used on Raspberry PI 4.
+Mixing Station can be used on Raspberry PI >=4.
 
 ## Requirements
 
 - arm64 OS (tested with Ubuntu 21.10, but [raspios arm64](https://downloads.raspberrypi.org/raspios_arm64/images/)
   should also work)
-- Java 11 or newer
+- Java Runtime 25
 
 ## Installation
 
 1. Install java:
    ```
-   apt install openjdk-11-jre
+   apt install openjdk-25-jre
    ```
 
 2. Download Mixing Station. In this case I'm installing it to `~/ms`.

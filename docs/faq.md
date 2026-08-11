@@ -12,8 +12,7 @@ can connect at a time. Best is to consult the manual of your mixer.
 ## Will this app support mixer XYZ in the future?
 
 Maybe. Adding support for a new mixer is a cost and time-consuming process. Due to lack of documentation for a lot
-of devices, a lot of time is required to fully understand the protocol used by certain mixers and implement it
-accordingly.
+of devices, a lot of time is required to fully understand the protocol used by certain mixers.
 
 Because of that, either a good emulator or access to the actual hardware is required.
 
@@ -47,6 +46,11 @@ checkout.
 
 If this email is different from the email used in your Mixing Station account you can request a license move.
 To do that, please follow the "[move license](license/overview.md#move-license)" section in the manual.
+
+### The license download link doesn't work anymore!
+
+The download link for the license in the Fastspring email expires after some time.
+To access your license use your [Mixing Station Account](license/overview.md#mixing-station-account)
 
 ## Is there a pdf version of this manual?
 

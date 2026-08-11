@@ -42,18 +42,20 @@ nav:
       - Actions: custom-actions.md
       - App-Link: app-link.md
       - Auto EQ: auto-eq.md
-      - Batch edit: batch-edit.md
+      - Batch-Edit: batch-edit.md
       - Channel Links: channel-links.md
-      - Custom layouts: custom-layouts.md
-      - Feedback detection: feedback-detection.md
+      - Custom Layouts: custom-layouts.md
+      - Feedback Detection: feedback-detection.md
       - IDCAs: layer-idcas.md
       - MCAs: mca.md
       - Midi: midi.md
-      - Mix copy: mix-copy.md
-      - Mix presets: mix-presets.md
+      - Mix Copy: mix-copy.md
+      - Mix Presets: mix-presets.md
+      - MS Scenes: ms-scenes.md
+      - MS Channel Presets: ms-ch-presets.md
+      - RF Integration: rf/setup.md
       - Re-Gain: re-gain.md
       - Surround Panning: surround.md
-      - RF Integration: rf/setup.md
   - Platforms:
       - Android: platforms/android.md
       - Desktop: platforms/desktop.md
@@ -63,7 +65,9 @@ nav:
       - use-cases/index.md
       - APIs: use-cases/apis.md
       - Fixed install: use-cases/fixed-installation.md
+      - Set value: use-cases/set-value.md
       - Personal monitoring: use-cases/personal-monitoring.md
+      - Mix Remotely: anywhere/index.md
   - Beta program: beta.md
   - FAQ: faq.md
   - Mixer specifics:
@@ -71,13 +75,14 @@ nav:
           - dLive: mixers/ah/dlive.md
           - SQ: mixers/ah/sq.md
           - Qu: mixers/ah/qu.md
-      - DiGiCo:
-          - SQ/Quantum: mixers/digico/sd.md
       - Behringer:
           - Wing: mixers/behringer/wing.md
           - XAir: mixers/behringer/xair.md
           - X32/M32: mixers/behringer/x32.md
 
+      - DiGiCo:
+          - SQ/Quantum: mixers/digico/sd.md
+      - Incompatible: incompatible-mixers.md
       - Mackie:
           - DL: mixers/mackie/dl.md
       - PreSonus:
@@ -85,19 +90,18 @@ nav:
       - QSC:
           - General: mixers/qsc/touchmix.md
       - Soundcraft:
-          - Si:  mixers/soundcraft/si-performer.md
-          - Vi:  mixers/soundcraft/vi.md
-          - HiQNet:  mixers/soundcraft/hiqnet.md
+          - Si: mixers/soundcraft/si-performer.md
+          - Vi: mixers/soundcraft/vi.md
+          - HiQNet: mixers/soundcraft/hiqnet.md
 
-      - Yamaha:
-          - DM3: mixers/yamaha/dm3.md
-          - TF: mixers/yamaha/tf.md
       - TASCAM:
           - Sonicview: mixers/tascam/sonicview.md
 
-      - Incompatible: incompatible-mixers.md
+      - Yamaha:
+          - DM3/7: mixers/yamaha/dm.md
+          - TF: mixers/yamaha/tf.md
   - Licenses:
-      - Overview:  license/overview.md
+      - Overview: license/overview.md
       - Subscription: license/subscription.md
   - Support: support/index.md
 markdown_extensions:
@@ -137,7 +141,7 @@ plugins:
         'xm32/channel-move.md': 'mixers/behringer/x32.md'
         'xm32/bus-password.md': 'mixers/behringer/x32.md'
         'xm32/network-compare.md': 'mixers/behringer/x32.md'
-        'yamaha/dm3.md': 'mixers/yamaha/dm3.md'
+        'yamaha/dm3.md': 'mixers/yamaha/dm.md'
         'yamaha/tf.md': 'mixers/yamaha/tf.md'
         'presonus/sl3.md': 'mixers/presonus/sl3.md'
         'soundcraft/si-performer.md': 'mixers/soundcraft/si-performer.md'

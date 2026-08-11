@@ -10,7 +10,7 @@ You can create new {{ abbr('IDCA') }}s in the layer editor via the top menu (`+`
 
 IDCAs are globally available, meaning once created, you can add them to multiple layers at the same time.
 
-![type:video](gif/new-idca.webm)
+![type:video](gif/new-idca.mp4)
 
 ## IDCA Setup
 

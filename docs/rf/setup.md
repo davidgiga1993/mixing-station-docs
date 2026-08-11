@@ -1,7 +1,5 @@
 # Wireless Device Integration
 
-> Currently in beta test (V2.5.0)
-
 Mixing Station allows you to connect to your wireless audio receives for battery and signal level
 information.
 
@@ -14,22 +12,30 @@ without a license.
 |------------|---------------|--------------|----------|
 | Shure      | AD4D-A        | \>= 1.4.15.0 | Tested   |
 | Shure      | AD4Q-A        | \>= 1.4.15.0 | Tested   |
-| Shure      | ULXD4         | \>= 2.7.6    | Untested |
+| Shure      | ULXD4         | \>= 2.7.6    | Tested   |
 | Shure      | ULXD4D        | \>= 2.7.6    | Tested   |
 | Shure      | ULXD4Q        | \>= 2.7.6    | Tested   |
-| Shure      | QLXD4         | \>= 2.7.1    | Untested |
-| Shure      | SLXD4         | \>= 1.4.4    | Untested |
-| Shure      | SLXD4D        | \>= 1.4.4    | Untested |
-| Shure      | SLXD4Q+       | \>= 1.4.4    | Untested |
+| Shure      | QLXD4         | \>= 2.7.1    | Tested   |
+| Shure      | SLXD4         | \>= 1.4.4    | Tested   |
+| Shure      | SLXD4D        | \>= 1.4.4    | Tested   |
+| Shure      | SLXD4Q+       | \>= 1.4.4    | Tested   |
 | Shure      | UR4D          |              | Tested   |
 | Sennheiser | EM6000        | \>= 3.2.1    | Untested |
 | Sennheiser | EM 300-500 G4 | \>= 1.2.0    | Tested   |
 | Sennheiser | EM 300-500 G3 |              | Tested   |
 | Sennheiser | EM 2000-2050  |              | Tested   |
-| Sennheiser | EW-DX         | \>= 4.0.0    | Tested   |
+| Sennheiser | EW-DX         |              | Tested   |
 
-Note that due to lack of hardware access most of the integrations are yet untested.
-This table will be updated once I receive more feedback.
+### Sennheiser
+
+EW-DX and G4 using firmware >= 4.0 requires the "legacy mode / SSCV1" to be enabled in WSM.
+
+### Shure
+
+Make sure to **Enable 3rd party control**:
+
+![Shure Setup](shure.jpg)
+
 
 IEM transmitters are currently **not** supported.
 

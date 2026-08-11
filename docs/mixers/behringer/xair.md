@@ -22,9 +22,9 @@ All devices using Mixing Station. Any other app including the official XAir apps
 
 ### Where is the password stored?
 
-The password is stored in the last snapshot (50th position). The scope buttons are used to store the information about
+The password is stored in the last snapshot (64th position). The scope buttons are used to store the information about
 which bus is protected.
 
 ### How to reset the password?
 
-Save and then delete the 50th snapshot using any official XAIR-Edit app.
+Save and then delete the 64th snapshot using any official XAIR-Edit app.

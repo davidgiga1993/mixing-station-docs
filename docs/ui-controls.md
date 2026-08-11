@@ -23,7 +23,7 @@ This will usually open additional details about the parameter.
 
 - **Drag** to change the value
 - **Press and hold** to open a popup for more precise control
-- **Double tap** to reset the value to the default
+- **Double tap** to open a popup for more precise control
 
 This behaviour can be configured in the [app settings](settings/app.md).
 
@@ -65,16 +65,16 @@ as well as additional parameter-related functionality.
 
 The menu buttons in order:
 
-1) Pin popup: Allows you to pin the value to the screen
-2) Batch edit: See [batch edit page](batch-edit.md)
-3) Text input: Allows you to type in the value
-4) Reset value: Resets the value to default (white line)
+1. Pin popup: Allows you to pin the value to the screen
+2. Batch edit: See [batch edit page](batch-edit.md)
+3. Text input: Allows you to type in the value
+4. Reset value: Resets the value to default (white line)
 
 ## Text input
 
 ![Input button](img/text-input.png)
 
-Dark buttons indicate a text input. Some fields may allow multiline text input. On iOS you can use the `$` character to
+Dark buttons indicate a text input. Some fields may allow multiline text input (for example labels for Custom UI elements). On iOS, you can use the `$` character to
 indicate a line break.
 
 ## Channel buttons

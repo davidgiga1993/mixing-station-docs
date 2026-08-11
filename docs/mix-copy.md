@@ -7,7 +7,7 @@ or if you simply want to copy a monitor mix to another monitor mix.
 ## Usage
 
 ```
-Select channel -> SENDS -> Menu -> Mix Copy
+Mixer View -> "..." menu -> Mix Copy
 ```
 
 ![mix copy popup](img/mix-copy.png)

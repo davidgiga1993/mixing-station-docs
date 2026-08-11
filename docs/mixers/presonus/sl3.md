@@ -10,9 +10,11 @@ the metering in Mixing Station is usually higher. This is for multiple reasons:
 - In UC the scale places +4dbU at the lower half. So everything above the lower half in UC control is already above the
   reference level.
 - Mixing Station shows the metering quicker than Universal Control does. Thus, you may not see the clipping in
-  UC, but in mixing station. Here is some comparison video:
+  UC, but in mixing station.
+ 
+Here is some video to show the metering differences:
 
-![type:video](metering.webm)
+![type:video](metering.mp4)
 
 
 ## Limitations

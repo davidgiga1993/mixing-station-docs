@@ -46,7 +46,7 @@ If you want to go back to the app's default, simply delete your layout.
 ### Example: Tap Delay Button
 
 The following example shows how to add a tap delay button to your mixer layout.
-![type:video](img/layouts/tap-delay.webm)
+![type:video](img/layouts/tap-delay.mp4)
 
 ## Using the layout editor
 

@@ -6,7 +6,7 @@ As soon as you want to connect to a mixer you must buy the app for that mixer mo
 
 ## Requirements
 
-- iOS >= 11
+- iOS >= 16 (older versions may work, but I can't support them in case of issues)
 - iPhone, iPad
 
 ## URL Scheme
@@ -29,18 +29,32 @@ you must reconnect.
 It's recommended to keep the screen on. By default, Mixing Station keeps the screen on, so it will not turn off
 automatically.
 
+## License changes (2.8.0)
 
-## License Lost (2.3.3)
+With version 2.8.0 the license handling for iOS has been changed to stop
+licenses from dissapearing when the device has no internet connection for extended periods of time.
+This change was required due to the way iOS evaluates in-app-purchases.
+The new license handling will be the same as for all other platforms.
 
-If you've updated to 2.3.3 the app may have lost your license. To resolve this issue:
+This change has the following implications:
 
-1) Connect to the internet
-2) Make sure you're on version 2.3.4
-3) Press the gear icon -> Licenses
-4) Press `Restore` the top menu
-5) Select `Apple ID`
+- The same device limit used on Android and Desktop applies to iOS now as well (see [license overview](../license/overview.md)).
+- You can now import the license on any iOS devices regardless of their Apple ID.
+- You can purchase additional licenses on the [Mixing Station website](https://mixingstation.app).
 
-This should now fully restore all licenses. The licenses will be available without internet, indefinitely.
+To migrate the licenses into your mixing station account, simply follow the "Restore" procedure described on the [license overview](../license/overview.md) page.
 
-There might still be a `Loading licenses...` message, you can however ignore it for now.
-This message will be fixed in 2.4.0
+If you were using the iOS license on more than 4 devices please migrate your license and then contact support at support@mixingstation.app
+
+### How can I migrate my iOS licenses to my Mixing Station accont?
+
+Simply follow the [restore](../license/overview.md#restore-licenses) guide. Once the licenses are restored
+they will be in your Mixing Station account.
+
+### How can I verify I'm using the new license system?
+
+In the license view select the `Active` tab. In this view, all licenses with a red `Deactivate` button are using the new system.
+
+Note that Apple managed licenses are still accepted, so when you deactivate a license it might stay "Active" as it's using Apples system as fallback.
+
+This fallback might be removed in a couple of years.
