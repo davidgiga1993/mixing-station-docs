@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Android >= 5.0
+- Android >= 6.0
 - Chromebooks are not supported (but still might work)
 - Some android emulators might work
 
