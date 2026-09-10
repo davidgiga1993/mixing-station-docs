@@ -36,3 +36,10 @@ In here you can either:
 - Press anywhere to immediately move the pan position
 - Drag the white pan indicator
 - Double tap anywhere to reset pan to the closest axis
+
+
+## Stereo Channels
+
+For stereo (linked) input channels, the panning of the X-Axis is locked. Only the Y-Axis can be moved.
+
+You can manually adjust the X-position using the send-pan control of the channel.
