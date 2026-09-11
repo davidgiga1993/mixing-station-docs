@@ -2,11 +2,11 @@
 
 ## App versions
 
-The app is available for three different platforms: **[iOS](platforms/ios.md)**, **[Android](platforms/android.md)** and
-**[Desktop](platforms/desktop.md)**(Win,MacOS,Linux).
+The app is available for three different platforms:
 
-Since the app store policies are slightly different, each app has different versions on each platform.
-Click on the left menu items to open the page for your platform and see further details.
+- **[iOS](platforms/ios.md)**
+- **[Android](platforms/android.md)** 
+- **[Desktop](platforms/desktop.md)** (Win,MacOS,Linux)
 
 ### Licensing
 
@@ -20,8 +20,9 @@ The following table lists all compatible mixer models, and their supported firmw
 {notes:3:Si}See [HiQNet guide / limitations](mixers/soundcraft/hiqnet.md)
 {notes:8:Vi}See [HiQNet guide / limitations](mixers/soundcraft/hiqnet.md) and [VI details](mixers/soundcraft/vi.md)
 {notes:19:SL3} See [SL3](mixers/presonus/sl3.md)
-{notes:14:DM3} See [DM3/7](mixers/yamaha/dm.md)
-{notes:20:DM7} See [DM3/7](mixers/yamaha/dm.md)
+{notes:14:DM3} See [DM3/DM5/DM7](mixers/yamaha/dm.md)
+{notes:29:DM5} See [DM3/DM5/DM7](mixers/yamaha/dm.md)
+{notes:20:DM7} See [DM3/DM5/DM7](mixers/yamaha/dm.md)
 {notes:15:TF} See [TF](mixers/yamaha/tf.md)
 {notes:19:TF} See [Limitations](mixers/qsc/touchmix.md)
 {notes:23:TF} See [Limitations](mixers/tascam/sonicview.md)

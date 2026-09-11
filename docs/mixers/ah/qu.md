@@ -1,8 +1,6 @@
 # Qu Series
 
-This page is for the current and old Qu series
-
-## Qu (new)
+## Qu (5/6/7)
 
 | Access Mode       | Maximum number of connections |
 |-------------------|-------------------------------|
