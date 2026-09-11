@@ -2,17 +2,14 @@
 
 This page is for the current and old Qu series
 
-## Qu Connection Modes
+## Qu (new)
 
-Mixing Station uses two different modes depending on which
-access mode you've chosen:
+| Access Mode       | Maximum number of connections |
+|-------------------|-------------------------------|
+| FoH               | 2 (counts towards SQ-MixPad)  |
+| Personal / custom | 7 (counts towards SQ4You)     |
 
-| Mixing Station Access Mode | Parallel instances           |
-|----------------------------|------------------------------|
-| FoH Mode                   | 2 (counts towards SQ-MixPad) |
-| Personal / custom          | 7 (counts towards SQ4You)    |
-
-## Qu (legacy) Connection modes
+## Qu (legacy)
 
 Mixing Station has two different modes for connection to the mixer:
 
