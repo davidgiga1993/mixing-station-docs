@@ -1,6 +1,6 @@
 # APIs
 
-Mixing Station provides different {{ abbr('API') }}s for integration with external software and hardware.
+Mixing Station provides different {{ abbr ('API') }}s for integration with external software and hardware.
 The goal of these APIs is to cover the majority of console parameters with a unified API, allowing your application to
 work with every mixer supported by Mixing Station.
 
@@ -15,8 +15,8 @@ Note that the APIs are only available in the desktop version of Mixing Station.
 
 ## Configure APIs
 
-To enable {{ abbr('API') }} access, open the [global app settings](../settings/global.md) and enable {{ abbr('REST') }}
-and/or {{ abbr('OSC') }}. Here you can also change the port number used by the APIs.
+To enable {{ abbr ('API') }} access, open the [global app settings](../settings/global.md) and enable {{ abbr ('REST') }}
+and/or {{ abbr ('OSC') }}. Here you can also change the port number used by the APIs.
 
 ## Data Types
 
@@ -85,7 +85,7 @@ error messages that occurred during processing your request.
 To receive value updates you'll need to subscribe first.
 A subscription describes a parameter path for which the client will
 receive updates in case of values changes.
-Requesting a new subscription will also send you the initial value(s).
+Requesting a new subscription will also send you the initial value (s).
 
 Examples for value subscriptions can be found below in the [examples section](#examples).
 
@@ -223,7 +223,7 @@ The request payload is defined as:
 | interval       | The interval parameter defines the data rate in milliseconds (global per client, last one wins, min:30, max:1000) |
 | binary         | true will cause the reply to contain a base64 encoded string (non-padded).                                        |
 | params.*.type  | Metering type                                                                                                     |
-| params.*.index | Index of the type, out of bound requests will be ignored                                                          |
+| params.*.index | Index of the channel/RF, out of bound requests will be ignored                                                    |
 
 A single subscription may return a maximum of 500 metering values.
 
