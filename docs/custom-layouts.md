@@ -1,25 +1,36 @@
 # Custom layout
 
-This feature allows you to fully customize the mixer view to match your workflow
-and create new views for many different purposes (e.g. fixed installations).
+A custom layout is a fullscreen view that can be built to your liking.
+
+This feature allows you to fully customize the mixer view to match your workflow and create new layouts for many
+different purposes (e.g. fixed installations).
 
 ![Layouts-Overview](img/layouts/layouts-settings.png)
-This view shows you all layouts currently loaded from your settings.
+
+In the layout overview (show above) you can see all layouts currently loaded. From here you can edit and open them.
+
+## Templates
+
+If you don't want to dive into the layout editor just yet, you can choose on of the templates to quickly adjust the apps
+mixer to mimic the layout of some other familiar apps.
+
+Pressing a template will create new layout entries automatically.
 
 ## Behaviors
 
-A layout can be configured to have different behaviors, which are also indicated in the `Mixer` and `Startup` column
-above.
+A layout can be configured to have different behaviors, which are also indicated in the `Behavior` column in the
+screenshot above.
 
-- `Override mixer layout`: A layout with this flag will replace the default mixer layout of the app.
+- `Mixer`: A layout with this behavior will replace the default mixer layout of the app. This is usually the first view
+  that you see after connecting to a mixer.
 - `Open on start`: The layout will be opened directly after connecting to your mixer. You'll be able to press the back
   button to return to the mixer view.
-- `Default`: The layout must be opened manually using a button or via the table shown above.
+- `Default`: The layout must be opened manually using a custom button or via the layout entry shown above.
 
 ## Terminology
 
-- UI item: Buttons, Knobs, Channel strips, ...
-- Action: An action defines what an UI element should be controlling (for example Mute, Fader level, ect)
+- UI item: An UI element that can be placed onto a layout (Buttons, Knobs, Channel strips, ...)
+- Action: Defines what a UI element should be controlling (for example Mute, Fader level, ect)
 
 The following describes how layouts, UI items and actions correlate to each-other.
 
@@ -43,20 +54,17 @@ The following describes how layouts, UI items and actions correlate to each-othe
 
 If you want to go back to the app's default, simply delete your layout.
 
-### Example: Tap Delay Button
-
-The following example shows how to add a tap delay button to your mixer layout.
-![type:video](img/layouts/tap-delay.mp4)
 
 ## Using the layout editor
 
 This section describes how to use the layout editor.
 
+TODO: IMAGE WITH AREAS
+
 ### Moving and resizing
 
-By default, you can simply drag items to move them to another position.
-To resize an item, simply drag them from one of their edges, as indicated by the
-green rectangle in each edge.
+By default, you can simply drag items to move them to another position. To resize an item, simply drag them from one of
+their edges, as indicated by the green rectangle in each edge.
 
 Sometimes it's hard to move or resize small items, in this case you can press the top
 `Size + Move` menu button, which will change the modes of the editor.
@@ -75,8 +83,7 @@ New items can be added via the `+` symbol in the top menu.
 
 ### Editing an item
 
-In order to further configure an item simply click on it (without moving it).
-A dialog will appear with further options:
+In order to further configure an item simply click on it (without moving it). A dialog will appear with further options:
 
 ![Layout settings](img/layouts/ui-edit-dialog.png)
 
@@ -86,9 +93,8 @@ Add the element to the clipboard. You can paste it using the clipboard button in
 
 #### Edit
 
-Allows you to edit the actions of the UI item (aka what should be controlled by the item), as well as
-other options such as coloring, margin, labels, ect.
-More information about this can be found below.
+Allows you to edit the actions of the UI item (aka what should be controlled by the item), as well as other options such
+as coloring, margin, labels, ect. More information about this can be found below.
 
 #### Delete
 
@@ -96,13 +102,13 @@ Removes the item from the layout
 
 #### Lock
 
-Enabling the lock will make it impossible the move/resize the item anymore.
-To disable the lock, simply click on the item again to open this dialog.
+Enabling the lock will make it impossible the move/resize the item anymore. To disable the lock, simply click on the
+item again to open this dialog.
 
 #### Ordering
 
-The two `to fore/background` buttons change the order in which the UI items are shown on the screen.
-This might be useful for example if you want to move a background item behind other items.
+The two `to fore/background` buttons change the order in which the UI items are shown on the screen. This might be
+useful for example if you want to move a background item behind other items.
 
 ### Layout Settings
 
@@ -118,18 +124,17 @@ The name that should be used for this layout
 
 #### Behaviour
 
-See section `Behaviors`.
-The `Open on startup` option is designed for scenarios where you want to limit the accessible parameters (the top menu
-is empty).
-Additionally, it's possible to **password protect** the ability to return to the main mixer.
+See section `Behaviors`. The `Open on startup` option is designed for scenarios where you want to limit the accessible
+parameters (the top menu is empty). Additionally, it's possible to **password protect** the ability to return to the
+main mixer.
 
 This allows you to create a dedicated layout (for example for a wall mounted tablet) and completely restrict access to
 anything else in the app.
 
 #### Orientations
 
-For advanced use-cases it's possible to have separate layouts for portrait and landscape mode.
-Usually `Combined` is fine.
+For advanced use-cases it's possible to have separate layouts for portrait and landscape mode. Usually `Combined` is
+fine.
 
 #### Top Menu
 
@@ -138,10 +143,9 @@ behavior.
 
 #### Password on exit
 
-Enable to prompt the user for a password before allowing to exit the layout.
-This can be used for fixed installation purposes where the regular user should only
-have access to pre-defined layouts, and only certain people should be allowed to access the rest
-of the app.
+Enable to prompt the user for a password before allowing to exit the layout. This can be used for fixed installation
+purposes where the regular user should only have access to pre-defined layouts, and only certain people should be
+allowed to access the rest of the app.
 
 This is only relevant for layouts not using the `override mixer layout` behavior.
 
@@ -153,10 +157,9 @@ This section describes the settings available for the UI elements (aka when pres
 
 ### Label
 
-The label is the text that should be shown on the UI element.
-You can use action tags to build labels that change based on the current value, for example:
-`[label] [value]`.
-All available tags can be found on the [actions page](custom-actions.md#label-tags).
+The label is the text that should be shown on the UI element. You can use action tags to build labels that change based
+on the current value, for example:
+`[label] [value]`. All available tags can be found on the [actions page](custom-actions.md#label-tags).
 
 ### Margin
 
@@ -174,9 +177,8 @@ This setting controls the conditions under which the UI is visible.
 
 ### Actions
 
-This list shows all actions assigned to the UI element. Click on an entry to open the action,
-press and hold an entry to remove it.
-See [actions page](custom-actions.md#label-tags) for more details.
+This list shows all actions assigned to the UI element. Click on an entry to open the action, press and hold an entry to
+remove it. See [actions page](custom-actions.md#label-tags) for more details.
 
 Note: Some UI elements may have more or less settings, these are described below.
 
@@ -188,8 +190,7 @@ This section describes all available UI items and their special configuration pa
 
 ### Mixer
 
-Shows all channels of the currently active layer.
-This also includes the meterbridge (if enabled in the app settings).
+Shows all channels of the currently active layer. This also includes the meterbridge (if enabled in the app settings).
 
 ![Mixer](img/layouts/mixer.png)
 ![Mixer settings](img/layouts/mixer-settings.png)
@@ -200,8 +201,8 @@ Defines how many channels should be shown, by default it uses the value of your 
 
 ### Layer offset
 
-Changes which layer is currently shown, relative to the currently selected layer.
-You can use this to build up rows of mixer elements, each showing a different layer.
+Changes which layer is currently shown, relative to the currently selected layer. You can use this to build up rows of
+mixer elements, each showing a different layer.
 
 ### Channel strip settings
 
