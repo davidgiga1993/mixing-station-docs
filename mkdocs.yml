@@ -56,6 +56,7 @@ nav:
       - RF Integration: rf/setup.md
       - Re-Gain: re-gain.md
       - Surround Panning: surround.md
+      - SuperRack: superrack/setup.md
   - Platforms:
       - Android: platforms/android.md
       - Desktop: platforms/desktop.md
