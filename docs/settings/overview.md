@@ -13,9 +13,6 @@ package "Mixing Station" {
       Autostart
       Connection settings
       Power configuration
-      }
-      
-      object "App settings" as app {
       Channel strips
       Metring
       Themes
@@ -28,6 +25,7 @@ package "Mixing Station" {
       Layers
       Layouts
       Midi
+      RF
        }
    }
 }
@@ -40,7 +38,6 @@ The settings are recalled by the following logic:
 start
 :Open app;
 :Load Global settings;
-:Load App settings;
 if ("default" user settings entry\n for current mixer available?) then (yes)
 :Load "default" User Settings for \ncurrent mixer model;
 else (no)
