@@ -51,6 +51,13 @@ When enabled, a user with restricted access to a single bus is allowed to access
 
 When enabled, a user with restricted access will see the main bus fader on the right side of the screen.
 
+### Permissions
+
+Manage permissions for the API (feature work in progress)
+![User management](usermgmt.png)
+
+Here you can enable/disable API write access, and set a password for writing to the API.
+
 ### Autostart
 
 Autostart allows you to configure which mixer the app should connect to when starting.

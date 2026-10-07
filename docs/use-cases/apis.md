@@ -51,6 +51,14 @@ The webpage describes all available API endpoints and allows you to explore all 
 It also provides some sample UI which uses websockets to interact with Mixing Station.
 ![API Explorer](api-explorer.png)
 
+#### Authentication
+
+By default, the API works without authentication or restrictions.
+You can however restrict write access either by disabling it entirely, or enabling password authentication.
+See [global settings->permissions](../settings/global.md#permissions)
+
+Details for authentication are in the API documentation. Websockets are authenticated in the same way
+
 ### Websockets
 
 Websocket requests use the following json schema:
