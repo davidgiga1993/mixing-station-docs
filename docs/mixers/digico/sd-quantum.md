@@ -1,14 +1,11 @@
-# DiGiCo
+# DiGiCo SD / Quantum
 
-Support for DiGiCo mixers is currently private as it has some serious limitations
+The integration for DiGiCo mixers has some serious limitations 
 due to the incomplete OSC API of the mixer.
 
 If you want to have more features / use Mixing Station properly, please let DiGiCo know about it!
 
-## Access
-
-1. Enter [secret mode](../../beta.md#secret-mode-pre-release)
-2. Enter `sd` and confirm 
+However you can still use Mixing Station to provide personal monitoring mixing using  [web access](../../web-access/index.md)!
 
 ## Configuration
  
@@ -26,5 +23,5 @@ If you want to have more features / use Mixing Station properly, please let DiGi
 - Only 1 client per mixer
 - No metering
 - No routing
-- No headamp control depending on the input
+- On some SD models: No headamp control depending on the input
 - Not all channel parameters accessible

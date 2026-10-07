@@ -26,6 +26,8 @@ The following table lists all compatible mixer models, and their supported firmw
 {notes:15:TF} See [TF](mixers/yamaha/tf.md)
 {notes:19:TF} See [Limitations](mixers/qsc/touchmix.md)
 {notes:23:TF} See [Limitations](mixers/tascam/sonicview.md)
+{notes:21:DSD} See [Limitations](mixers/digico/sd-quantum.md)
+{notes:31:DQU} See [Limitations](mixers/digico/sd-quantum.md)
 
 {mixer_table:0}
 
