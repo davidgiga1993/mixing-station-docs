@@ -57,7 +57,7 @@ This usually happens if your network supports IPv6 natively
 (for example if your router hands out IPv6 prefixes).
 
 The SuperRack protocol however doesn't work in such situations (Waves is aware of this, but it's not 
-seem as a bug..).
+seen as a bug...).
 
 To prevent this from happening, make sure to use a network that is NOT connected to the internet.
 
