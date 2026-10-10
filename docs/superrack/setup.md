@@ -37,6 +37,11 @@ In the selection grid you can select
 which mixer channel corresponds to which
 rack.
 
+To make SuperRack follow the selection on your mixer:
+1. Go into the [app settings](../settings/app.md)
+2. In the `Mixer` section enable "Follow ch select" (if supported by your desk)
+3. If this option isn't available, use "Ch select follow solo" and use the PAFL/solo button on your desk
+
 ## Recall Snapshot
 
 When enabled a SuperRack snapshot will be recalled
