@@ -32,7 +32,7 @@ automatically.
 ## License changes (2.8.0)
 
 With version 2.8.0 the license handling for iOS has been changed to stop
-licenses from dissapearing when the device has no internet connection for extended periods of time.
+licenses from disappearing when the device has no internet connection for extended periods of time.
 This change was required due to the way iOS evaluates in-app-purchases.
 The new license handling will be the same as for all other platforms.
 
@@ -46,7 +46,7 @@ To migrate the licenses into your mixing station account, simply follow the "Res
 
 If you were using the iOS license on more than 4 devices please migrate your license and then contact support at support@mixingstation.app
 
-### How can I migrate my iOS licenses to my Mixing Station accont?
+### How can I migrate my iOS licenses to my Mixing Station account?
 
 Simply follow the [restore](../license/overview.md#restore-licenses) guide. Once the licenses are restored
 they will be in your Mixing Station account.
