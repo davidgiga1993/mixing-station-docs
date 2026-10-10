@@ -6,7 +6,7 @@ channel in Mixing Station, as well as recall matching snapshots
 ## Requirements
 
 - Mixing Station >=3.2.0
-- Waves SuperRack
+- Waves SuperRack (Performer or SoundGrid) >= V15
 - IPv6 network (link local only)
 - Mixing Station SuperRack license or subscription (can be tested without)
 
