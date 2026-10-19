@@ -19,9 +19,9 @@ However you can still use Mixing Station to provide personal monitoring mixing u
 ![digico-config.png](digico-config.png)
 
 
-## Limitations
+## Limitations (due to mixer firmware)
 - Only 1 client per mixer
-- No metering
+- No metering -> This will be resolved in 3.2.1
 - No routing
 - On some SD models: No headamp control depending on the input
 - Not all channel parameters accessible
