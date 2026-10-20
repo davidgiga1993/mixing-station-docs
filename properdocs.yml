@@ -49,6 +49,7 @@ nav:
       - IDCAs: layer-idcas.md
       - MCAs: mca.md
       - Midi: midi.md
+      - Macros: macros.md
       - Mix Copy: mix-copy.md
       - Mix Presets: mix-presets.md
       - MS Scenes: ms-scenes.md
@@ -82,7 +83,7 @@ nav:
           - X32/M32: mixers/behringer/x32.md
 
       - DiGiCo:
-          - SQ/Quantum: mixers/digico/sd.md
+          - SQ/Quantum: mixers/digico/sd-quantum.md
       - Incompatible: incompatible-mixers.md
       - Mackie:
           - DL: mixers/mackie/dl.md
@@ -117,6 +118,7 @@ markdown_extensions:
 
 hooks:
   - plugins/MixerGenerator.py
+  - plugins/SpaExport.py
 
 plugins:
   - search
@@ -129,7 +131,6 @@ plugins:
       video_controls: true
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
-      num_workers: 8
       puml_keyword: plantuml
   - redirects:
       redirect_maps:
@@ -149,6 +150,6 @@ plugins:
         'soundcraft/vi.md': 'mixers/soundcraft/vi.md'
         'soundcraft/hiqnet.md': 'mixers/soundcraft/hiqnet.md'
         'mackie/general.md': 'mixers/mackie/dl.md'
-        'digico/index.md': 'mixers/digico/sd.md'
+        'digico/index.md': 'mixers/digico/sd-quantum.md'
   # Must be last plugin
   - print-site

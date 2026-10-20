@@ -7,7 +7,7 @@ import logging
 import re
 from typing import Generator, Dict
 
-log = logging.getLogger('mkdocs')
+log = logging.getLogger('properdocs')
 
 
 class Versions:

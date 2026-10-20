@@ -1,4 +1,4 @@
-mkdocs>=1.2.3
+properdocs>=1.6.5
 mkdocs-material==8.*
 pymdown-extensions>=9.0
 mkdocs_puml

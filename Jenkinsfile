@@ -41,14 +41,14 @@ pipeline {
 				script {
 					docker.image('mkdocs-pdf:1.0').inside {
 						sh 'python3 sort-nav.py'
-						sh '/usr/local/bin/mkdocs build'
+						sh '/usr/local/bin/properdocs build'
 					}
 				}
 			}
 		}
 		stage('Deploy') {
 			steps {
-				sh 'rsync -avh --no-perms --no-owner --no-group --delete site/ /var/www/ms-docs/'
+				sh 'rsync -avh --no-perms --no-owner --no-group --delete --exclude _spa/ site/ /var/www/ms-docs/'
 			}
 		}
 

@@ -31,15 +31,15 @@ def main():
     yaml = ruamel.yaml.YAML()
     yaml.indent(mapping=2, sequence=4, offset=2)
     yaml.preserve_quotes = True
-    with open('mkdocs.yml') as f:
-        mkdocs = yaml.load(f)
-    root_nav = mkdocs['nav']
+    with open('properdocs.yml') as f:
+        config = yaml.load(f)
+    root_nav = config['nav']
     for nav_name in nav_to_be_sorted:
         nav = get_nav_item(root_nav, nav_name)
         sort_nav_items(nav)
 
-    with open('mkdocs.yml', 'w') as f:
-        yaml.dump(mkdocs, f)
+    with open('properdocs.yml', 'w') as f:
+        yaml.dump(config, f)
 
 
 if __name__ == '__main__':

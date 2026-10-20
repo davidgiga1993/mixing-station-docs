@@ -18,7 +18,7 @@ To render the docs locally in your browser you need:
     pip install -r requirements.txt
     ```
 
-2. Now you can start the mkdocs server
+2. Now you can start the ProperDocs server
     ```
-    mkdocs serve
+    properdocs serve
     ```
