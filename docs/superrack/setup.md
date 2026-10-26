@@ -28,6 +28,15 @@ This is required by the ProLink protocol.
    ![ProLink](prolink.png)
 5. Mixing Station should now show "SuperRack connected".
 
+## Limitations
+
+When SuperRack is controlled by a ProLink client it will automatically lock the following UI elements in SuperRack:
+- Snapshot control
+- Tap delay
+
+Those controls will be added to mixing station in a future update so you will still be able to save snapshots 
+without having to turn off the SuperRack integration in Mixing Station first.
+
 ## Open Racks
 
 This option opens a rack in SuperRack whenever the channel
