@@ -1,16 +1,18 @@
 """
-Exports the rendered html pages as JSON so they
-can be used in other SPA
+Exports the rendered html pages as JSON
 
-Relative links in the page html are rewritten to absolute urls:
+Relative links are rewritten to absolute:
 - Links to other pages: MS_SPA_PAGE_BASE + page url
 - Everything else: MS_SPA_ASSET_BASE + file path
+
+All pages are also merged in a print.json file
 """
 
 import json
 import os
 import posixpath
 import re
+from html import escape
 from typing import Dict, List, Optional
 from urllib.parse import urlsplit
 
@@ -21,8 +23,11 @@ PAGE_BASE = os.environ.get("MS_SPA_PAGE_BASE", "/docs/")
 ASSET_BASE = os.environ.get("MS_SPA_ASSET_BASE", "/docs-content/")
 OUT_DIR = "_spa"
 
-URL_ATTR_PATTERN = re.compile(r'(\s(?:href|src|poster)=")([^"]*)"') # Poor man href parser (insert stackoverflow parse html with regex meme here)
-EXTERNAL_PATTERN = re.compile(r"^([a-z][a-z0-9+.-]*:|//|#)", re.I) # Matches a url scheme
+# Poor man href "parser" (insert stackoverflow parse html with regex meme here)
+URL_ATTR_PATTERN = re.compile(r'(\s(?:href|src|poster)=")([^"]*)"')
+EXTERNAL_PATTERN = re.compile(r"^([a-z][a-z0-9+.-]*:|//|#)", re.I)  # Matches a url scheme
+ID_ATTR_PATTERN = re.compile(r'(\s(?:id|for)=")([^"]*)"')
+HREF_ATTR_PATTERN = re.compile(r'(\shref=")([^"]*)"')
 
 _pages: Dict[str, dict] = {}
 _nav = None
@@ -58,7 +63,7 @@ def on_page_context(context, page: Page, config, nav, **kwargs):
 
 
 def _render_puml(html: str, config) -> str:
-    # mkdocs_puml only replaces its placeholders after our hook,
+    # mkdocs_puml only replaces its placeholders after this hook,
     # but the svgs are already built in on_env, so we can substitute them here
     plugin = config["plugins"].get("plantuml")
     if plugin is None:
@@ -74,7 +79,7 @@ def on_post_build(config, **kwargs):
     os.makedirs(pages_dir, exist_ok=True)
 
     for url, data in _pages.items():
-        path = os.path.join(pages_dir, page_json_name(url))
+        path = os.path.join(pages_dir, tp_page_json_name(url))
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False)
@@ -87,8 +92,103 @@ def on_post_build(config, **kwargs):
     with open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False)
 
+    with open(os.path.join(out_dir, "print.json"), "w", encoding="utf-8") as f:
+        json.dump(_print_page(config), f, ensure_ascii=False)
 
-def page_json_name(url: str) -> str:
+
+def _print_page(config) -> dict:
+    """
+    Combines all pages into a single page.
+    Ids are prefixed with the page anchor to make them unique and links
+    to other pages are rewritten to point to the page inside the print page
+    """
+    html: List[str] = []
+    toc: List[dict] = []
+    added = set()
+
+    def add_page(url: str, level: int) -> Optional[dict]:
+        if url in added or url not in _pages:
+            return None
+        added.add(url)
+        page = _pages[url]
+        anchor = _to_print_anchor(url)
+        html.append(
+            '<section class="print-page" id="%s">%s</section>' % (anchor, _rewrite_print_html(page["html"], url)))
+        return {
+            "title": page["title"],
+            "id": anchor,
+            "level": level,
+            "children": [_print_toc_item(item, url) for item in page["toc"]],
+        }
+
+    def add_nav(items, level: int) -> List[dict]:
+        result = []
+        for item in items:
+            if isinstance(item, Section):
+                anchor = "section-" + str(len(html))
+                html.append('<h1 class="print-section-title" id="%s">%s</h1>' % (anchor, escape(item.title)))
+                result.append(
+                    {"title": item.title, "id": anchor, "level": level, "children": add_nav(item.children, level + 1)})
+            elif isinstance(item, Page):
+                entry = add_page(item.url, level)
+                if entry is not None:
+                    result.append(entry)
+        return result
+
+    toc.extend(add_nav(_nav.items, 1))
+    # Pages which are not part of the nav
+    for url in sorted(_pages.keys()):
+        entry = add_page(url, 1)
+        if entry is not None:
+            toc.append(entry)
+
+    return {
+        "url": "print/",
+        "title": config["site_name"],
+        "description": None,
+        "toc": toc,
+        "html": "\n".join(html),
+    }
+
+
+def _to_print_anchor(url: str) -> str:
+    """ "mixers/ah/dlive/" -> "mixers-ah-dlive", "" -> "index" """
+    return url.strip("/").replace("/", "-") or "index"
+
+
+def _print_toc_item(item: dict, page_url: str) -> dict:
+    return {
+        "title": item["title"],
+        "id": _to_print_anchor(page_url) + "--" + item["id"],
+        "level": item["level"],
+        "children": [_print_toc_item(child, page_url) for child in item["children"]],
+    }
+
+
+def _rewrite_print_html(html: str, page_url: str) -> str:
+    prefix = _to_print_anchor(page_url) + "--"
+
+    def replace_id(match: re.Match) -> str:
+        return match.group(1) + prefix + match.group(2) + '"'
+
+    def replace_href(match: re.Match) -> str:
+        attr, url = match.group(1), match.group(2)
+        if url.startswith("#") and len(url) > 1:
+            return attr + "#" + prefix + url[1:] + '"'
+        if url.startswith(PAGE_BASE):
+            parts = urlsplit(url[len(PAGE_BASE):])
+            if parts.path in _pages and not parts.query:
+                anchor = _to_print_anchor(parts.path)
+                if parts.fragment:
+                    anchor += "--" + parts.fragment
+                return attr + "#" + anchor + '"'
+        return match.group(0)
+
+    html = ID_ATTR_PATTERN.sub(replace_id, html)
+    return HREF_ATTR_PATTERN.sub(replace_href, html)
+
+
+def tp_page_json_name(url: str) -> str:
     """ "mixers/ah/dlive/" -> "mixers/ah/dlive.json", "" -> "index.json" """
     url = url.strip("/")
     return (url or "index") + ".json"
