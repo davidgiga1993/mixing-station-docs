@@ -63,9 +63,13 @@ from a specific scene press the `Scope` button:
 ![Edit Scope](img/ms-scene-edit-scope.png)
 
 In this dialog you can modify which data should be recalled.
+
 The scopes in the top bar are global parameters such as FX.
 In the table below you can configure the recall scope for
 each channel in the MS scene.
+
+Press and hold a scope name (for example `Delay`) to toggle the scope for all channels.
+Similar to the routing matrix you can press and hold a cell to "draw" the scopes as well.
 
 By pressing `Save` the scope configuration is saved in the MS scene.
 
