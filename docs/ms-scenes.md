@@ -6,6 +6,10 @@ You can recall MS Scenes on **any** mixer that is supported by Mixing Station.
 
 This allows you to very quickly get your mix ready on another desk, even from another manufacturer!
 
+Each Scene has a recall scope that is stored with the scene. This allows you to build scenes that only recall specific
+parameters
+for some channels. By default, an MS Scene will always recall everything.
+
 ## Usage
 
 MS Scenes can be accessed via the main menu `Show` button:
@@ -22,37 +26,75 @@ A MS Scene will always store all the data, regardless of the selected scope.
 
 ### Loading
 
-Select the scene you want to load and press the `Load` button.
+Select the scene you want to load and press the `Load` button:
 
-Only the parameters selected in the "Scope" section will be recalled.
+![Load MS Scene](img/load-ms-scene.png)
 
-After pressing `Load` you'll see all channels in the scene with a preview
-where each channel will be recalled to:
+In this confirmation dialog you can change what data should be recalled.
 
-![Remap](img/ms-scenes-remap.png)
-
-You can also change the target channels, allowing you to re-map the channels.
-This is useful if you for example load the scene on a different mixer and need
-to adjust to a different channel count.
-
-Or if you have less inputs than usually and don't want to recall all channels.
+Changing the scope from this dialog will only change if for this specific
+recall. It won't alter the scope stored in the MS scene.
 
 After recalling a scene you may get a list of errors encountered during recall.
 This is expected when recalling on a different mixer model where certain functionality is missing.
 
+#### Remap channels
+
+After pressing `Remap channels` you'll see all channels in the scene with a preview
+to which channel this data will be applied to:
+
+![Remap](img/ms-scenes-remap.png)
+
+This is useful if you for example load the scene on a different mixer or
+a different channel layout.
+
+You can also map the channel data to `None` so they don't get recalled.
+
 ### Scopes
+
+The recall scopes are stored in each MS scene. By default,
+everything is recalled.
+
+If you want to permanently change what should be recalled
+from a specific scene press the `Scope` button:
+
+![Scope](img/ms-scene-scope-btn.png)
+
+![Edit Scope](img/ms-scene-edit-scope.png)
+
+In this dialog you can modify which data should be recalled.
+The scopes in the top bar are global parameters such as FX.
+In the table below you can configure the recall scope for
+each channel in the MS scene.
+
+By pressing `Save` the scope configuration is saved in the MS scene.
 
 Here is a table of what each scope contains
 
-| Scope          | Description                               |
-|----------------|-------------------------------------------|
-| Headamps       | Gain, Phantom, Pad for ALL headamps       |
-| Input routing  | Wing: Source configs, X32: Input blocks   |
-| Output routing | Output sockets, Direct outs               |
-| FX             | All FX racks                              |
-| Misc           | Mutegroups, AMM (Automix)                 |
-| Console Setup  | PAFL Settings, global console preferences |
+| Mixer-Data Scope | Description                               |
+|------------------|-------------------------------------------|
+| Headamps         | Gain, Phantom, Pad for ALL headamps       |
+| Input routing    | Wing: Source configs, X32: Input blocks   |
+| Output routing   | Output sockets, Direct outs               |
+| FX               | All FX racks                              |
+| Misc             | Mutegroups, AMM (Automix)                 |
+| Console Setup    | PAFL Settings, global console preferences |
 
+| Channel Scope  | Description                                          |
+|----------------|------------------------------------------------------|
+| Routing        | Input routing                                        |
+| Insert (FX)    | The FX parameters of any inserted FX                 |
+| Insert Routing | Insert routing data                                  |
+| Headamp        | Gain, Phantom of the headamp assigned to the channel |
+| Config         | Phase invert, Trim, DCA/Mutegroup assignment         |
+| Link           | Channel link                                         |
+| Delay          | Delay on/off and times                               |
+| Name           | Name and color                                       |
+| Gate           | Gate / first dynamics slot                           |
+| EQ             | Preamp filters, PEQ, GEQ                             |
+| Dyn            | Compressor / second dynamics slot                    |
+| Sends          | Send levels, on/off and tap points                   |
+| Main           | Fader, Mute, Pan                                     |
 
 ## File handling
 
