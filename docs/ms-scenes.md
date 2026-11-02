@@ -75,30 +75,30 @@ By pressing `Save` the scope configuration is saved in the MS scene.
 
 Here is a table of what each scope contains
 
-| Mixer-Data Scope | Description                               |
-|------------------|-------------------------------------------|
-| Headamps         | Gain, Phantom, Pad for ALL headamps       |
-| Input routing    | Wing: Source configs, X32: Input blocks   |
-| Output routing   | Output sockets, Direct outs               |
-| FX               | All FX racks                              |
-| Misc             | Mutegroups, AMM (Automix)                 |
-| Console Setup    | PAFL Settings, global console preferences |
+| Mixer-Data Scope | Description                              |
+|------------------|------------------------------------------|
+| Headamps         | Gain, Phantom, Pad for ALL headamps      |
+| Input routing    | Wing: Source configs, X32: Input blocks  |
+| Output routing   | Output sockets, Direct outs              |
+| FX               | All FX racks                             |
+| Misc             | Mutegroups, AMM (Automix)                |
+| Console Setup    | PAFL Settings, other console preferences |
 
-| Channel Scope  | Description                                          |
-|----------------|------------------------------------------------------|
-| Routing        | Input routing                                        |
-| Insert (FX)    | The FX parameters of any inserted FX                 |
-| Insert Routing | Insert routing data                                  |
-| Headamp        | Gain, Phantom of the headamp assigned to the channel |
-| Config         | Phase invert, Trim, DCA/Mutegroup assignment         |
-| Link           | Channel link                                         |
-| Delay          | Delay on/off and times                               |
-| Name           | Name and color                                       |
-| Gate           | Gate / first dynamics slot                           |
-| EQ             | Preamp filters, PEQ, GEQ                             |
-| Dyn            | Compressor / second dynamics slot                    |
-| Sends          | Send levels, on/off and tap points                   |
-| Main           | Fader, Mute, Pan                                     |
+| Channel Scope  | Description                                                    |
+|----------------|----------------------------------------------------------------|
+| Routing        | Input routing                                                  |
+| Insert (FX)    | The FX parameters of any inserted FX                           |
+| Insert Routing | Insert routing data                                            |
+| Headamp        | Gain, Phantom of the headamp assigned to the channel           |
+| Config         | Phase invert, Trim, DCA/Mutegroup assignment, Mixbus tap point |
+| Link           | Channel link                                                   |
+| Delay          | Delay on/off and times                                         |
+| Name           | Name and color                                                 |
+| Gate           | Gate / first dynamics slot                                     |
+| EQ             | Preamp filters, PEQ, GEQ                                       |
+| Dyn            | Compressor / second dynamics slot                              |
+| Sends          | Send levels, on/off and tap points                             |
+| Main           | Fader, Mute, Pan                                               |
 
 ## File handling
 
