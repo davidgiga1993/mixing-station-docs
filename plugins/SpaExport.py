@@ -92,7 +92,7 @@ def on_post_build(config, **kwargs):
     with open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False)
 
-    with open(os.path.join(out_dir, "print.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(out_dir, "pages", "print.json"), "w", encoding="utf-8") as f:
         json.dump(_print_page(config), f, ensure_ascii=False)
 
 
