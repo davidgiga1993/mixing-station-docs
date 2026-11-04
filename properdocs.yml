@@ -132,6 +132,10 @@ plugins:
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
       puml_keyword: plantuml
+      cache:
+        local:
+          path: .cache/mkdocs_puml/
+          join_project_name: false
   - redirects:
       redirect_maps:
         'platforms/pc.md': 'platforms/desktop.md'
