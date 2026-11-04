@@ -69,10 +69,7 @@ def _render_puml(html: str, config) -> str:
     if plugin is None:
         return html
     for key in plugin.uuid_regex.findall(html):
-        html = html.replace(
-            f'<pre class="{plugin.pre_class_name}">{key}</pre>',
-            f'<div class="{plugin.div_class_name}">{plugin.diagrams[key]}</div>',
-        )
+        html = plugin._replace(key, html)
     return html
 
 
