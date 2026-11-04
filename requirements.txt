@@ -1,8 +1,8 @@
 properdocs>=1.6.5
 mkdocs-material==8.*
 pymdown-extensions>=9.0
-mkdocs_puml
+mkdocs_puml==2.3.0
 mkdocs-video==1.5.*
-mkdocs-redirects
-mkdocs-print-site-plugin
-mkdocs-macros-plugin
+mkdocs-redirects==1.2.3
+mkdocs-print-site-plugin==2.9
+mkdocs-macros-plugin==1.5.0
