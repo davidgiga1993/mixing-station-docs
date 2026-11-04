@@ -1,4 +1,4 @@
-# Mixing Station
+# Mixing Station Manual
 
 <div style="text-align: center;">
 <img src="assets/ms.png" alt="App icon" style="max-width: 200px;">
