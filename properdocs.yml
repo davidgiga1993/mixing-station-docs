@@ -66,6 +66,7 @@ nav:
   - Use Cases:
       - use-cases/index.md
       - APIs: use-cases/apis.md
+      - Companion Module: use-cases/companion.md
       - Fixed install: use-cases/fixed-installation.md
       - Set value: use-cases/set-value.md
       - Personal monitoring: use-cases/personal-monitoring.md
