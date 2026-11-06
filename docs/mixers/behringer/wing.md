@@ -6,7 +6,7 @@ This page is for the specifics of the Behringer WING mixer.
 
 | Access Mode              | Maximum number of connections |
 |--------------------------|-------------------------------|
-| FoH /  Personal / custom | 16                            |
+| FoH /  Personal / custom | 24                            |
 
 Make sure the `Remote Lock` setting on the mixer (`Setup -> Remote -> Remote lock`) is disabled for tcp.
 Otherwise, the app will be in read-only mode.
