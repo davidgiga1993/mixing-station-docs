@@ -5,7 +5,7 @@ due to the incomplete OSC API of the mixer.
 
 If you want to have more features / use Mixing Station properly, please let DiGiCo know about it!
 
-However you can still use Mixing Station to provide personal monitoring mixing using  [web access](../../web-access/index.md)!
+However, you can still use Mixing Station to provide personal monitoring mixing using  [web access](../../web-access/index.md)!
 
 ## Configuration
  
@@ -20,8 +20,8 @@ However you can still use Mixing Station to provide personal monitoring mixing u
 
 
 ## Limitations (due to mixer firmware)
+- Metering: Only the current layer will be requested from the mixer. This is done as the API has quite a lot of overhead to ensure the network isn't clogged.
 - Only 1 client per mixer
-- No metering -> This will be resolved in 3.2.1
 - No routing
 - On some SD models: No headamp control depending on the input
 - Not all channel parameters accessible
