@@ -1,6 +1,6 @@
 # DiGiCo SD / Quantum
 
-The integration for DiGiCo mixers has some serious limitations 
+The integration for DiGiCo mixers has some serious limitations
 due to the incomplete OSC API of the mixer.
 
 If you want to have more features / use Mixing Station properly, please let DiGiCo know about it!
@@ -8,18 +8,19 @@ If you want to have more features / use Mixing Station properly, please let DiGi
 However, you can still use Mixing Station to provide personal monitoring mixing using  [web access](../../web-access/index.md)!
 
 ## Configuration
- 
+
 1. On the mixer go to `Setup -> External Control`
 2. Enable `External Control: Yes`
 3. Press `add device` -> `DiGiCo Pad`
 4. Enter the IP address of the device running Mixing Station. You can leave the ports default
 5. Make sure the entry is marked as `Enabled`
-6. In Mixing Station enter the same ports as shown on the mixer, see screenshot below as an example
+6. Load the `ipadv2sd8` command set
+7. In Mixing Station enter the same ports as shown on the mixer, see screenshot below as an example
 
 ![digico-config.png](digico-config.png)
 
-
 ## Limitations (due to mixer firmware)
+
 - Metering: Only the current layer will be requested from the mixer. This is done as the API has quite a lot of overhead to ensure the network isn't clogged.
 - Only 1 client per mixer
 - No routing
