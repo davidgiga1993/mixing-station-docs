@@ -26,7 +26,7 @@ pipeline {
 		stage('Delegate'){
 			when{ expression { !params.buildImage }}
 			steps {
-				build job: "../Server/master", parameters: [booleanParam(name: 'buildDocsAndBlog', value: true)], wait: false
+				build job: "Server/master", parameters: [booleanParam(name: 'buildDocsAndBlog', value: true)], wait: false
 			}
 		}
 		stage('Export Versions'){
