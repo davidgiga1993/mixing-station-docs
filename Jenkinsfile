@@ -3,15 +3,10 @@ pipeline {
 	parameters {
 		booleanParam(name: 'buildImage', defaultValue: false, description: 'Re-builds the docker image')
 	}
-
+	triggers {
+		githubPush()
+	}
 	stages {
-		stage('Trigger setup') {
-			steps {
-				script {
-					properties([pipelineTriggers([githubPush()])])
-				}
-			}
-		}
 		stage('Checkout') {
 			steps {
 				git branch: 'master', url: 'https://github.com/davidgiga1993/mixing-station-docs.git'
@@ -24,7 +19,14 @@ pipeline {
 				}
 			}
 			steps {
+                // Image also used by delegate
 				sh 'docker build -t mkdocs-pdf:1.0 .'
+			}
+		}
+		stage('Delegate'){
+			when{ expression { !params.buildImage }}
+			steps {
+				build job: "../Server/master", parameters: [booleanParam(name: 'buildDocsAndBlog', value: true)], wait: false
 			}
 		}
 		stage('Export Versions'){
