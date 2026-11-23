@@ -4,8 +4,6 @@ The Auto EQ feature automatically adjusts an EQ to match a specified target curv
 It is not designed to replace your ears! In the end you decide what sounds best.
 It is just a tool, use it wisely.
 
-Warning: This feature is still work in progress
-
 ## Requirements
 
 1. Measurement mic
